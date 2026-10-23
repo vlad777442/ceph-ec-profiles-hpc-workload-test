@@ -1,0 +1,20 @@
+{
+  "metric": "Maximum sustained aggregate RBD read-throughput decrease during confirmed OSD down to repair complete",
+  "windows_s": [
+    10.0,
+    30.0,
+    60.0
+  ],
+  "grid_s": 3.0,
+  "boundary_guard_s": 6.0,
+  "max_counter_interval_s": 6.0,
+  "minimum_window_counter_coverage": "window length minus 0.001 seconds",
+  "progress_matching": "Per-client cumulative RBD read bytes normalized within pass; midpoint of window read-progress endpoints. Application CSV validates 3600 steps / 900 GiB per pass; exact per-step wall-clock progress unavailable.",
+  "progress_tolerance_fraction": 0.01,
+  "reference": "For each of 3 no-fault trials and each client: median of eligible same-duration same-pass windows within progress tolerance; sum client medians, then mean across the 3 trial estimates. Synthetic progress-conditioned aggregate, not a contemporaneous no-fault window.",
+  "progress_proxy_requirements": "Pass counter coverage >=99%; RBD/logical read ratio between 0.9 and 1.1. Audit recorded, not assumed.",
+  "selection": "Original primary-only replication; OptLRC faults 01/03/04; all other selected faults 01/02/03.",
+  "phase_boundary_policy": "Recovery-phase-crossing windows retained and labeled; pass-crossing windows excluded.",
+  "post_repair_scope": "Repair complete through earlier client analysis end; target OSD remains down until after both jobs finish.",
+  "interpretation": "Observed decrease relative to estimated matched reference, not a causal estimate; rolling-window overlap and search over many windows increase extreme-value sensitivity. No pointwise significance claim."
+}

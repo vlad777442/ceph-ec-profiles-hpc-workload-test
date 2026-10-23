@@ -56,6 +56,9 @@ Python 3.10 was used for collection; plotting requires the Matplotlib version re
 python3 -m pip install -r requirements.txt
 python3 analysis/summarize.py --plot
 python3 analysis/plot_io.py --all
+python3 analysis/throughput_drop.py
+python3 analysis/plot_drop_summary.py
+python3 analysis/validate_drop_outputs.py
 python3 tools/validate_bundle.py
 ```
 
@@ -76,3 +79,7 @@ sha256sum -c SHA256SUMS
 - `provenance/file-sources.json` maps collected artifacts to source paths and hashes. Raw JSON retains original timestamps, paths, and occasional stale display labels. Canonical configuration labels come from `configurations/`; figures use those labels without editing the measurements.
 
 This repository intentionally excludes the 900 GiB input itself, large BP5 output directories, backup archives, plugin binaries, credentials, and keyrings. Original inputs/backups remain in the research environment. The input manifests permit verifying a separately obtained dataset. The OptLRC binary is identified by SHA-256 and its source references; the binary has not been republished here.
+
+## Sustained throughput decreases
+
+[The sustained-drop analysis](derived/throughput-drop/README.md) compares selected fault trials with each configuration's own no-fault reference. Its primary metric is the maximum 30-second aggregate RBD read-throughput decrease during OSD down through repair completion, excluding pass transitions. Dataset progress is estimated from cumulative RBD reads because exact step wall-clock timestamps were not recorded. See [the full method](docs/THROUGHPUT-DROP.md), including reference construction, 10/60-second sensitivity results, exclusions, and limits.
