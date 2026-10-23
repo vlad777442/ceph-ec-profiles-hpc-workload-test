@@ -1,0 +1,1474 @@
+{
+  "samples": [
+    {
+      "utc": "2026-10-14T04:36:22.326483+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T04:36:28.911944+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T04:36:35.323439+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T04:36:42.050855+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T04:36:48.555550+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T04:36:55.192526+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T04:37:01.664771+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T04:37:08.402584+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T04:37:14.813743+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T04:37:21.491791+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T04:37:27.919388+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T04:37:34.437560+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T04:37:40.840239+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T04:37:47.311095+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T04:37:54.150274+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T04:38:00.755085+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T04:38:07.448657+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T04:38:13.894087+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T04:38:20.314205+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T04:38:26.835589+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T04:38:33.235210+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T04:38:39.789757+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T04:38:46.504066+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T04:38:52.939364+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T04:38:59.323922+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T04:39:05.851120+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T04:39:12.590452+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T04:39:19.353254+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T04:39:25.897379+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T04:39:32.372814+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:04:24.396214+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:04:30.904127+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:04:37.317282+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:04:43.828909+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:04:50.236360+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:04:56.907436+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:05:03.410634+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:05:09.837249+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:05:16.299747+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:05:23.114235+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:05:29.722419+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:05:36.295604+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:05:42.860715+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:05:49.330980+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:05:55.736430+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:06:02.506810+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:06:08.925375+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:06:15.399569+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:06:21.835469+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:06:28.327569+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:06:34.711523+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:06:41.268417+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:06:47.945518+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:06:54.335856+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:07:00.765875+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:07:07.286714+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:07:13.740150+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:07:20.146835+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:16:49.842942+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:16:56.172555+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:17:03.081262+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:17:09.656636+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:17:16.532523+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:17:23.002486+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:17:29.361150+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:17:35.865145+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:17:42.324233+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:17:49.069542+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:17:55.550352+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:18:02.171762+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:18:08.623140+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:18:15.507750+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:18:21.881939+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:18:28.571191+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:18:35.072216+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:18:41.507071+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:18:47.922065+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:18:54.460690+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:19:00.851072+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:19:07.370753+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:19:13.940442+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:19:20.346687+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:19:26.918621+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:19:33.335984+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:19:39.858129+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:54:43.422561+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:54:49.852855+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:54:56.269424+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:55:02.926049+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:55:09.299003+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:55:15.884894+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:55:22.403830+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:55:28.864271+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:55:35.297753+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:55:41.891297+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:55:48.424892+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:55:54.818770+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:56:01.231329+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:56:07.634255+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:56:14.281604+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:56:20.892977+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:56:27.299441+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:56:33.786503+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:56:40.278244+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:56:46.920439+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:56:53.370956+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:56:59.793172+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:57:06.358709+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:57:12.905663+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:57:19.316119+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:57:25.844205+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:57:32.340082+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-10-14T05:57:38.827617+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "note": "Normal active/clean scrubbing is allowed and recorded; account for it in paper analysis."
+}

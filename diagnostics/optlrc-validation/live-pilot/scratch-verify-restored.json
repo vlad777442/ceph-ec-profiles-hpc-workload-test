@@ -1,0 +1,28 @@
+{
+  "host": "node12",
+  "mode": "verify-restored",
+  "image": "grayscott-optlrc-meta/optlrc-correctness-20261021",
+  "device": "/dev/rbd2",
+  "verified_bytes": 1073741824,
+  "sha256": "74c7a1ee59d5e0c15c7f3a6acfca38319326cf8feb68e360d8b256bdd2b086d7",
+  "all_blocks_match": true,
+  "direct_io": true,
+  "patches": [
+    {
+      "offset": 4096,
+      "bytes": 8192
+    },
+    {
+      "offset": 33550336,
+      "bytes": 8192
+    },
+    {
+      "offset": 1073737728,
+      "bytes": 4096
+    },
+    {
+      "offset": 67109376,
+      "bytes": 4096
+    }
+  ]
+}

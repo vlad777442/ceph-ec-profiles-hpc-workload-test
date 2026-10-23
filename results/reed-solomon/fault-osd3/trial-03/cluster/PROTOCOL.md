@@ -1,0 +1,11 @@
+# Sustained-load recovery protocol
+
+One authorized osd.3 daemon-stop fault on node4; no pool/disk provisioning, no data deletion, no cache dropping. Two independent client jobs, each 8 ranks, 100 histogram bins, reading the same fixed 900 GiB field dataset through separate RBD images. Every full pass uses 3600 steps and a unique BP5 output. The original data, prior outputs and prior scripts remain intact.
+
+Fault delay 280 seconds from shared scheduled start. Automatic down/out uses the existing 600-second interval. A controller owns all OSD changes. Both client workers must be actively analyzing when it injects the fault. Fresh OSD/PG polling observes repair to target down/out and all PGs active+clean. Workers repeat passes during repair, then continue for at least 900 seconds after repair completion before finishing current full passes. Validation/relaunch gaps are recorded in pass logs and progress metadata; this is repeated analysis, not an uninterrupted single pass.
+
+Then restart the exact verified ceph-osd@3.service and mark osd.3 in; require restoration up/in plus clean PGs and final HEALTH_OK. Timeout/error paths stop the workers and attempt restoration. Workload cap 6 hours; repair/restoration timeout 4 hours. A timeout is a failed experiment, not a successful recovery-within-workload claim.
+
+Each worker saves perf.csv and a validated per-pass throughput CSV/log. Controller saves cluster OSD latency, raw recovery/restoration states and progress. Final report explicitly checks that repair precedes both workload end times and each has at least 15 minutes after repair. Figures will mark repair, analysis completion and pass boundaries. Cache policy is natural across repeated passes; backend objects are shared by snapshot clones. An equivalent repeated-pass no-fault control and repeat fault trials are needed for paper comparisons.
+
+Worker smoke validation passed on node12/node13; four regression tests passed. No live fault was used in the smoke checks. Full trial starts and injections are recorded in state.json and raw state logs. Controller phase 'scheduled' before fault denotes a pending fault; actual workload/pass start timestamps in client progress and worker results distinguish active analysis from the pre-start barrier.

@@ -1,0 +1,362 @@
+[
+  {
+    "section": "global",
+    "name": "cluster_network",
+    "value": "10.10.1.0/24",
+    "level": "advanced",
+    "can_update_at_runtime": false,
+    "mask": ""
+  },
+  {
+    "section": "global",
+    "name": "ms_bind_ipv4",
+    "value": "true",
+    "level": "advanced",
+    "can_update_at_runtime": true,
+    "mask": ""
+  },
+  {
+    "section": "global",
+    "name": "ms_bind_ipv6",
+    "value": "false",
+    "level": "advanced",
+    "can_update_at_runtime": true,
+    "mask": ""
+  },
+  {
+    "section": "global",
+    "name": "osd_pool_default_crush_rule",
+    "value": "-1",
+    "level": "advanced",
+    "can_update_at_runtime": true,
+    "mask": ""
+  },
+  {
+    "section": "global",
+    "name": "public_network",
+    "value": "10.10.1.0/24",
+    "level": "advanced",
+    "can_update_at_runtime": false,
+    "mask": ""
+  },
+  {
+    "section": "mon",
+    "name": "auth_allow_insecure_global_id_reclaim",
+    "value": "false",
+    "level": "advanced",
+    "can_update_at_runtime": true,
+    "mask": ""
+  },
+  {
+    "section": "osd.*",
+    "name": "osd_memory_target",
+    "value": "23596734873",
+    "level": "basic",
+    "can_update_at_runtime": true,
+    "mask": "node0:host",
+    "location_type": "node0",
+    "location_value": "host"
+  },
+  {
+    "section": "osd.*",
+    "name": "osd_memory_target",
+    "value": "23596734873",
+    "level": "basic",
+    "can_update_at_runtime": true,
+    "mask": "node10:host",
+    "location_type": "node10",
+    "location_value": "host"
+  },
+  {
+    "section": "osd.*",
+    "name": "osd_memory_target",
+    "value": "23596734873",
+    "level": "basic",
+    "can_update_at_runtime": true,
+    "mask": "node11:host",
+    "location_type": "node11",
+    "location_value": "host"
+  },
+  {
+    "section": "osd.*",
+    "name": "osd_memory_target",
+    "value": "23596734873",
+    "level": "basic",
+    "can_update_at_runtime": true,
+    "mask": "node1:host",
+    "location_type": "node1",
+    "location_value": "host"
+  },
+  {
+    "section": "osd.*",
+    "name": "osd_memory_target",
+    "value": "23596734873",
+    "level": "basic",
+    "can_update_at_runtime": true,
+    "mask": "node2:host",
+    "location_type": "node2",
+    "location_value": "host"
+  },
+  {
+    "section": "osd.*",
+    "name": "osd_memory_target",
+    "value": "23596734873",
+    "level": "basic",
+    "can_update_at_runtime": true,
+    "mask": "node3:host",
+    "location_type": "node3",
+    "location_value": "host"
+  },
+  {
+    "section": "osd.*",
+    "name": "osd_memory_target",
+    "value": "23596734873",
+    "level": "basic",
+    "can_update_at_runtime": true,
+    "mask": "node4:host",
+    "location_type": "node4",
+    "location_value": "host"
+  },
+  {
+    "section": "osd.*",
+    "name": "osd_memory_target",
+    "value": "23596734873",
+    "level": "basic",
+    "can_update_at_runtime": true,
+    "mask": "node5:host",
+    "location_type": "node5",
+    "location_value": "host"
+  },
+  {
+    "section": "osd.*",
+    "name": "osd_memory_target",
+    "value": "23596734873",
+    "level": "basic",
+    "can_update_at_runtime": true,
+    "mask": "node6:host",
+    "location_type": "node6",
+    "location_value": "host"
+  },
+  {
+    "section": "osd.*",
+    "name": "osd_memory_target",
+    "value": "23596734873",
+    "level": "basic",
+    "can_update_at_runtime": true,
+    "mask": "node7:host",
+    "location_type": "node7",
+    "location_value": "host"
+  },
+  {
+    "section": "osd.*",
+    "name": "osd_memory_target",
+    "value": "23596734873",
+    "level": "basic",
+    "can_update_at_runtime": true,
+    "mask": "node8:host",
+    "location_type": "node8",
+    "location_value": "host"
+  },
+  {
+    "section": "osd.*",
+    "name": "osd_memory_target",
+    "value": "23596734873",
+    "level": "basic",
+    "can_update_at_runtime": true,
+    "mask": "node9:host",
+    "location_type": "node9",
+    "location_value": "host"
+  },
+  {
+    "section": "osd.0",
+    "name": "osd_mclock_max_capacity_iops_hdd",
+    "value": "380.166609",
+    "level": "basic",
+    "can_update_at_runtime": true,
+    "mask": ""
+  },
+  {
+    "section": "osd.1",
+    "name": "osd_mclock_max_capacity_iops_hdd",
+    "value": "380.966028",
+    "level": "basic",
+    "can_update_at_runtime": true,
+    "mask": ""
+  },
+  {
+    "section": "osd.10",
+    "name": "osd_mclock_max_capacity_iops_hdd",
+    "value": "392.574080",
+    "level": "basic",
+    "can_update_at_runtime": true,
+    "mask": ""
+  },
+  {
+    "section": "osd.11",
+    "name": "osd_mclock_max_capacity_iops_hdd",
+    "value": "382.994001",
+    "level": "basic",
+    "can_update_at_runtime": true,
+    "mask": ""
+  },
+  {
+    "section": "osd.12",
+    "name": "osd_mclock_max_capacity_iops_hdd",
+    "value": "380.544090",
+    "level": "basic",
+    "can_update_at_runtime": true,
+    "mask": ""
+  },
+  {
+    "section": "osd.13",
+    "name": "osd_mclock_max_capacity_iops_hdd",
+    "value": "382.557008",
+    "level": "basic",
+    "can_update_at_runtime": true,
+    "mask": ""
+  },
+  {
+    "section": "osd.14",
+    "name": "osd_mclock_max_capacity_iops_hdd",
+    "value": "399.979324",
+    "level": "basic",
+    "can_update_at_runtime": true,
+    "mask": ""
+  },
+  {
+    "section": "osd.15",
+    "name": "osd_mclock_max_capacity_iops_hdd",
+    "value": "386.251089",
+    "level": "basic",
+    "can_update_at_runtime": true,
+    "mask": ""
+  },
+  {
+    "section": "osd.16",
+    "name": "osd_mclock_max_capacity_iops_hdd",
+    "value": "396.932462",
+    "level": "basic",
+    "can_update_at_runtime": true,
+    "mask": ""
+  },
+  {
+    "section": "osd.17",
+    "name": "osd_mclock_max_capacity_iops_hdd",
+    "value": "380.966215",
+    "level": "basic",
+    "can_update_at_runtime": true,
+    "mask": ""
+  },
+  {
+    "section": "osd.18",
+    "name": "osd_mclock_max_capacity_iops_hdd",
+    "value": "386.260186",
+    "level": "basic",
+    "can_update_at_runtime": true,
+    "mask": ""
+  },
+  {
+    "section": "osd.19",
+    "name": "osd_mclock_max_capacity_iops_hdd",
+    "value": "384.047181",
+    "level": "basic",
+    "can_update_at_runtime": true,
+    "mask": ""
+  },
+  {
+    "section": "osd.2",
+    "name": "osd_mclock_max_capacity_iops_hdd",
+    "value": "390.858355",
+    "level": "basic",
+    "can_update_at_runtime": true,
+    "mask": ""
+  },
+  {
+    "section": "osd.20",
+    "name": "osd_mclock_max_capacity_iops_hdd",
+    "value": "388.358378",
+    "level": "basic",
+    "can_update_at_runtime": true,
+    "mask": ""
+  },
+  {
+    "section": "osd.21",
+    "name": "osd_mclock_max_capacity_iops_hdd",
+    "value": "383.842683",
+    "level": "basic",
+    "can_update_at_runtime": true,
+    "mask": ""
+  },
+  {
+    "section": "osd.22",
+    "name": "osd_mclock_max_capacity_iops_hdd",
+    "value": "397.777708",
+    "level": "basic",
+    "can_update_at_runtime": true,
+    "mask": ""
+  },
+  {
+    "section": "osd.23",
+    "name": "osd_mclock_max_capacity_iops_hdd",
+    "value": "392.150305",
+    "level": "basic",
+    "can_update_at_runtime": true,
+    "mask": ""
+  },
+  {
+    "section": "osd.3",
+    "name": "osd_mclock_max_capacity_iops_hdd",
+    "value": "376.957052",
+    "level": "basic",
+    "can_update_at_runtime": true,
+    "mask": ""
+  },
+  {
+    "section": "osd.4",
+    "name": "osd_mclock_max_capacity_iops_hdd",
+    "value": "384.177903",
+    "level": "basic",
+    "can_update_at_runtime": true,
+    "mask": ""
+  },
+  {
+    "section": "osd.5",
+    "name": "osd_mclock_max_capacity_iops_hdd",
+    "value": "386.750825",
+    "level": "basic",
+    "can_update_at_runtime": true,
+    "mask": ""
+  },
+  {
+    "section": "osd.6",
+    "name": "osd_mclock_max_capacity_iops_hdd",
+    "value": "387.076404",
+    "level": "basic",
+    "can_update_at_runtime": true,
+    "mask": ""
+  },
+  {
+    "section": "osd.7",
+    "name": "osd_mclock_max_capacity_iops_hdd",
+    "value": "384.191273",
+    "level": "basic",
+    "can_update_at_runtime": true,
+    "mask": ""
+  },
+  {
+    "section": "osd.8",
+    "name": "osd_mclock_max_capacity_iops_hdd",
+    "value": "397.366159",
+    "level": "basic",
+    "can_update_at_runtime": true,
+    "mask": ""
+  },
+  {
+    "section": "osd.9",
+    "name": "osd_mclock_max_capacity_iops_hdd",
+    "value": "389.581794",
+    "level": "basic",
+    "can_update_at_runtime": true,
+    "mask": ""
+  }
+]

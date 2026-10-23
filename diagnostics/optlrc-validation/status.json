@@ -1,0 +1,87 @@
+{
+  "status": "blocked_on_decoder_correctness",
+  "plugin_sha256": "f9799e0bb8eed7cdbe5fd39b254d8b298a694a2e4af8d2f0e643bb5dc576d65f",
+  "profile_candidate": "plugin=optlrc,n=10,k=6,r=4,mapping=DDDD_DD___,ruleset-failure-domain=osd,crush-failure-domain=osd,stripe_unit=12288",
+  "single_shard_patterns_passed": 10,
+  "single_shard_patterns_total": 10,
+  "two_shard_patterns_passed": 28,
+  "two_shard_patterns_total": 45,
+  "silent_checksum_mismatch_pairs": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      5,
+      8
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      8
+    ],
+    [
+      6,
+      9
+    ]
+  ],
+  "installed_hosts": [
+    "node0"
+  ],
+  "cluster_profile_created": false,
+  "pool_created": false,
+  "data_migrated": false,
+  "existing_data_modified": false,
+  "source_reference": "https://github.com/Azen233/Optimal-LRCs_erasure_coding/blob/main/src/erasure-code/optlrc/ErasureCodeOptLrc.cc"
+}

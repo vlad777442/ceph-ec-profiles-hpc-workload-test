@@ -1,0 +1,15 @@
+{
+  "profile": "lrc",
+  "condition": "no-fault",
+  "source_trial": 1,
+  "included": true,
+  "exclusion_reason": "",
+  "clients": 2,
+  "passes_per_client": 3,
+  "mean_client_mib_s": 311.43470716797754,
+  "aggregate_mib_s": 622.8670851159981,
+  "mean_client_duration_min": 147.96038765130896,
+  "repair_min": "",
+  "down_to_clean_min": "",
+  "folder": "results/lrc/no-fault/trial-01"
+}

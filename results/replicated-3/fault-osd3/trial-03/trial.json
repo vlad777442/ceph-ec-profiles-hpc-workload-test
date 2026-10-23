@@ -1,0 +1,15 @@
+{
+  "profile": "replicated-3",
+  "condition": "fault-osd3",
+  "source_trial": 3,
+  "included": true,
+  "exclusion_reason": "",
+  "clients": 2,
+  "passes_per_client": 3,
+  "mean_client_mib_s": 202.1617618230173,
+  "aggregate_mib_s": 404.31849750645273,
+  "mean_client_duration_min": 227.93628028573295,
+  "repair_min": 50.566699533333335,
+  "down_to_clean_min": 60.77608915,
+  "folder": "results/replicated-3/fault-osd3/trial-03"
+}

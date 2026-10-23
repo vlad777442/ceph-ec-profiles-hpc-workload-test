@@ -1,0 +1,422 @@
+[
+  {
+    "performance": "results/reed-solomon/no-fault/trial-01/node12/performance.csv.gz",
+    "results": "results/reed-solomon/no-fault/trial-01/node12/results.json",
+    "plot": "results/reed-solomon/no-fault/trial-01/node12/plot.png",
+    "label": "RS(6,4)"
+  },
+  {
+    "performance": "results/reed-solomon/no-fault/trial-01/node13/performance.csv.gz",
+    "results": "results/reed-solomon/no-fault/trial-01/node13/results.json",
+    "plot": "results/reed-solomon/no-fault/trial-01/node13/plot.png",
+    "label": "RS(6,4)"
+  },
+  {
+    "performance": "results/reed-solomon/no-fault/trial-02/node12/performance.csv.gz",
+    "results": "results/reed-solomon/no-fault/trial-02/node12/results.json",
+    "plot": "results/reed-solomon/no-fault/trial-02/node12/plot.png",
+    "label": "RS(6,4)"
+  },
+  {
+    "performance": "results/reed-solomon/no-fault/trial-02/node13/performance.csv.gz",
+    "results": "results/reed-solomon/no-fault/trial-02/node13/results.json",
+    "plot": "results/reed-solomon/no-fault/trial-02/node13/plot.png",
+    "label": "RS(6,4)"
+  },
+  {
+    "performance": "results/reed-solomon/no-fault/trial-03/node12/performance.csv.gz",
+    "results": "results/reed-solomon/no-fault/trial-03/node12/results.json",
+    "plot": "results/reed-solomon/no-fault/trial-03/node12/plot.png",
+    "label": "RS(6,4)"
+  },
+  {
+    "performance": "results/reed-solomon/no-fault/trial-03/node13/performance.csv.gz",
+    "results": "results/reed-solomon/no-fault/trial-03/node13/results.json",
+    "plot": "results/reed-solomon/no-fault/trial-03/node13/plot.png",
+    "label": "RS(6,4)"
+  },
+  {
+    "performance": "results/reed-solomon/fault-osd3/trial-01/node12/performance.csv.gz",
+    "results": "results/reed-solomon/fault-osd3/trial-01/node12/results.json",
+    "plot": "results/reed-solomon/fault-osd3/trial-01/node12/plot.png",
+    "label": "RS(6,4)"
+  },
+  {
+    "performance": "results/reed-solomon/fault-osd3/trial-01/node13/performance.csv.gz",
+    "results": "results/reed-solomon/fault-osd3/trial-01/node13/results.json",
+    "plot": "results/reed-solomon/fault-osd3/trial-01/node13/plot.png",
+    "label": "RS(6,4)"
+  },
+  {
+    "performance": "results/reed-solomon/fault-osd3/trial-02/node12/performance.csv.gz",
+    "results": "results/reed-solomon/fault-osd3/trial-02/node12/results.json",
+    "plot": "results/reed-solomon/fault-osd3/trial-02/node12/plot.png",
+    "label": "RS(6,4)"
+  },
+  {
+    "performance": "results/reed-solomon/fault-osd3/trial-02/node13/performance.csv.gz",
+    "results": "results/reed-solomon/fault-osd3/trial-02/node13/results.json",
+    "plot": "results/reed-solomon/fault-osd3/trial-02/node13/plot.png",
+    "label": "RS(6,4)"
+  },
+  {
+    "performance": "results/reed-solomon/fault-osd3/trial-03/node12/performance.csv.gz",
+    "results": "results/reed-solomon/fault-osd3/trial-03/node12/results.json",
+    "plot": "results/reed-solomon/fault-osd3/trial-03/node12/plot.png",
+    "label": "RS(6,4)"
+  },
+  {
+    "performance": "results/reed-solomon/fault-osd3/trial-03/node13/performance.csv.gz",
+    "results": "results/reed-solomon/fault-osd3/trial-03/node13/results.json",
+    "plot": "results/reed-solomon/fault-osd3/trial-03/node13/plot.png",
+    "label": "RS(6,4)"
+  },
+  {
+    "performance": "results/replicated-3/no-fault/trial-01/node12/performance.csv.gz",
+    "results": "results/replicated-3/no-fault/trial-01/node12/results.json",
+    "plot": "results/replicated-3/no-fault/trial-01/node12/plot.png",
+    "label": "Replication 3 (primary-only)"
+  },
+  {
+    "performance": "results/replicated-3/no-fault/trial-01/node13/performance.csv.gz",
+    "results": "results/replicated-3/no-fault/trial-01/node13/results.json",
+    "plot": "results/replicated-3/no-fault/trial-01/node13/plot.png",
+    "label": "Replication 3 (primary-only)"
+  },
+  {
+    "performance": "results/replicated-3/no-fault/trial-02/node12/performance.csv.gz",
+    "results": "results/replicated-3/no-fault/trial-02/node12/results.json",
+    "plot": "results/replicated-3/no-fault/trial-02/node12/plot.png",
+    "label": "Replication 3 (primary-only)"
+  },
+  {
+    "performance": "results/replicated-3/no-fault/trial-02/node13/performance.csv.gz",
+    "results": "results/replicated-3/no-fault/trial-02/node13/results.json",
+    "plot": "results/replicated-3/no-fault/trial-02/node13/plot.png",
+    "label": "Replication 3 (primary-only)"
+  },
+  {
+    "performance": "results/replicated-3/no-fault/trial-03/node12/performance.csv.gz",
+    "results": "results/replicated-3/no-fault/trial-03/node12/results.json",
+    "plot": "results/replicated-3/no-fault/trial-03/node12/plot.png",
+    "label": "Replication 3 (primary-only)"
+  },
+  {
+    "performance": "results/replicated-3/no-fault/trial-03/node13/performance.csv.gz",
+    "results": "results/replicated-3/no-fault/trial-03/node13/results.json",
+    "plot": "results/replicated-3/no-fault/trial-03/node13/plot.png",
+    "label": "Replication 3 (primary-only)"
+  },
+  {
+    "performance": "results/replicated-3/fault-osd3/trial-01/node12/performance.csv.gz",
+    "results": "results/replicated-3/fault-osd3/trial-01/node12/results.json",
+    "plot": "results/replicated-3/fault-osd3/trial-01/node12/plot.png",
+    "label": "Replication 3 (primary-only)"
+  },
+  {
+    "performance": "results/replicated-3/fault-osd3/trial-01/node13/performance.csv.gz",
+    "results": "results/replicated-3/fault-osd3/trial-01/node13/results.json",
+    "plot": "results/replicated-3/fault-osd3/trial-01/node13/plot.png",
+    "label": "Replication 3 (primary-only)"
+  },
+  {
+    "performance": "results/replicated-3/fault-osd3/trial-02/node12/performance.csv.gz",
+    "results": "results/replicated-3/fault-osd3/trial-02/node12/results.json",
+    "plot": "results/replicated-3/fault-osd3/trial-02/node12/plot.png",
+    "label": "Replication 3 (primary-only)"
+  },
+  {
+    "performance": "results/replicated-3/fault-osd3/trial-02/node13/performance.csv.gz",
+    "results": "results/replicated-3/fault-osd3/trial-02/node13/results.json",
+    "plot": "results/replicated-3/fault-osd3/trial-02/node13/plot.png",
+    "label": "Replication 3 (primary-only)"
+  },
+  {
+    "performance": "results/replicated-3/fault-osd3/trial-03/node12/performance.csv.gz",
+    "results": "results/replicated-3/fault-osd3/trial-03/node12/results.json",
+    "plot": "results/replicated-3/fault-osd3/trial-03/node12/plot.png",
+    "label": "Replication 3 (primary-only)"
+  },
+  {
+    "performance": "results/replicated-3/fault-osd3/trial-03/node13/performance.csv.gz",
+    "results": "results/replicated-3/fault-osd3/trial-03/node13/results.json",
+    "plot": "results/replicated-3/fault-osd3/trial-03/node13/plot.png",
+    "label": "Replication 3 (primary-only)"
+  },
+  {
+    "performance": "results/lrc/no-fault/trial-01/node12/performance.csv.gz",
+    "results": "results/lrc/no-fault/trial-01/node12/results.json",
+    "plot": "results/lrc/no-fault/trial-01/node12/plot.png",
+    "label": "Ceph LRC(6,2,4)"
+  },
+  {
+    "performance": "results/lrc/no-fault/trial-01/node13/performance.csv.gz",
+    "results": "results/lrc/no-fault/trial-01/node13/results.json",
+    "plot": "results/lrc/no-fault/trial-01/node13/plot.png",
+    "label": "Ceph LRC(6,2,4)"
+  },
+  {
+    "performance": "results/lrc/no-fault/trial-02/node12/performance.csv.gz",
+    "results": "results/lrc/no-fault/trial-02/node12/results.json",
+    "plot": "results/lrc/no-fault/trial-02/node12/plot.png",
+    "label": "Ceph LRC(6,2,4)"
+  },
+  {
+    "performance": "results/lrc/no-fault/trial-02/node13/performance.csv.gz",
+    "results": "results/lrc/no-fault/trial-02/node13/results.json",
+    "plot": "results/lrc/no-fault/trial-02/node13/plot.png",
+    "label": "Ceph LRC(6,2,4)"
+  },
+  {
+    "performance": "results/lrc/no-fault/trial-03/node12/performance.csv.gz",
+    "results": "results/lrc/no-fault/trial-03/node12/results.json",
+    "plot": "results/lrc/no-fault/trial-03/node12/plot.png",
+    "label": "Ceph LRC(6,2,4)"
+  },
+  {
+    "performance": "results/lrc/no-fault/trial-03/node13/performance.csv.gz",
+    "results": "results/lrc/no-fault/trial-03/node13/results.json",
+    "plot": "results/lrc/no-fault/trial-03/node13/plot.png",
+    "label": "Ceph LRC(6,2,4)"
+  },
+  {
+    "performance": "results/lrc/fault-osd3/trial-01/node12/performance.csv.gz",
+    "results": "results/lrc/fault-osd3/trial-01/node12/results.json",
+    "plot": "results/lrc/fault-osd3/trial-01/node12/plot.png",
+    "label": "Ceph LRC(6,2,4)"
+  },
+  {
+    "performance": "results/lrc/fault-osd3/trial-01/node13/performance.csv.gz",
+    "results": "results/lrc/fault-osd3/trial-01/node13/results.json",
+    "plot": "results/lrc/fault-osd3/trial-01/node13/plot.png",
+    "label": "Ceph LRC(6,2,4)"
+  },
+  {
+    "performance": "results/lrc/fault-osd3/trial-02/node12/performance.csv.gz",
+    "results": "results/lrc/fault-osd3/trial-02/node12/results.json",
+    "plot": "results/lrc/fault-osd3/trial-02/node12/plot.png",
+    "label": "Ceph LRC(6,2,4)"
+  },
+  {
+    "performance": "results/lrc/fault-osd3/trial-02/node13/performance.csv.gz",
+    "results": "results/lrc/fault-osd3/trial-02/node13/results.json",
+    "plot": "results/lrc/fault-osd3/trial-02/node13/plot.png",
+    "label": "Ceph LRC(6,2,4)"
+  },
+  {
+    "performance": "results/lrc/fault-osd3/trial-03/node12/performance.csv.gz",
+    "results": "results/lrc/fault-osd3/trial-03/node12/results.json",
+    "plot": "results/lrc/fault-osd3/trial-03/node12/plot.png",
+    "label": "Ceph LRC(6,2,4)"
+  },
+  {
+    "performance": "results/lrc/fault-osd3/trial-03/node13/performance.csv.gz",
+    "results": "results/lrc/fault-osd3/trial-03/node13/results.json",
+    "plot": "results/lrc/fault-osd3/trial-03/node13/plot.png",
+    "label": "Ceph LRC(6,2,4)"
+  },
+  {
+    "performance": "results/clay/no-fault/trial-01/node12/performance.csv.gz",
+    "results": "results/clay/no-fault/trial-01/node12/results.json",
+    "plot": "results/clay/no-fault/trial-01/node12/plot.png",
+    "label": "Clay(6,3,8), aligned stripes"
+  },
+  {
+    "performance": "results/clay/no-fault/trial-01/node13/performance.csv.gz",
+    "results": "results/clay/no-fault/trial-01/node13/results.json",
+    "plot": "results/clay/no-fault/trial-01/node13/plot.png",
+    "label": "Clay(6,3,8), aligned stripes"
+  },
+  {
+    "performance": "results/clay/no-fault/trial-02/node12/performance.csv.gz",
+    "results": "results/clay/no-fault/trial-02/node12/results.json",
+    "plot": "results/clay/no-fault/trial-02/node12/plot.png",
+    "label": "Clay(6,3,8), aligned stripes"
+  },
+  {
+    "performance": "results/clay/no-fault/trial-02/node13/performance.csv.gz",
+    "results": "results/clay/no-fault/trial-02/node13/results.json",
+    "plot": "results/clay/no-fault/trial-02/node13/plot.png",
+    "label": "Clay(6,3,8), aligned stripes"
+  },
+  {
+    "performance": "results/clay/no-fault/trial-03/node12/performance.csv.gz",
+    "results": "results/clay/no-fault/trial-03/node12/results.json",
+    "plot": "results/clay/no-fault/trial-03/node12/plot.png",
+    "label": "Clay(6,3,8), aligned stripes"
+  },
+  {
+    "performance": "results/clay/no-fault/trial-03/node13/performance.csv.gz",
+    "results": "results/clay/no-fault/trial-03/node13/results.json",
+    "plot": "results/clay/no-fault/trial-03/node13/plot.png",
+    "label": "Clay(6,3,8), aligned stripes"
+  },
+  {
+    "performance": "results/clay/fault-osd3/trial-01/node12/performance.csv.gz",
+    "results": "results/clay/fault-osd3/trial-01/node12/results.json",
+    "plot": "results/clay/fault-osd3/trial-01/node12/plot.png",
+    "label": "Clay(6,3,8), aligned stripes"
+  },
+  {
+    "performance": "results/clay/fault-osd3/trial-01/node13/performance.csv.gz",
+    "results": "results/clay/fault-osd3/trial-01/node13/results.json",
+    "plot": "results/clay/fault-osd3/trial-01/node13/plot.png",
+    "label": "Clay(6,3,8), aligned stripes"
+  },
+  {
+    "performance": "results/clay/fault-osd3/trial-02/node12/performance.csv.gz",
+    "results": "results/clay/fault-osd3/trial-02/node12/results.json",
+    "plot": "results/clay/fault-osd3/trial-02/node12/plot.png",
+    "label": "Clay(6,3,8), aligned stripes"
+  },
+  {
+    "performance": "results/clay/fault-osd3/trial-02/node13/performance.csv.gz",
+    "results": "results/clay/fault-osd3/trial-02/node13/results.json",
+    "plot": "results/clay/fault-osd3/trial-02/node13/plot.png",
+    "label": "Clay(6,3,8), aligned stripes"
+  },
+  {
+    "performance": "results/clay/fault-osd3/trial-03/node12/performance.csv.gz",
+    "results": "results/clay/fault-osd3/trial-03/node12/results.json",
+    "plot": "results/clay/fault-osd3/trial-03/node12/plot.png",
+    "label": "Clay(6,3,8), aligned stripes"
+  },
+  {
+    "performance": "results/clay/fault-osd3/trial-03/node13/performance.csv.gz",
+    "results": "results/clay/fault-osd3/trial-03/node13/results.json",
+    "plot": "results/clay/fault-osd3/trial-03/node13/plot.png",
+    "label": "Clay(6,3,8), aligned stripes"
+  },
+  {
+    "performance": "results/optlrc/no-fault/trial-01/node12/performance.csv.gz",
+    "results": "results/optlrc/no-fault/trial-01/node12/results.json",
+    "plot": "results/optlrc/no-fault/trial-01/node12/plot.png",
+    "label": "OptLRC(n=10,k=6,r=4), local-only"
+  },
+  {
+    "performance": "results/optlrc/no-fault/trial-01/node13/performance.csv.gz",
+    "results": "results/optlrc/no-fault/trial-01/node13/results.json",
+    "plot": "results/optlrc/no-fault/trial-01/node13/plot.png",
+    "label": "OptLRC(n=10,k=6,r=4), local-only"
+  },
+  {
+    "performance": "results/optlrc/no-fault/trial-02/node12/performance.csv.gz",
+    "results": "results/optlrc/no-fault/trial-02/node12/results.json",
+    "plot": "results/optlrc/no-fault/trial-02/node12/plot.png",
+    "label": "OptLRC(n=10,k=6,r=4), local-only"
+  },
+  {
+    "performance": "results/optlrc/no-fault/trial-02/node13/performance.csv.gz",
+    "results": "results/optlrc/no-fault/trial-02/node13/results.json",
+    "plot": "results/optlrc/no-fault/trial-02/node13/plot.png",
+    "label": "OptLRC(n=10,k=6,r=4), local-only"
+  },
+  {
+    "performance": "results/optlrc/no-fault/trial-03/node12/performance.csv.gz",
+    "results": "results/optlrc/no-fault/trial-03/node12/results.json",
+    "plot": "results/optlrc/no-fault/trial-03/node12/plot.png",
+    "label": "OptLRC(n=10,k=6,r=4), local-only"
+  },
+  {
+    "performance": "results/optlrc/no-fault/trial-03/node13/performance.csv.gz",
+    "results": "results/optlrc/no-fault/trial-03/node13/results.json",
+    "plot": "results/optlrc/no-fault/trial-03/node13/plot.png",
+    "label": "OptLRC(n=10,k=6,r=4), local-only"
+  },
+  {
+    "performance": "results/optlrc/fault-osd3/trial-01/node12/performance.csv.gz",
+    "results": "results/optlrc/fault-osd3/trial-01/node12/results.json",
+    "plot": "results/optlrc/fault-osd3/trial-01/node12/plot.png",
+    "label": "OptLRC(n=10,k=6,r=4), local-only"
+  },
+  {
+    "performance": "results/optlrc/fault-osd3/trial-01/node13/performance.csv.gz",
+    "results": "results/optlrc/fault-osd3/trial-01/node13/results.json",
+    "plot": "results/optlrc/fault-osd3/trial-01/node13/plot.png",
+    "label": "OptLRC(n=10,k=6,r=4), local-only"
+  },
+  {
+    "performance": "results/optlrc/fault-osd3/trial-02/node12/performance.csv.gz",
+    "results": "results/optlrc/fault-osd3/trial-02/node12/results.json",
+    "plot": "results/optlrc/fault-osd3/trial-02/node12/plot.png",
+    "label": "OptLRC(n=10,k=6,r=4), local-only"
+  },
+  {
+    "performance": "results/optlrc/fault-osd3/trial-02/node13/performance.csv.gz",
+    "results": "results/optlrc/fault-osd3/trial-02/node13/results.json",
+    "plot": "results/optlrc/fault-osd3/trial-02/node13/plot.png",
+    "label": "OptLRC(n=10,k=6,r=4), local-only"
+  },
+  {
+    "performance": "results/optlrc/fault-osd3/trial-03/node12/performance.csv.gz",
+    "results": "results/optlrc/fault-osd3/trial-03/node12/results.json",
+    "plot": "results/optlrc/fault-osd3/trial-03/node12/plot.png",
+    "label": "OptLRC(n=10,k=6,r=4), local-only"
+  },
+  {
+    "performance": "results/optlrc/fault-osd3/trial-03/node13/performance.csv.gz",
+    "results": "results/optlrc/fault-osd3/trial-03/node13/results.json",
+    "plot": "results/optlrc/fault-osd3/trial-03/node13/plot.png",
+    "label": "OptLRC(n=10,k=6,r=4), local-only"
+  },
+  {
+    "performance": "results/optlrc/fault-osd3/trial-04/node12/performance.csv.gz",
+    "results": "results/optlrc/fault-osd3/trial-04/node12/results.json",
+    "plot": "results/optlrc/fault-osd3/trial-04/node12/plot.png",
+    "label": "OptLRC(n=10,k=6,r=4), local-only"
+  },
+  {
+    "performance": "results/optlrc/fault-osd3/trial-04/node13/performance.csv.gz",
+    "results": "results/optlrc/fault-osd3/trial-04/node13/results.json",
+    "plot": "results/optlrc/fault-osd3/trial-04/node13/plot.png",
+    "label": "OptLRC(n=10,k=6,r=4), local-only"
+  },
+  {
+    "performance": "diagnostics/replicated-read-policy/paired-no-fault/trial-01/node12/performance.csv.gz",
+    "results": "diagnostics/replicated-read-policy/paired-no-fault/trial-01/node12/results.json",
+    "plot": "diagnostics/replicated-read-policy/paired-no-fault/trial-01/node12/plot.png",
+    "label": "Replication 3, read_from_replica=no"
+  },
+  {
+    "performance": "diagnostics/replicated-read-policy/paired-no-fault/trial-01/node13/performance.csv.gz",
+    "results": "diagnostics/replicated-read-policy/paired-no-fault/trial-01/node13/results.json",
+    "plot": "diagnostics/replicated-read-policy/paired-no-fault/trial-01/node13/plot.png",
+    "label": "Replication 3, read_from_replica=no"
+  },
+  {
+    "performance": "diagnostics/replicated-read-policy/paired-no-fault/trial-02/node12/performance.csv.gz",
+    "results": "diagnostics/replicated-read-policy/paired-no-fault/trial-02/node12/results.json",
+    "plot": "diagnostics/replicated-read-policy/paired-no-fault/trial-02/node12/plot.png",
+    "label": "Replication 3, read_from_replica=balance"
+  },
+  {
+    "performance": "diagnostics/replicated-read-policy/paired-no-fault/trial-02/node13/performance.csv.gz",
+    "results": "diagnostics/replicated-read-policy/paired-no-fault/trial-02/node13/results.json",
+    "plot": "diagnostics/replicated-read-policy/paired-no-fault/trial-02/node13/plot.png",
+    "label": "Replication 3, read_from_replica=balance"
+  },
+  {
+    "performance": "diagnostics/replicated-read-policy/paired-no-fault-reverse/trial-01/node12/performance.csv.gz",
+    "results": "diagnostics/replicated-read-policy/paired-no-fault-reverse/trial-01/node12/results.json",
+    "plot": "diagnostics/replicated-read-policy/paired-no-fault-reverse/trial-01/node12/plot.png",
+    "label": "Replication 3, read_from_replica=balance"
+  },
+  {
+    "performance": "diagnostics/replicated-read-policy/paired-no-fault-reverse/trial-01/node13/performance.csv.gz",
+    "results": "diagnostics/replicated-read-policy/paired-no-fault-reverse/trial-01/node13/results.json",
+    "plot": "diagnostics/replicated-read-policy/paired-no-fault-reverse/trial-01/node13/plot.png",
+    "label": "Replication 3, read_from_replica=balance"
+  },
+  {
+    "performance": "diagnostics/replicated-read-policy/paired-no-fault-reverse/trial-02/node12/performance.csv.gz",
+    "results": "diagnostics/replicated-read-policy/paired-no-fault-reverse/trial-02/node12/results.json",
+    "plot": "diagnostics/replicated-read-policy/paired-no-fault-reverse/trial-02/node12/plot.png",
+    "label": "Replication 3, read_from_replica=no"
+  },
+  {
+    "performance": "diagnostics/replicated-read-policy/paired-no-fault-reverse/trial-02/node13/performance.csv.gz",
+    "results": "diagnostics/replicated-read-policy/paired-no-fault-reverse/trial-02/node13/results.json",
+    "plot": "diagnostics/replicated-read-policy/paired-no-fault-reverse/trial-02/node13/plot.png",
+    "label": "Replication 3, read_from_replica=no"
+  }
+]

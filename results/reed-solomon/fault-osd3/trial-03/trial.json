@@ -1,0 +1,15 @@
+{
+  "profile": "reed-solomon",
+  "condition": "fault-osd3",
+  "source_trial": 3,
+  "included": true,
+  "exclusion_reason": "",
+  "clients": 2,
+  "passes_per_client": 3,
+  "mean_client_mib_s": 301.9902133605365,
+  "aggregate_mib_s": 603.9753116315501,
+  "mean_client_duration_min": 152.58772623939925,
+  "repair_min": 76.99516285,
+  "down_to_clean_min": 87.14180541666666,
+  "folder": "results/reed-solomon/fault-osd3/trial-03"
+}

@@ -1,0 +1,30 @@
+{
+  "trials": 2,
+  "clients": [
+    "node12",
+    "node13"
+  ],
+  "passes_per_client_per_trial": 3,
+  "mpi_ranks_per_client": 8,
+  "bins": 100,
+  "input_gib_per_pass": 900,
+  "steps_per_pass": 3600,
+  "cache_policy": "natural; primary-only then balanced; order is a confound; reverse-order confirmation if material",
+  "max_workload_s": 21600,
+  "shared_start_lead_s": 90,
+  "read_modes": [
+    "no",
+    "balance"
+  ],
+  "fault_injection": false,
+  "source_snapshot": "grayscott-clay-meta/dataset-900g@analysis-input",
+  "data_pool": "grayscott-rep3-data",
+  "pool_size": 3,
+  "min_size": 2,
+  "pg_num": 64,
+  "failure_domain": "osd",
+  "clay_preserved": true,
+  "diagnostic_images_preserved": true,
+  "deletion_authorized": false,
+  "comparison_note": "Clay remains populated during this no-fault diagnostic pair. Total PG topology differs from original baseline. Do not pool these observations with original trials or interpret order effects as causal gains. No global read/cache/scrub settings changed."
+}

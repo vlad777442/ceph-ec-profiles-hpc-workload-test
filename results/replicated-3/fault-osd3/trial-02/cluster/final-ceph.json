@@ -1,0 +1,90 @@
+{
+  "fsid": "2d669458-8507-46c7-b65a-03137fa1161b",
+  "health": {
+    "status": "HEALTH_OK",
+    "checks": {},
+    "mutes": []
+  },
+  "election_epoch": 8,
+  "quorum": [
+    0,
+    1,
+    2
+  ],
+  "quorum_names": [
+    "node0",
+    "node1",
+    "node2"
+  ],
+  "quorum_age": 825570,
+  "monmap": {
+    "epoch": 1,
+    "min_mon_release_name": "reef",
+    "num_mons": 3
+  },
+  "osdmap": {
+    "epoch": 1124,
+    "num_osds": 24,
+    "num_up_osds": 24,
+    "osd_up_since": 1792157165,
+    "num_in_osds": 24,
+    "osd_in_since": 1792157160,
+    "num_remapped_pgs": 0
+  },
+  "pgmap": {
+    "pgs_by_state": [
+      {
+        "state_name": "active+clean",
+        "count": 384
+      }
+    ],
+    "num_pgs": 384,
+    "num_pools": 6,
+    "num_objects": 30953,
+    "data_bytes": 1013017718932,
+    "bytes_used": 3062293770240,
+    "bytes_avail": 20942580436992,
+    "bytes_total": 24004874207232,
+    "recovering_objects_per_sec": 2,
+    "recovering_bytes_per_sec": 0,
+    "recovering_keys_per_sec": 0,
+    "num_objects_recovered": 19,
+    "num_bytes_recovered": 0,
+    "num_keys_recovered": 0
+  },
+  "fsmap": {
+    "epoch": 2,
+    "by_rank": [],
+    "up:standby": 1
+  },
+  "mgrmap": {
+    "available": true,
+    "num_standbys": 0,
+    "modules": [
+      "iostat",
+      "nfs",
+      "restful"
+    ],
+    "services": {}
+  },
+  "servicemap": {
+    "epoch": 6052,
+    "modified": "2026-10-16T07:26:21.449943-0600",
+    "services": {
+      "osd": {
+        "daemons": {
+          "summary": "",
+          "3": {
+            "start_epoch": 0,
+            "start_stamp": "0.000000",
+            "gid": 0,
+            "addr": "(unrecognized address family 0)/0",
+            "metadata": {},
+            "task_status": {}
+          }
+        }
+      }
+    }
+  },
+  "progress_events": {}
+}

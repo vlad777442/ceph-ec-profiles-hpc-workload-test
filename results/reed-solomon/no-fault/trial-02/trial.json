@@ -1,0 +1,15 @@
+{
+  "profile": "reed-solomon",
+  "condition": "no-fault",
+  "source_trial": 2,
+  "included": true,
+  "exclusion_reason": "",
+  "clients": 2,
+  "passes_per_client": 3,
+  "mean_client_mib_s": 329.0795538303522,
+  "aggregate_mib_s": 658.1581395767993,
+  "mean_client_duration_min": 140.02693106776667,
+  "repair_min": "",
+  "down_to_clean_min": "",
+  "folder": "results/reed-solomon/no-fault/trial-02"
+}

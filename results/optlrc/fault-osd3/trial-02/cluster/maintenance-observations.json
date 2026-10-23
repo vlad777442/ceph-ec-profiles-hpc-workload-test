@@ -1,0 +1,9 @@
+{
+  "event": "Node0 MON disk-space warning; verified relocation of historical archives to both clients",
+  "recorded_utc": "2026-10-23T02:08:02.790691+00:00",
+  "started_systemd_unit": "grayscott-optlrc-space-maintenance.service",
+  "overlapping_trial": "fault-osd3/trial-02",
+  "potential_confound": "Background archival transfer and client OS disk I/O during pass 3; inspect this interval before paper use. No scrub/recovery/CRUSH/read/cache settings changed.",
+  "transfer_destinations": "10.10.1.13      STREAM node12-link-1\n10.10.1.13      DGRAM  \n10.10.1.13      RAW    \n10.10.1.14      STREAM node13-link-1\n10.10.1.14      DGRAM  \n10.10.1.14      RAW    \n",
+  "logs": "../../space-maintenance.log"
+}

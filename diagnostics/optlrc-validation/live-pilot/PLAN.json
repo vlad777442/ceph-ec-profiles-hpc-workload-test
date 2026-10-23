@@ -1,0 +1,30 @@
+{
+  "profile": "optlrc-10-6-4-osd",
+  "n": 10,
+  "k": 6,
+  "r": 4,
+  "mapping": "DDDD_DD___",
+  "stripe_unit": 12288,
+  "min_size": 9,
+  "failure_domain": "osd",
+  "plugin_sha256": "f9799e0bb8eed7cdbe5fd39b254d8b298a694a2e4af8d2f0e643bb5dc576d65f",
+  "installed_hosts": [
+    "node0",
+    "node1",
+    "node2",
+    "node3",
+    "node4",
+    "node5",
+    "node6",
+    "node7",
+    "node8",
+    "node9",
+    "node10",
+    "node11"
+  ],
+  "crush_note": "Dedicated 10-shard OSD-domain CRUSH rule generated from the installed RS(6,4) placement template, explicitly passed to the OptLRC pool. Legacy ruleset-* keys rejected by Reef; no encoding profile substitution. Actual rule and placement verified.",
+  "scope": "Scratch RBD single-OSD correctness pilot, restore all old pools, then copy/verify full input if checks pass. Preserve all existing data; stop before deletion and paper trials.",
+  "pilot_note": "Other populated pools remain during correctness validation and will also repair; do not use pilot duration as OptLRC performance evidence.",
+  "m": 4,
+  "compatibility_fix": "Explicit m=4 added for Reef raw_used_rate accounting; same n/k/r mapping and shard geometry. Autoscaler module reinitialized by restarting MGR after its division-by-zero error. No data format change; only scratch data existed."
+}

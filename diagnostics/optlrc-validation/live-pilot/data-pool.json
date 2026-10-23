@@ -1,0 +1,23 @@
+{
+  "pool": "grayscott-optlrc-data",
+  "pool_id": 12,
+  "size": 10,
+  "min_size": 9,
+  "pg_num": 64,
+  "pgp_num": 64,
+  "crush_rule": "grayscott-optlrc-data",
+  "hashpspool": true,
+  "allow_ec_overwrites": true,
+  "nodelete": false,
+  "nopgchange": false,
+  "nosizechange": false,
+  "write_fadvise_dontneed": false,
+  "noscrub": false,
+  "nodeep-scrub": false,
+  "use_gmt_hitset": true,
+  "erasure_code_profile": "optlrc-10-6-4-osd",
+  "fast_read": 0,
+  "pg_autoscale_mode": "off",
+  "eio": false,
+  "bulk": false
+}

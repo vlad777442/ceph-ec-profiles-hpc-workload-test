@@ -1,0 +1,21 @@
+{
+    "L": 256,
+    "Du": 0.2,
+    "Dv": 0.1,
+    "F": 0.01,
+    "k": 0.05,
+    "dt": 2.0,
+    "plotgap": 10,
+    "steps": 36000,
+    "noise": 1e-07,
+    "output": "/mnt/grayscott/gray-scott/gs-900g.bp",
+    "checkpoint": false,
+    "checkpoint_freq": 1000,
+    "checkpoint_output": "/mnt/grayscott/gray-scott/checkpoints/ckpt-900g.bp",
+    "restart": false,
+    "restart_input": "/mnt/grayscott/gray-scott/checkpoints/ckpt-900g.bp",
+    "adios_config": "/users/vlad777/ADIOS2-Examples/adios2-rbd.xml",
+    "adios_span": false,
+    "adios_memory_selection": false,
+    "mesh_type": "image"
+}

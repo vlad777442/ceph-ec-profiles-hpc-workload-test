@@ -1,0 +1,15 @@
+{
+  "profile": "replicated-3",
+  "condition": "no-fault",
+  "source_trial": 2,
+  "included": true,
+  "exclusion_reason": "",
+  "clients": 2,
+  "passes_per_client": 3,
+  "mean_client_mib_s": 203.19262357125928,
+  "aggregate_mib_s": 404.15194271324157,
+  "mean_client_duration_min": 226.78672515724224,
+  "repair_min": "",
+  "down_to_clean_min": "",
+  "folder": "results/replicated-3/no-fault/trial-02"
+}

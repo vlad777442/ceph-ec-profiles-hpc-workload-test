@@ -1,0 +1,28 @@
+{
+  "rule_id": 7,
+  "rule_name": "grayscott-optlrc-data",
+  "type": 3,
+  "steps": [
+    {
+      "op": "set_chooseleaf_tries",
+      "num": 5
+    },
+    {
+      "op": "set_choose_tries",
+      "num": 100
+    },
+    {
+      "op": "take",
+      "item": -1,
+      "item_name": "default"
+    },
+    {
+      "op": "choose_indep",
+      "num": 0,
+      "type": "osd"
+    },
+    {
+      "op": "emit"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+# OptLRC validation history
+
+Early tests with the wrong mapping DDDDDD____ remain in the original research workspace and are omitted here. Correct mapping DDDD_DD___ tests are in offline-correct-mapping/. The historical status.json blocked general rollout because same-group multi-erasure decoding can report success with incorrect bytes. Subsequent source review established the local-only decoder restriction; the user authorized a restricted single-OSD experiment with min_size=9. Live-pilot/ documents its successful overwrite/readback and restoration checks. This does not validate full theoretical multi-failure tolerance. See docs/METHODOLOGY.md and configurations/optlrc.json at repository root. No plugin binary is included.

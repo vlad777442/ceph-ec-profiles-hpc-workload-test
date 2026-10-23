@@ -1,0 +1,514 @@
+[
+  {
+    "object": "rbd_data.13.cc36926c4d8b4.0000000000000000",
+    "acting": [
+      0,
+      8,
+      5,
+      15,
+      17,
+      20,
+      21,
+      14,
+      22,
+      7
+    ],
+    "target_shard_index": null
+  },
+  {
+    "object": "rbd_data.13.cc36926c4d8b4.0000000000000001",
+    "acting": [
+      14,
+      10,
+      1,
+      0,
+      5,
+      23,
+      13,
+      12,
+      6,
+      18
+    ],
+    "target_shard_index": null
+  },
+  {
+    "object": "rbd_data.13.cc36926c4d8b4.0000000000000002",
+    "acting": [
+      12,
+      0,
+      11,
+      9,
+      16,
+      23,
+      6,
+      4,
+      1,
+      20
+    ],
+    "target_shard_index": null
+  },
+  {
+    "object": "rbd_data.13.cc36926c4d8b4.0000000000000003",
+    "acting": [
+      6,
+      18,
+      23,
+      9,
+      0,
+      3,
+      15,
+      21,
+      12,
+      13
+    ],
+    "target_shard_index": 5
+  },
+  {
+    "object": "rbd_data.13.cc36926c4d8b4.0000000000000004",
+    "acting": [
+      11,
+      1,
+      14,
+      17,
+      12,
+      0,
+      23,
+      4,
+      10,
+      16
+    ],
+    "target_shard_index": null
+  },
+  {
+    "object": "rbd_data.13.cc36926c4d8b4.0000000000000005",
+    "acting": [
+      6,
+      18,
+      23,
+      9,
+      0,
+      3,
+      15,
+      21,
+      12,
+      13
+    ],
+    "target_shard_index": 5
+  },
+  {
+    "object": "rbd_data.13.cc36926c4d8b4.0000000000000006",
+    "acting": [
+      5,
+      23,
+      15,
+      20,
+      6,
+      10,
+      12,
+      0,
+      9,
+      7
+    ],
+    "target_shard_index": null
+  },
+  {
+    "object": "rbd_data.13.cc36926c4d8b4.0000000000000007",
+    "acting": [
+      3,
+      2,
+      0,
+      10,
+      5,
+      4,
+      15,
+      7,
+      16,
+      9
+    ],
+    "target_shard_index": 0
+  },
+  {
+    "object": "rbd_data.13.cc36926c4d8b4.0000000000000008",
+    "acting": [
+      23,
+      12,
+      16,
+      18,
+      3,
+      4,
+      0,
+      13,
+      2,
+      10
+    ],
+    "target_shard_index": 4
+  },
+  {
+    "object": "rbd_data.13.cc36926c4d8b4.0000000000000009",
+    "acting": [
+      15,
+      0,
+      18,
+      23,
+      2,
+      5,
+      12,
+      21,
+      1,
+      20
+    ],
+    "target_shard_index": null
+  },
+  {
+    "object": "rbd_data.13.cc36926c4d8b4.000000000000000a",
+    "acting": [
+      20,
+      21,
+      15,
+      13,
+      2,
+      9,
+      22,
+      11,
+      4,
+      6
+    ],
+    "target_shard_index": null
+  },
+  {
+    "object": "rbd_data.13.cc36926c4d8b4.000000000000000b",
+    "acting": [
+      23,
+      12,
+      16,
+      18,
+      3,
+      4,
+      0,
+      13,
+      2,
+      10
+    ],
+    "target_shard_index": 4
+  },
+  {
+    "object": "rbd_data.13.cc36926c4d8b4.000000000000000c",
+    "acting": [
+      10,
+      12,
+      18,
+      20,
+      17,
+      14,
+      5,
+      0,
+      3,
+      22
+    ],
+    "target_shard_index": 8
+  },
+  {
+    "object": "rbd_data.13.cc36926c4d8b4.000000000000000d",
+    "acting": [
+      23,
+      12,
+      16,
+      18,
+      3,
+      4,
+      0,
+      13,
+      2,
+      10
+    ],
+    "target_shard_index": 4
+  },
+  {
+    "object": "rbd_data.13.cc36926c4d8b4.000000000000000e",
+    "acting": [
+      12,
+      0,
+      11,
+      9,
+      16,
+      23,
+      6,
+      4,
+      1,
+      20
+    ],
+    "target_shard_index": null
+  },
+  {
+    "object": "rbd_data.13.cc36926c4d8b4.000000000000000f",
+    "acting": [
+      14,
+      10,
+      6,
+      13,
+      3,
+      20,
+      18,
+      12,
+      0,
+      8
+    ],
+    "target_shard_index": 4
+  },
+  {
+    "object": "rbd_data.13.cc36926c4d8b4.0000000000000010",
+    "acting": [
+      12,
+      5,
+      15,
+      19,
+      7,
+      22,
+      17,
+      18,
+      8,
+      1
+    ],
+    "target_shard_index": null
+  },
+  {
+    "object": "rbd_data.13.cc36926c4d8b4.0000000000000011",
+    "acting": [
+      12,
+      6,
+      2,
+      22,
+      4,
+      3,
+      23,
+      1,
+      20,
+      15
+    ],
+    "target_shard_index": 5
+  },
+  {
+    "object": "rbd_data.13.cc36926c4d8b4.0000000000000012",
+    "acting": [
+      23,
+      12,
+      16,
+      18,
+      3,
+      4,
+      0,
+      13,
+      2,
+      10
+    ],
+    "target_shard_index": 4
+  },
+  {
+    "object": "rbd_data.13.cc36926c4d8b4.0000000000000013",
+    "acting": [
+      12,
+      5,
+      15,
+      19,
+      7,
+      22,
+      17,
+      18,
+      8,
+      1
+    ],
+    "target_shard_index": null
+  },
+  {
+    "object": "rbd_data.13.cc36926c4d8b4.0000000000000014",
+    "acting": [
+      6,
+      20,
+      16,
+      22,
+      7,
+      10,
+      14,
+      11,
+      17,
+      12
+    ],
+    "target_shard_index": null
+  },
+  {
+    "object": "rbd_data.13.cc36926c4d8b4.0000000000000015",
+    "acting": [
+      13,
+      19,
+      17,
+      15,
+      8,
+      11,
+      10,
+      20,
+      12,
+      22
+    ],
+    "target_shard_index": null
+  },
+  {
+    "object": "rbd_data.13.cc36926c4d8b4.0000000000000016",
+    "acting": [
+      18,
+      8,
+      16,
+      3,
+      6,
+      7,
+      14,
+      21,
+      10,
+      4
+    ],
+    "target_shard_index": 3
+  },
+  {
+    "object": "rbd_data.13.cc36926c4d8b4.0000000000000017",
+    "acting": [
+      10,
+      22,
+      7,
+      1,
+      11,
+      3,
+      6,
+      15,
+      5,
+      4
+    ],
+    "target_shard_index": 5
+  },
+  {
+    "object": "rbd_data.13.cc36926c4d8b4.0000000000000018",
+    "acting": [
+      10,
+      4,
+      12,
+      6,
+      7,
+      1,
+      21,
+      5,
+      14,
+      22
+    ],
+    "target_shard_index": null
+  },
+  {
+    "object": "rbd_data.13.cc36926c4d8b4.0000000000000019",
+    "acting": [
+      12,
+      11,
+      20,
+      9,
+      6,
+      17,
+      15,
+      22,
+      4,
+      18
+    ],
+    "target_shard_index": null
+  },
+  {
+    "object": "rbd_data.13.cc36926c4d8b4.000000000000001a",
+    "acting": [
+      8,
+      22,
+      23,
+      1,
+      21,
+      2,
+      16,
+      18,
+      7,
+      14
+    ],
+    "target_shard_index": null
+  },
+  {
+    "object": "rbd_data.13.cc36926c4d8b4.000000000000001b",
+    "acting": [
+      14,
+      10,
+      6,
+      13,
+      3,
+      20,
+      18,
+      12,
+      0,
+      8
+    ],
+    "target_shard_index": 4
+  },
+  {
+    "object": "rbd_data.13.cc36926c4d8b4.000000000000001c",
+    "acting": [
+      14,
+      2,
+      6,
+      16,
+      0,
+      22,
+      10,
+      1,
+      12,
+      13
+    ],
+    "target_shard_index": null
+  },
+  {
+    "object": "rbd_data.13.cc36926c4d8b4.000000000000001d",
+    "acting": [
+      8,
+      5,
+      20,
+      22,
+      11,
+      15,
+      3,
+      16,
+      23,
+      2
+    ],
+    "target_shard_index": 6
+  },
+  {
+    "object": "rbd_data.13.cc36926c4d8b4.000000000000001e",
+    "acting": [
+      12,
+      0,
+      11,
+      9,
+      16,
+      23,
+      6,
+      4,
+      1,
+      20
+    ],
+    "target_shard_index": null
+  },
+  {
+    "object": "rbd_data.13.cc36926c4d8b4.000000000000001f",
+    "acting": [
+      6,
+      18,
+      23,
+      9,
+      0,
+      3,
+      15,
+      21,
+      12,
+      13
+    ],
+    "target_shard_index": 5
+  }
+]

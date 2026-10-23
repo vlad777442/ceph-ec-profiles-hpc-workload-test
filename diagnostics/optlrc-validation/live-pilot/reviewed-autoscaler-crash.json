@@ -1,0 +1,27 @@
+{
+  "backtrace": [
+    "  File \"/usr/share/ceph/mgr/pg_autoscaler/module.py\", line 334, in serve\n    self._maybe_adjust(osdmap, pools)",
+    "  File \"/usr/share/ceph/mgr/pg_autoscaler/module.py\", line 725, in _maybe_adjust\n    ps, root_map = self._get_pool_status(osdmap, pools)",
+    "  File \"/usr/share/ceph/mgr/pg_autoscaler/module.py\", line 664, in _get_pool_status\n    ret, bulk_pools, _  = self._get_pool_pg_targets(osdmap, pools, crush_map, root_map,",
+    "  File \"/usr/share/ceph/mgr/pg_autoscaler/module.py\", line 622, in _get_pool_pg_targets\n    'logical_used': float(actual_raw_used)/raw_used_rate,",
+    "ZeroDivisionError: float division by zero"
+  ],
+  "ceph_version": "18.2.8",
+  "crash_id": "2026-10-21T22:21:50.465357Z_fef280bd-3e61-4ff0-adaf-d261a8e04e15",
+  "entity_name": "mgr.node1",
+  "mgr_module": "pg_autoscaler",
+  "mgr_module_caller": "PyModuleRunner::serve",
+  "mgr_python_exception": "ZeroDivisionError",
+  "os_id": "22.04",
+  "os_name": "Ubuntu 22.04.2 LTS",
+  "os_version": "22.04.2 LTS (Jammy Jellyfish)",
+  "os_version_id": "22.04",
+  "process_name": "ceph-mgr",
+  "stack_sig": "d3950b6b6243cb88f22e03365bfa7fcba79fbdeb51a27eaf188877c926377315",
+  "timestamp": "2026-10-21T22:21:50.465357Z",
+  "utsname_hostname": "node1",
+  "utsname_machine": "x86_64",
+  "utsname_release": "5.15.0-187-generic",
+  "utsname_sysname": "Linux",
+  "utsname_version": "#197-Ubuntu SMP Fri Jul 17 19:17:01 UTC 2026"
+}

@@ -1,0 +1,12 @@
+{
+  "phase": "complete",
+  "updated_utc": "2026-10-23T11:45:20.392957+00:00",
+  "valid_fault_trials": [
+    1,
+    3,
+    4
+  ],
+  "excluded_but_retained": [
+    2
+  ]
+}

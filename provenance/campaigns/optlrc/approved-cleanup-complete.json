@@ -1,0 +1,16 @@
+{
+  "completed_utc": "2026-10-22T13:37:36.740669+00:00",
+  "removed": [
+    "grayscott-clay-meta/dataset-900g-node13",
+    "grayscott-clay-meta/dataset-900g@analysis-input",
+    "grayscott-clay-meta/dataset-900g",
+    "grayscott-rep3-meta/dataset-900g-node13",
+    "grayscott-rep3-meta/dataset-900g@analysis-input",
+    "grayscott-rep3-meta/dataset-900g",
+    "grayscott-rep3-meta/diagnostic-read-placement-20261019T184052Z-node12",
+    "grayscott-rep3-meta/diagnostic-read-placement-20261019T184052Z-node13",
+    "grayscott-optlrc-meta/optlrc-correctness-20261021"
+  ],
+  "empty_pool_definitions_preserved": true,
+  "archived_results_preserved": true
+}

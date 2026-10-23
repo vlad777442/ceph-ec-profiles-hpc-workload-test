@@ -1,0 +1,73 @@
+{
+  "fsid": "2d669458-8507-46c7-b65a-03137fa1161b",
+  "health": {
+    "status": "HEALTH_OK",
+    "checks": {},
+    "mutes": []
+  },
+  "election_epoch": 8,
+  "quorum": [
+    0,
+    1,
+    2
+  ],
+  "quorum_names": [
+    "node0",
+    "node1",
+    "node2"
+  ],
+  "quorum_age": 755261,
+  "monmap": {
+    "epoch": 1,
+    "min_mon_release_name": "reef",
+    "num_mons": 3
+  },
+  "osdmap": {
+    "epoch": 853,
+    "num_osds": 24,
+    "num_up_osds": 24,
+    "osd_up_since": 1791913761,
+    "num_in_osds": 24,
+    "osd_in_since": 1791913755,
+    "num_remapped_pgs": 0
+  },
+  "pgmap": {
+    "pgs_by_state": [
+      {
+        "state_name": "active+clean",
+        "count": 384
+      }
+    ],
+    "num_pgs": 384,
+    "num_pools": 6,
+    "num_objects": 29543,
+    "data_bytes": 966551015572,
+    "bytes_used": 2912673271808,
+    "bytes_avail": 21092200935424,
+    "bytes_total": 24004874207232,
+    "read_bytes_sec": 85,
+    "read_op_per_sec": 0,
+    "write_op_per_sec": 0
+  },
+  "fsmap": {
+    "epoch": 2,
+    "by_rank": [],
+    "up:standby": 1
+  },
+  "mgrmap": {
+    "available": true,
+    "num_standbys": 0,
+    "modules": [
+      "iostat",
+      "nfs",
+      "restful"
+    ],
+    "services": {}
+  },
+  "servicemap": {
+    "epoch": 5431,
+    "modified": "2026-10-15T11:54:05.312434-0600",
+    "services": {}
+  },
+  "progress_events": {}
+}

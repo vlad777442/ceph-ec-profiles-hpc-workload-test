@@ -1,0 +1,24 @@
+{
+  "trial": 1,
+  "clients": [
+    {
+      "host": "node12",
+      "duration_s": 8877.590023564058,
+      "passes": 3,
+      "logical_mib_s": 311.43587309858947,
+      "start_utc": "2026-10-17T01:18:54.064074+00:00",
+      "end_utc": "2026-10-17T03:46:51.654060+00:00"
+    },
+    {
+      "host": "node13",
+      "duration_s": 8877.656494593015,
+      "passes": 3,
+      "logical_mib_s": 311.43354123736555,
+      "start_utc": "2026-10-17T01:18:54.049806+00:00",
+      "end_utc": "2026-10-17T03:46:51.706263+00:00"
+    }
+  ],
+  "start_skew_s": 0.014267921447753906,
+  "scrub_observation_count": 0,
+  "aggregate_logical_mib_s": 622.8670851159981
+}

@@ -1,0 +1,15 @@
+{
+  "profile": "clay",
+  "condition": "fault-osd3",
+  "source_trial": 3,
+  "included": true,
+  "exclusion_reason": "",
+  "clients": 2,
+  "passes_per_client": 3,
+  "mean_client_mib_s": 269.8099226348459,
+  "aggregate_mib_s": 539.6182162751915,
+  "mean_client_duration_min": 170.78689897845032,
+  "repair_min": 107.31676338333334,
+  "down_to_clean_min": 117.46562953333334,
+  "folder": "results/clay/fault-osd3/trial-03"
+}

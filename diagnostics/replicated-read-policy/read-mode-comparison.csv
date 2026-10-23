@@ -1,0 +1,5 @@
+order,trial,mode,trial_mean_mib_s_per_client,client_min_mib_s,client_max_mib_s,folder
+primary then balanced,1,no,202.4562906949035,202.45360638222147,202.4589750075855,/users/vlad777/research/erasure-coding/replicated-3/validation-20261019T200840Z/paired-no-fault/trial-01
+primary then balanced,2,balance,262.3246584736726,260.2553873569751,264.39392959037013,/users/vlad777/research/erasure-coding/replicated-3/validation-20261019T200840Z/paired-no-fault/trial-02
+balanced then primary,1,balance,256.3160007335832,256.31529522594934,256.31670624121716,/users/vlad777/research/erasure-coding/replicated-3/validation-20261019T200840Z/paired-no-fault-reverse/trial-01
+balanced then primary,2,no,199.23513172240877,198.3069198450314,200.16334359978612,/users/vlad777/research/erasure-coding/replicated-3/validation-20261019T200840Z/paired-no-fault-reverse/trial-02

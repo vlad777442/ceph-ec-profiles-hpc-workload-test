@@ -1,0 +1,18 @@
+{
+  "samples": [
+    {
+      "utc": "2026-10-14T02:45:08.092078+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 255
+        },
+        {
+          "state_name": "active+clean+scrubbing",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "note": "Normal active/clean scrubbing is allowed and recorded; account for it in paper analysis."
+}

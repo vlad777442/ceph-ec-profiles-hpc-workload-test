@@ -1,0 +1,12 @@
+{
+  "crush-device-class": "",
+  "crush-failure-domain": "osd",
+  "crush-root": "default",
+  "k": "6",
+  "mapping": "DDDD_DD___",
+  "n": "10",
+  "plugin": "optlrc",
+  "r": "4",
+  "ruleset-root": "default",
+  "stripe_unit": "12288"
+}

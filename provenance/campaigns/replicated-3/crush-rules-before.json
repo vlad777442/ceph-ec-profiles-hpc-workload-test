@@ -1,0 +1,98 @@
+[
+  {
+    "rule_id": 0,
+    "rule_name": "replicated_rule",
+    "type": 1,
+    "steps": [
+      {
+        "op": "take",
+        "item": -1,
+        "item_name": "default"
+      },
+      {
+        "op": "chooseleaf_firstn",
+        "num": 0,
+        "type": "host"
+      },
+      {
+        "op": "emit"
+      }
+    ]
+  },
+  {
+    "rule_id": 1,
+    "rule_name": "grayscott",
+    "type": 3,
+    "steps": [
+      {
+        "op": "set_chooseleaf_tries",
+        "num": 5
+      },
+      {
+        "op": "set_choose_tries",
+        "num": 100
+      },
+      {
+        "op": "take",
+        "item": -1,
+        "item_name": "default"
+      },
+      {
+        "op": "choose_indep",
+        "num": 0,
+        "type": "osd"
+      },
+      {
+        "op": "emit"
+      }
+    ]
+  },
+  {
+    "rule_id": 2,
+    "rule_name": "grayscott-900g",
+    "type": 3,
+    "steps": [
+      {
+        "op": "set_chooseleaf_tries",
+        "num": 5
+      },
+      {
+        "op": "set_choose_tries",
+        "num": 100
+      },
+      {
+        "op": "take",
+        "item": -1,
+        "item_name": "default"
+      },
+      {
+        "op": "choose_indep",
+        "num": 0,
+        "type": "osd"
+      },
+      {
+        "op": "emit"
+      }
+    ]
+  },
+  {
+    "rule_id": 3,
+    "rule_name": "grayscott-rep3-osd",
+    "type": 1,
+    "steps": [
+      {
+        "op": "take",
+        "item": -1,
+        "item_name": "default"
+      },
+      {
+        "op": "choose_firstn",
+        "num": 0,
+        "type": "osd"
+      },
+      {
+        "op": "emit"
+      }
+    ]
+  }
+]

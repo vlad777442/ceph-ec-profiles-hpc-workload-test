@@ -1,0 +1,19 @@
+{
+  "clients": [
+    "node12",
+    "node13"
+  ],
+  "ranks_per_client": 8,
+  "osd_id": 3,
+  "fault_delay_s": 280,
+  "post_repair_load_s": 900,
+  "input_gib_per_pass_per_client": 900,
+  "expected_steps_per_pass": 3600,
+  "cache_policy": "natural across repeated passes; no cache dropping",
+  "stop_policy": "finish current full pass after 15-minute post-repair interval",
+  "restore_policy": "after both workloads finish, restore OSD and verify up/in + clean PGs",
+  "max_workload_s": 21600,
+  "recovery_timeout_s": 14400,
+  "controller_poll_interval_s": 5,
+  "fault_trials": 1
+}

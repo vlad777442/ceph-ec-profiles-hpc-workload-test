@@ -1,0 +1,15 @@
+{
+  "profile": "lrc",
+  "condition": "fault-osd3",
+  "source_trial": 3,
+  "included": true,
+  "exclusion_reason": "",
+  "clients": 2,
+  "passes_per_client": 3,
+  "mean_client_mib_s": 289.6380633175702,
+  "aggregate_mib_s": 579.2755696446716,
+  "mean_client_duration_min": 159.09511157544912,
+  "repair_min": 80.39010146666666,
+  "down_to_clean_min": 90.53749485,
+  "folder": "results/lrc/fault-osd3/trial-03"
+}

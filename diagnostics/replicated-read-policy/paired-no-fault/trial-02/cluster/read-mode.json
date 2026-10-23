@@ -1,0 +1,29 @@
+{
+  "read_from_replica": "balance",
+  "mappings": {
+    "node12": {
+      "mapping": {
+        "id": "0",
+        "pool": "grayscott-rep3-meta",
+        "namespace": "",
+        "name": "dataset-900g",
+        "snap": "-",
+        "device": "/dev/rbd0"
+      },
+      "read_from_replica": "balance",
+      "config_info": "10.10.1.1:6789,10.10.1.2:6789,10.10.1.3:6789 name=rep3-node12,key=client.rep3-node12,read_from_replica=balance grayscott-rep3-meta dataset-900g -\n"
+    },
+    "node13": {
+      "mapping": {
+        "id": "0",
+        "pool": "grayscott-rep3-meta",
+        "namespace": "",
+        "name": "dataset-900g-node13",
+        "snap": "-",
+        "device": "/dev/rbd0"
+      },
+      "read_from_replica": "balance",
+      "config_info": "10.10.1.1:6789,10.10.1.2:6789,10.10.1.3:6789 name=rep3-node13,key=client.rep3-node13,read_from_replica=balance grayscott-rep3-meta dataset-900g-node13 -\n"
+    }
+  }
+}

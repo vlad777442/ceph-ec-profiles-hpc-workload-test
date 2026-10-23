@@ -1,0 +1,585 @@
+{
+  "schema_version": 3,
+  "runner_pid": 1322576,
+  "trial_id": "optlrc-paper-comparison-nofault-t2",
+  "trial_status": "complete",
+  "no_fault": true,
+  "external_fault": false,
+  "protection": "ec",
+  "failure_domain": "osd",
+  "expected_passes": 3,
+  "bins": 100,
+  "hostname": "node13",
+  "mpi_procs": 8,
+  "input": "/mnt/grayscott-optlrc/gray-scott/gs-900g.bp",
+  "baseline": {
+    "ceph": {
+      "fsid": "2d669458-8507-46c7-b65a-03137fa1161b",
+      "health": {
+        "status": "HEALTH_WARN",
+        "checks": {
+          "MANY_OBJECTS_PER_PG": {
+            "severity": "HEALTH_WARN",
+            "summary": {
+              "message": "1 pools have many more objects per pg than average",
+              "count": 1
+            },
+            "muted": false
+          }
+        },
+        "mutes": []
+      },
+      "election_epoch": 8,
+      "quorum": [
+        0,
+        1,
+        2
+      ],
+      "quorum_names": [
+        "node0",
+        "node1",
+        "node2"
+      ],
+      "quorum_age": 1353529,
+      "monmap": {
+        "epoch": 1,
+        "min_mon_release_name": "reef",
+        "num_mons": 3
+      },
+      "osdmap": {
+        "epoch": 2685,
+        "num_osds": 24,
+        "num_up_osds": 24,
+        "osd_up_since": 1792626185,
+        "num_in_osds": 24,
+        "osd_in_since": 1792626159,
+        "num_remapped_pgs": 0
+      },
+      "pgmap": {
+        "pgs_by_state": [
+          {
+            "state_name": "active+clean",
+            "count": 832
+          }
+        ],
+        "num_pgs": 832,
+        "num_pools": 13,
+        "num_objects": 29846,
+        "data_bytes": 975901053190,
+        "bytes_used": 1658442805248,
+        "bytes_avail": 22346431401984,
+        "bytes_total": 24004874207232,
+        "read_bytes_sec": 5401049,
+        "write_bytes_sec": 1037472,
+        "read_op_per_sec": 2,
+        "write_op_per_sec": 0
+      },
+      "fsmap": {
+        "epoch": 2,
+        "by_rank": [],
+        "up:standby": 1
+      },
+      "mgrmap": {
+        "available": true,
+        "num_standbys": 0,
+        "modules": [
+          "iostat",
+          "nfs",
+          "restful"
+        ],
+        "services": {}
+      },
+      "servicemap": {
+        "epoch": 10783,
+        "modified": "2026-10-22T09:56:46.861822-0600",
+        "services": {}
+      },
+      "progress_events": {}
+    },
+    "mount": {
+      "source": "/dev/rbd2",
+      "target": "/mnt/grayscott-optlrc",
+      "fstype": "ext4"
+    },
+    "mapping": {
+      "id": "2",
+      "pool": "grayscott-optlrc-meta",
+      "namespace": "",
+      "name": "dataset-900g-node13",
+      "snap": "-",
+      "device": "/dev/rbd2"
+    },
+    "image": {
+      "name": "dataset-900g-node13",
+      "id": "cf66c73f2bd45",
+      "size": 1234803097600,
+      "objects": 36800,
+      "order": 25,
+      "object_size": 33554432,
+      "snapshot_count": 0,
+      "data_pool": "grayscott-optlrc-data",
+      "block_name_prefix": "rbd_data.13.cf66c73f2bd45",
+      "format": 2,
+      "features": [
+        "layering",
+        "exclusive-lock",
+        "data-pool"
+      ],
+      "op_features": [],
+      "flags": [],
+      "create_timestamp": "Wed Oct 21 22:46:42 2026",
+      "access_timestamp": "Wed Oct 21 22:46:42 2026",
+      "modify_timestamp": "Wed Oct 21 22:46:42 2026",
+      "parent": {
+        "pool": "grayscott-optlrc-meta",
+        "pool_namespace": "",
+        "image": "dataset-900g",
+        "id": "cf63ce986dd43",
+        "snapshot": "analysis-input",
+        "trash": false,
+        "overlap": 1234803097600
+      }
+    },
+    "interface": "enp6s0f1         UP             10.10.1.14/24 fe80::3efd:feff:fe05:4982/64",
+    "input_steps": {
+      "U": 3600,
+      "V": 3600
+    },
+    "pool": {
+      "pool": "grayscott-optlrc-data",
+      "pool_id": 12,
+      "size": 10,
+      "min_size": 9,
+      "pg_num": 64,
+      "pgp_num": 64,
+      "crush_rule": "grayscott-optlrc-data",
+      "hashpspool": true,
+      "allow_ec_overwrites": true,
+      "nodelete": false,
+      "nopgchange": false,
+      "nosizechange": false,
+      "write_fadvise_dontneed": false,
+      "noscrub": false,
+      "nodeep-scrub": false,
+      "use_gmt_hitset": true,
+      "erasure_code_profile": "optlrc-10-6-4-osd",
+      "fast_read": 0,
+      "pg_autoscale_mode": "off",
+      "eio": false,
+      "bulk": false
+    },
+    "pool_detail": {
+      "pool_id": 12,
+      "pool_name": "grayscott-optlrc-data",
+      "create_time": "2026-10-21T16:21:35.664263-0600",
+      "flags": 8197,
+      "flags_names": "hashpspool,ec_overwrites,selfmanaged_snaps",
+      "type": 3,
+      "size": 10,
+      "min_size": 9,
+      "crush_rule": 7,
+      "peering_crush_bucket_count": 0,
+      "peering_crush_bucket_target": 0,
+      "peering_crush_bucket_barrier": 0,
+      "peering_crush_bucket_mandatory_member": 2147483647,
+      "is_stretch_pool": false,
+      "object_hash": 2,
+      "pg_autoscale_mode": "off",
+      "pg_num": 64,
+      "pg_placement_num": 64,
+      "pg_placement_num_target": 64,
+      "pg_num_target": 64,
+      "pg_num_pending": 64,
+      "last_pg_merge_meta": {
+        "source_pgid": "0.0",
+        "ready_epoch": 0,
+        "last_epoch_started": 0,
+        "last_epoch_clean": 0,
+        "source_version": "0'0",
+        "target_version": "0'0"
+      },
+      "last_change": "2672",
+      "last_force_op_resend": "0",
+      "last_force_op_resend_prenautilus": "0",
+      "last_force_op_resend_preluminous": "0",
+      "auid": 0,
+      "snap_mode": "selfmanaged",
+      "snap_seq": 4,
+      "snap_epoch": 2672,
+      "pool_snaps": [],
+      "removed_snaps": "[]",
+      "quota_max_bytes": 0,
+      "quota_max_objects": 0,
+      "tiers": [],
+      "tier_of": -1,
+      "read_tier": -1,
+      "write_tier": -1,
+      "cache_mode": "none",
+      "target_max_bytes": 0,
+      "target_max_objects": 0,
+      "cache_target_dirty_ratio_micro": 400000,
+      "cache_target_dirty_high_ratio_micro": 600000,
+      "cache_target_full_ratio_micro": 800000,
+      "cache_min_flush_age": 0,
+      "cache_min_evict_age": 0,
+      "erasure_code_profile": "optlrc-10-6-4-osd",
+      "hit_set_params": {
+        "type": "none"
+      },
+      "hit_set_period": 0,
+      "hit_set_count": 0,
+      "use_gmt_hitset": true,
+      "min_read_recency_for_promote": 0,
+      "min_write_recency_for_promote": 0,
+      "hit_set_grade_decay_rate": 0,
+      "hit_set_search_last_n": 0,
+      "grade_table": [],
+      "stripe_width": 73728,
+      "expected_num_objects": 0,
+      "fast_read": false,
+      "options": {},
+      "application_metadata": {
+        "rbd": {}
+      }
+    },
+    "protection": "ec",
+    "failure_domain": "osd",
+    "ec_profile": {
+      "crush-device-class": "",
+      "crush-failure-domain": "osd",
+      "crush-root": "default",
+      "k": "6",
+      "m": "4",
+      "mapping": "DDDD_DD___",
+      "n": "10",
+      "plugin": "optlrc",
+      "r": "4",
+      "ruleset-root": "default",
+      "stripe_unit": "12288"
+    },
+    "crush_rules": [
+      {
+        "rule_id": 0,
+        "rule_name": "replicated_rule",
+        "type": 1,
+        "steps": [
+          {
+            "op": "take",
+            "item": -1,
+            "item_name": "default"
+          },
+          {
+            "op": "chooseleaf_firstn",
+            "num": 0,
+            "type": "host"
+          },
+          {
+            "op": "emit"
+          }
+        ]
+      },
+      {
+        "rule_id": 1,
+        "rule_name": "grayscott",
+        "type": 3,
+        "steps": [
+          {
+            "op": "set_chooseleaf_tries",
+            "num": 5
+          },
+          {
+            "op": "set_choose_tries",
+            "num": 100
+          },
+          {
+            "op": "take",
+            "item": -1,
+            "item_name": "default"
+          },
+          {
+            "op": "choose_indep",
+            "num": 0,
+            "type": "osd"
+          },
+          {
+            "op": "emit"
+          }
+        ]
+      },
+      {
+        "rule_id": 2,
+        "rule_name": "grayscott-900g",
+        "type": 3,
+        "steps": [
+          {
+            "op": "set_chooseleaf_tries",
+            "num": 5
+          },
+          {
+            "op": "set_choose_tries",
+            "num": 100
+          },
+          {
+            "op": "take",
+            "item": -1,
+            "item_name": "default"
+          },
+          {
+            "op": "choose_indep",
+            "num": 0,
+            "type": "osd"
+          },
+          {
+            "op": "emit"
+          }
+        ]
+      },
+      {
+        "rule_id": 3,
+        "rule_name": "grayscott-rep3-osd",
+        "type": 1,
+        "steps": [
+          {
+            "op": "take",
+            "item": -1,
+            "item_name": "default"
+          },
+          {
+            "op": "choose_firstn",
+            "num": 0,
+            "type": "osd"
+          },
+          {
+            "op": "emit"
+          }
+        ]
+      },
+      {
+        "rule_id": 4,
+        "rule_name": "grayscott-lrc-data",
+        "type": 3,
+        "steps": [
+          {
+            "op": "set_chooseleaf_tries",
+            "num": 5
+          },
+          {
+            "op": "set_choose_tries",
+            "num": 100
+          },
+          {
+            "op": "take",
+            "item": -1,
+            "item_name": "default"
+          },
+          {
+            "op": "chooseleaf_indep",
+            "num": 0,
+            "type": "osd"
+          },
+          {
+            "op": "emit"
+          }
+        ]
+      },
+      {
+        "rule_id": 5,
+        "rule_name": "grayscott-clay-data",
+        "type": 3,
+        "steps": [
+          {
+            "op": "set_chooseleaf_tries",
+            "num": 5
+          },
+          {
+            "op": "set_choose_tries",
+            "num": 100
+          },
+          {
+            "op": "take",
+            "item": -1,
+            "item_name": "default"
+          },
+          {
+            "op": "choose_indep",
+            "num": 0,
+            "type": "osd"
+          },
+          {
+            "op": "emit"
+          }
+        ]
+      },
+      {
+        "rule_id": 6,
+        "rule_name": "grayscott-clay-aligned",
+        "type": 3,
+        "steps": [
+          {
+            "op": "set_chooseleaf_tries",
+            "num": 5
+          },
+          {
+            "op": "set_choose_tries",
+            "num": 100
+          },
+          {
+            "op": "take",
+            "item": -1,
+            "item_name": "default"
+          },
+          {
+            "op": "choose_indep",
+            "num": 0,
+            "type": "osd"
+          },
+          {
+            "op": "emit"
+          }
+        ]
+      },
+      {
+        "rule_id": 7,
+        "rule_name": "grayscott-optlrc-data",
+        "type": 3,
+        "steps": [
+          {
+            "op": "set_chooseleaf_tries",
+            "num": 5
+          },
+          {
+            "op": "set_choose_tries",
+            "num": 100
+          },
+          {
+            "op": "take",
+            "item": -1,
+            "item_name": "default"
+          },
+          {
+            "op": "choose_indep",
+            "num": 0,
+            "type": "osd"
+          },
+          {
+            "op": "emit"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "script_sha256": "03c8f2f3c35492f4e8fead380bdc61adecdf9fc7c649cd20182282a791748870",
+    "helper_sha256": "81e87533ccb7210b55eae9b05461b763b30a8a897cafbd93ca272c7c741e167b",
+    "binary_sha256": "fb8b5bab8124d2a6a2bf887fdb64d7943997695be5a7efac84319e6b515214f6",
+    "mpi_version": "mpirun (Open MPI) 4.1.2\n\nReport bugs to http://www.open-mpi.org/community/help/\n",
+    "adios2_version": "2.10.2\n",
+    "xml_sha256": "bd70c00b2546a3530231e43d693699b3389826b22082f8fd769b02b25563e422",
+    "cpu_affinity": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "cpu_count_physical": 16,
+    "cpu_count_logical": 32,
+    "hostname": "node13",
+    "cache_policy": "natural",
+    "cache_note": "No automatic cache dropping or warming; warm label requires an explicit prior full pass."
+  },
+  "worker_sha256": "c594817493ae1b193ad7927f54903c514a45d6f3739ebe6f76faad176269a8be",
+  "cache_policy": "natural across repeated passes; no cache dropping",
+  "passes": [
+    {
+      "pass_index": 1,
+      "output": "/mnt/grayscott-optlrc/analysis/optlrc-paper-comparison-nofault-t2-node13-pass-001.bp",
+      "start_utc": "2026-10-22T16:07:44.062433+00:00",
+      "end_utc": "2026-10-22T16:56:48.584856+00:00",
+      "duration_s": 2944.5224690809846,
+      "exit_code": 0,
+      "output_steps": {
+        "U/pdf": 3600,
+        "V/pdf": 3600
+      },
+      "logical_input_bytes": 966367641600,
+      "logical_output_bytes": 1480334400,
+      "logical_mib_s": 312.98793256878787,
+      "throughput_csv": "/users/vlad777/ADIOS2-Examples/results/optlrc-paper-comparison-nofault-t2/pass-001-throughput.csv",
+      "final_step_sample": "  double   U/pdf   3600*{256, 100}\n    slice (3599:3599, 0:0, 0:0)\n    (3599,0,0)    0 \n\n  double   V/pdf   3600*{256, 100}\n    slice (3599:3599, 0:0, 0:0)\n    (3599,0,0)    21185 \n\n"
+    },
+    {
+      "pass_index": 2,
+      "output": "/mnt/grayscott-optlrc/analysis/optlrc-paper-comparison-nofault-t2-node13-pass-002.bp",
+      "start_utc": "2026-10-22T16:56:49.195449+00:00",
+      "end_utc": "2026-10-22T17:45:33.285831+00:00",
+      "duration_s": 2924.09084994602,
+      "exit_code": 0,
+      "output_steps": {
+        "U/pdf": 3600,
+        "V/pdf": 3600
+      },
+      "logical_input_bytes": 966367641600,
+      "logical_output_bytes": 1480334400,
+      "logical_mib_s": 315.17488590240384,
+      "throughput_csv": "/users/vlad777/ADIOS2-Examples/results/optlrc-paper-comparison-nofault-t2/pass-002-throughput.csv",
+      "final_step_sample": "  double   U/pdf   3600*{256, 100}\n    slice (3599:3599, 0:0, 0:0)\n    (3599,0,0)    0 \n\n  double   V/pdf   3600*{256, 100}\n    slice (3599:3599, 0:0, 0:0)\n    (3599,0,0)    21185 \n\n"
+    },
+    {
+      "pass_index": 3,
+      "output": "/mnt/grayscott-optlrc/analysis/optlrc-paper-comparison-nofault-t2-node13-pass-003.bp",
+      "start_utc": "2026-10-22T17:45:34.120843+00:00",
+      "end_utc": "2026-10-22T18:34:07.896720+00:00",
+      "duration_s": 2913.775906901108,
+      "exit_code": 0,
+      "output_steps": {
+        "U/pdf": 3600,
+        "V/pdf": 3600
+      },
+      "logical_input_bytes": 966367641600,
+      "logical_output_bytes": 1480334400,
+      "logical_mib_s": 316.2906240720998,
+      "throughput_csv": "/users/vlad777/ADIOS2-Examples/results/optlrc-paper-comparison-nofault-t2/pass-003-throughput.csv",
+      "final_step_sample": "  double   U/pdf   3600*{256, 100}\n    slice (3599:3599, 0:0, 0:0)\n    (3599,0,0)    0 \n\n  double   V/pdf   3600*{256, 100}\n    slice (3599:3599, 0:0, 0:0)\n    (3599,0,0)    21185 \n\n"
+    }
+  ],
+  "stop_policy": "exactly requested full passes, with validation between passes",
+  "output_dir": "/users/vlad777/ADIOS2-Examples/results/optlrc-paper-comparison-nofault-t2",
+  "pool_label": "OptLRC(n=10,k=6,r=4), min_size=9, OSD failure domain",
+  "t_analysis_start": "2026-10-22T16:07:44.059639+00:00",
+  "t_analysis_end": "2026-10-22T18:34:08.492112+00:00",
+  "duration_analysis_s": 8784.43250379595,
+  "logical_input_bytes": 2899102924800,
+  "logical_throughput_mib_s": 314.73860136158686,
+  "stop_control": {
+    "phase": "analysis"
+  },
+  "exit_code": 0
+}

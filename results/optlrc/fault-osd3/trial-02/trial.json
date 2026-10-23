@@ -1,0 +1,15 @@
+{
+  "profile": "optlrc",
+  "condition": "fault-osd3",
+  "source_trial": 2,
+  "included": false,
+  "exclusion_reason": "Archive relocation shared the experimental network during pass 3; replaced by trial-04.",
+  "clients": 2,
+  "passes_per_client": 3,
+  "mean_client_mib_s": 293.3741930959718,
+  "aggregate_mib_s": 586.7395484259416,
+  "mean_client_duration_min": 157.0690302321998,
+  "repair_min": 68.20531013333333,
+  "down_to_clean_min": 78.36162875,
+  "folder": "results/optlrc/fault-osd3/trial-02"
+}

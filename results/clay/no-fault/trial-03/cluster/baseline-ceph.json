@@ -1,0 +1,105 @@
+{
+  "fsid": "2d669458-8507-46c7-b65a-03137fa1161b",
+  "health": {
+    "status": "HEALTH_WARN",
+    "checks": {
+      "MANY_OBJECTS_PER_PG": {
+        "severity": "HEALTH_WARN",
+        "summary": {
+          "message": "1 pools have many more objects per pg than average",
+          "count": 1
+        },
+        "muted": false
+      }
+    },
+    "mutes": []
+  },
+  "election_epoch": 8,
+  "quorum": [
+    0,
+    1,
+    2
+  ],
+  "quorum_names": [
+    "node0",
+    "node1",
+    "node2"
+  ],
+  "quorum_age": 1031500,
+  "monmap": {
+    "epoch": 1,
+    "min_mon_release_name": "reef",
+    "num_mons": 3
+  },
+  "osdmap": {
+    "epoch": 1851,
+    "num_osds": 24,
+    "num_up_osds": 24,
+    "osd_up_since": 1792256134,
+    "num_in_osds": 24,
+    "osd_in_since": 1792256125,
+    "num_remapped_pgs": 0
+  },
+  "pgmap": {
+    "pgs_by_state": [
+      {
+        "state_name": "active+clean",
+        "count": 704
+      }
+    ],
+    "num_pgs": 704,
+    "num_pools": 11,
+    "num_objects": 30123,
+    "data_bytes": 985225416928,
+    "bytes_used": 1514427305984,
+    "bytes_avail": 22490446901248,
+    "bytes_total": 24004874207232,
+    "read_bytes_sec": 192934803,
+    "write_bytes_sec": 1364183,
+    "read_op_per_sec": 96,
+    "write_op_per_sec": 1
+  },
+  "fsmap": {
+    "epoch": 2,
+    "by_rank": [],
+    "up:standby": 1
+  },
+  "mgrmap": {
+    "available": true,
+    "num_standbys": 0,
+    "modules": [
+      "iostat",
+      "nfs",
+      "restful"
+    ],
+    "services": {}
+  },
+  "servicemap": {
+    "epoch": 7993,
+    "modified": "2026-10-18T16:39:05.103945-0600",
+    "services": {
+      "mon": {
+        "daemons": {
+          "summary": "",
+          "node0": {
+            "start_epoch": 0,
+            "start_stamp": "0.000000",
+            "gid": 0,
+            "addr": "(unrecognized address family 0)/0",
+            "metadata": {},
+            "task_status": {}
+          },
+          "node2": {
+            "start_epoch": 0,
+            "start_stamp": "0.000000",
+            "gid": 0,
+            "addr": "(unrecognized address family 0)/0",
+            "metadata": {},
+            "task_status": {}
+          }
+        }
+      }
+    }
+  },
+  "progress_events": {}
+}

@@ -1,0 +1,15 @@
+{
+  "profile": "optlrc",
+  "condition": "no-fault",
+  "source_trial": 2,
+  "included": true,
+  "exclusion_reason": "",
+  "clients": 2,
+  "passes_per_client": 3,
+  "mean_client_mib_s": 314.73591620307207,
+  "aggregate_mib_s": 629.4664651177012,
+  "mean_client_duration_min": 146.40845747525844,
+  "repair_min": "",
+  "down_to_clean_min": "",
+  "folder": "results/optlrc/no-fault/trial-02"
+}

@@ -1,0 +1,15 @@
+{
+  "profile": "clay",
+  "condition": "no-fault",
+  "source_trial": 3,
+  "included": true,
+  "exclusion_reason": "",
+  "clients": 2,
+  "passes_per_client": 3,
+  "mean_client_mib_s": 302.2112892622308,
+  "aggregate_mib_s": 604.4172050872463,
+  "mean_client_duration_min": 152.47610409621655,
+  "repair_min": "",
+  "down_to_clean_min": "",
+  "folder": "results/clay/no-fault/trial-03"
+}

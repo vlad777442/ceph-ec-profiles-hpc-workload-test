@@ -1,0 +1,35 @@
+{
+  "complete": true,
+  "error": null,
+  "repair": {
+    "events": {
+      "down": "2026-10-12T19:56:15.668960+00:00",
+      "marked_out": "2026-10-12T20:06:19.208065+00:00",
+      "degraded": "2026-10-12T19:56:21.621922+00:00",
+      "recovering": "2026-10-12T20:06:25.096481+00:00",
+      "healthy": "2026-10-12T21:24:16.765651+00:00"
+    },
+    "complete": true,
+    "poll_interval_s": 5
+  },
+  "workloads": [
+    {
+      "host": "node12",
+      "passes": 3,
+      "duration_s": 9152.09604337404,
+      "logical_input_bytes": 2899102924800,
+      "logical_mib_s": 302.0947318403272,
+      "repair_within_workload": true,
+      "post_repair_s": 3584.228011
+    },
+    {
+      "host": "node13",
+      "passes": 3,
+      "duration_s": 9152.04821801401,
+      "logical_input_bytes": 2899102924800,
+      "logical_mib_s": 302.09631048031787,
+      "repair_within_workload": true,
+      "post_repair_s": 3584.228244
+    }
+  ]
+}
