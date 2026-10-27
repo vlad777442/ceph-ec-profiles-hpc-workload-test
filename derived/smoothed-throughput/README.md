@@ -1,0 +1,36 @@
+# Smoothed throughput plots
+
+Fixed, nonoverlapping 30-second bins anchored at the first client analysis start. Rates are time-weighted RBD read MiB/s. Each client bin must fit within one pass with a six-second guard at each boundary and full valid counter coverage (maximum interval six seconds). Aggregate curves sum contemporaneous eligible client bins; missing values remain gaps. Gray curves show original samples. Blue shading is before failure (or the entire no-fault run), red is OSD-down grace, orange is remapping when nonzero, yellow is active recovery, and green is repair complete with the target OSD still down. Dashed lines mark events; dotted lines mark pass starts on client panels. Smoothing can straddle recovery events; event lines show the original timestamps. Original figures and numerical maximum-drop analysis are unchanged.
+
+Each folder contains PNG, SVG, per-client binned CSV, and source hashes. Only included trials are plotted; OptLRC fault trial 02 remains excluded. Reproduce: `python3 analysis/plot_smoothing_preview.py --all`.
+
+- [clay / fault-osd3 / trial-01](clay/fault-osd3/trial-01/throughput-30s.png)
+- [clay / fault-osd3 / trial-02](clay/fault-osd3/trial-02/throughput-30s.png)
+- [clay / fault-osd3 / trial-03](clay/fault-osd3/trial-03/throughput-30s.png)
+- [clay / no-fault / trial-01](clay/no-fault/trial-01/throughput-30s.png)
+- [clay / no-fault / trial-02](clay/no-fault/trial-02/throughput-30s.png)
+- [clay / no-fault / trial-03](clay/no-fault/trial-03/throughput-30s.png)
+- [lrc / fault-osd3 / trial-01](lrc/fault-osd3/trial-01/throughput-30s.png)
+- [lrc / fault-osd3 / trial-02](lrc/fault-osd3/trial-02/throughput-30s.png)
+- [lrc / fault-osd3 / trial-03](lrc/fault-osd3/trial-03/throughput-30s.png)
+- [lrc / no-fault / trial-01](lrc/no-fault/trial-01/throughput-30s.png)
+- [lrc / no-fault / trial-02](lrc/no-fault/trial-02/throughput-30s.png)
+- [lrc / no-fault / trial-03](lrc/no-fault/trial-03/throughput-30s.png)
+- [optlrc / fault-osd3 / trial-01](optlrc/fault-osd3/trial-01/throughput-30s.png)
+- [optlrc / fault-osd3 / trial-03](optlrc/fault-osd3/trial-03/throughput-30s.png)
+- [optlrc / fault-osd3 / trial-04](optlrc/fault-osd3/trial-04/throughput-30s.png)
+- [optlrc / no-fault / trial-01](optlrc/no-fault/trial-01/throughput-30s.png)
+- [optlrc / no-fault / trial-02](optlrc/no-fault/trial-02/throughput-30s.png)
+- [optlrc / no-fault / trial-03](optlrc/no-fault/trial-03/throughput-30s.png)
+- [reed-solomon / fault-osd3 / trial-01](reed-solomon/fault-osd3/trial-01/throughput-30s.png)
+- [reed-solomon / fault-osd3 / trial-02](reed-solomon/fault-osd3/trial-02/throughput-30s.png)
+- [reed-solomon / fault-osd3 / trial-03](reed-solomon/fault-osd3/trial-03/throughput-30s.png)
+- [reed-solomon / no-fault / trial-01](reed-solomon/no-fault/trial-01/throughput-30s.png)
+- [reed-solomon / no-fault / trial-02](reed-solomon/no-fault/trial-02/throughput-30s.png)
+- [reed-solomon / no-fault / trial-03](reed-solomon/no-fault/trial-03/throughput-30s.png)
+- [replicated-3 / fault-osd3 / trial-01](replicated-3/fault-osd3/trial-01/throughput-30s.png)
+- [replicated-3 / fault-osd3 / trial-02](replicated-3/fault-osd3/trial-02/throughput-30s.png)
+- [replicated-3 / fault-osd3 / trial-03](replicated-3/fault-osd3/trial-03/throughput-30s.png)
+- [replicated-3 / no-fault / trial-01](replicated-3/no-fault/trial-01/throughput-30s.png)
+- [replicated-3 / no-fault / trial-02](replicated-3/no-fault/trial-02/throughput-30s.png)
+- [replicated-3 / no-fault / trial-03](replicated-3/no-fault/trial-03/throughput-30s.png)

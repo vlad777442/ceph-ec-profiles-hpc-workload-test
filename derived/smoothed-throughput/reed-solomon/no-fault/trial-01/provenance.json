@@ -1,0 +1,16 @@
+{
+  "source_trial": "results/reed-solomon/no-fault/trial-01",
+  "bin_seconds": 30,
+  "boundary_guard_seconds": 6,
+  "max_counter_gap_seconds": 6,
+  "valid_combined_bins": 277,
+  "total_bins": 281,
+  "source_sha256": {
+    "results/reed-solomon/no-fault/trial-01/trial.json": "8d19306b0fabac68abd148c243f36401b621a8d9f28e842226f030a358e915c2",
+    "results/reed-solomon/no-fault/trial-01/node12/results.json": "fc65b1a2e0ebf19271350edf928df2147715327c99717bef91536be82b55dc48",
+    "results/reed-solomon/no-fault/trial-01/node12/performance.csv.gz": "e50281966957b0171a195e3caac35dd3786ec9795ba9b29cbcf5f9a5eee45fc4",
+    "results/reed-solomon/no-fault/trial-01/node13/results.json": "1cc97d14f4288f64b35cd66b4f97f187a03501fd4b283267ed7855c58a35b0ee",
+    "results/reed-solomon/no-fault/trial-01/node13/performance.csv.gz": "66a3d04b5739f8096deb007833bb1ee53ba30c3687fe43f2294d8ca6ce4ff7be"
+  },
+  "script_sha256": "7a413a649f1a5cac9da14ed88cc6dd8728ad0c04fefaa3d20438aceddd1e4a6f"
+}

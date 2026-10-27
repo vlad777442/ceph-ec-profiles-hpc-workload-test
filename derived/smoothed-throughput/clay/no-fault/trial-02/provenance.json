@@ -1,0 +1,16 @@
+{
+  "source_trial": "results/clay/no-fault/trial-02",
+  "bin_seconds": 30,
+  "boundary_guard_seconds": 6,
+  "max_counter_gap_seconds": 6,
+  "valid_combined_bins": 302,
+  "total_bins": 306,
+  "source_sha256": {
+    "results/clay/no-fault/trial-02/trial.json": "d05b3a4ea759eb50c842323fa455d1cf7aa2df9110a7021446cb94fd303baa35",
+    "results/clay/no-fault/trial-02/node12/results.json": "abee4d17823e63e20448f140e9941c86a9050bdc311ed1519675e8ec67b76b27",
+    "results/clay/no-fault/trial-02/node12/performance.csv.gz": "c0715c9edb6116a33fb1553a6cbce3ebe49155ea81b9e5e60592dc3ed7f33b4f",
+    "results/clay/no-fault/trial-02/node13/results.json": "dfeb55d3f60180ab948110f8cbc2d098d1bb21eaf75582a9ca093f36730067d1",
+    "results/clay/no-fault/trial-02/node13/performance.csv.gz": "e2b26c9302714ae0c6a08da472341e73e5a006f3fa759d6fc092ee5cfe6e5463"
+  },
+  "script_sha256": "7a413a649f1a5cac9da14ed88cc6dd8728ad0c04fefaa3d20438aceddd1e4a6f"
+}

@@ -1,0 +1,16 @@
+{
+  "source_trial": "results/clay/fault-osd3/trial-03",
+  "bin_seconds": 30,
+  "boundary_guard_seconds": 6,
+  "max_counter_gap_seconds": 6,
+  "valid_combined_bins": 338,
+  "total_bins": 341,
+  "source_sha256": {
+    "results/clay/fault-osd3/trial-03/trial.json": "02af12e6ffee0d1660964f175f047729bcb4bc8483ef8e2c85d2ae4ecab4208b",
+    "results/clay/fault-osd3/trial-03/node12/results.json": "1bcd232bae8ce1b7d8a83d9d7bf0b566aaa2595911547a874bdda094d92356af",
+    "results/clay/fault-osd3/trial-03/node12/performance.csv.gz": "1ac5f957c08543502dcf183a213b8bd764412899facadbcf24681f73535a240d",
+    "results/clay/fault-osd3/trial-03/node13/results.json": "d29ee37737bcaf054a49f857896c02ab360b8e3bd26b76b22f0783ba4f2f8c45",
+    "results/clay/fault-osd3/trial-03/node13/performance.csv.gz": "176f2acf147967b536183cb258d9a49630c10bb7ada8405ac0da1eb276efe9fd"
+  },
+  "script_sha256": "7a413a649f1a5cac9da14ed88cc6dd8728ad0c04fefaa3d20438aceddd1e4a6f"
+}

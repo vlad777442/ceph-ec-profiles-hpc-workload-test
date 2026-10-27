@@ -1,0 +1,16 @@
+{
+  "source_trial": "results/optlrc/no-fault/trial-01",
+  "bin_seconds": 30,
+  "boundary_guard_seconds": 6,
+  "max_counter_gap_seconds": 6,
+  "valid_combined_bins": 290,
+  "total_bins": 293,
+  "source_sha256": {
+    "results/optlrc/no-fault/trial-01/trial.json": "df7bc8c127113cbfa399ff50facb4cc035e909d370d6d55b14a5cb1a465f3baa",
+    "results/optlrc/no-fault/trial-01/node12/results.json": "0a2ad501c33169d6f667b4652b8cc99d2d2309e633d2a850f546dc01e4d6f85d",
+    "results/optlrc/no-fault/trial-01/node12/performance.csv.gz": "995137f04414512699b4091bc71815067fb5a7b4a3bbf3c795369b8b49126633",
+    "results/optlrc/no-fault/trial-01/node13/results.json": "73dff2787a554a094628697f94d6b9b6d0a9c34b98ebf8a529f5baef3b81f472",
+    "results/optlrc/no-fault/trial-01/node13/performance.csv.gz": "4d82a6e39ec43ee000ae8917bf08c5667e71767333cd48c0983f8ced209cd2bc"
+  },
+  "script_sha256": "7a413a649f1a5cac9da14ed88cc6dd8728ad0c04fefaa3d20438aceddd1e4a6f"
+}
