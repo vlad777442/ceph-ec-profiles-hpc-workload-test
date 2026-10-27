@@ -39,6 +39,27 @@ See throughput-context.csv for exact UTC windows and phases, and worst-window-th
 
 ![Whole-job and worst-window absolute throughput](throughput-context.png)
 
+### Each client at the same worst aggregate window
+
+All rates below are **per-client RBD read MiB/s**, using the exact same 30-second window for node12 and node13 within each profile. They are not each client’s independently selected maximum.
+
+| Configuration | Client | Reference RBD | Fault RBD | Client decrease |
+|---|---|---:|---:|---:|
+| reed-solomon | node12 | 332.9 | 244.1 | 26.7% |
+| reed-solomon | node13 | 332.5 | 244.6 | 26.4% |
+| replicated-3 | node12 | 209.1 | 162.5 | 22.3% |
+| replicated-3 | node13 | 209.2 | 160.9 | 23.1% |
+| lrc | node12 | 307.0 | 218.5 | 28.8% |
+| lrc | node13 | 307.1 | 219.6 | 28.5% |
+| clay | node12 | 301.8 | 177.8 | 41.1% |
+| clay | node13 | 301.9 | 175.0 | 42.0% |
+| optlrc | node12 | 314.0 | 215.3 | 31.4% |
+| optlrc | node13 | 314.0 | 217.2 | 30.8% |
+
+Per-client rates and absolute decreases sum to the aggregate rates/decrease; the client percentages do not add. The aggregate percentage is reference-rate-weighted. The clients are dependent observations, not two experimental repetitions. Full per-client values at all 15 trial aggregate maxima are in worst-aggregate-window-by-client.csv.
+
+![Per-client rates at the same worst aggregate windows](worst-window-per-client.png)
+
 <!-- absolute-throughput-context:end -->
 
 ## Rules fixed before calculating maxima

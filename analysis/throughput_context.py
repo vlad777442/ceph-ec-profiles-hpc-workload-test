@@ -21,11 +21,17 @@ def add_context(out=OUT,plot=False):
  with (out/'worst-window-throughput-by-trial.csv').open('w',newline='') as f:
   fields=['profile','source_trial','start_utc','end_utc','phase','fault_aggregate_mib_s','reference_aggregate_mib_s','decrease_mib_s','decrease_pct']
   w=csv.DictWriter(f,fieldnames=fields,lineterminator='\n');w.writeheader();w.writerows({k:r[k] for k in fields} for r in peaks)
+ from client_window_breakdown import build_breakdown
+ client_rows=build_breakdown(out,plot=plot)
  lines=[START,'## Absolute throughput context','','Whole-job rates below are **logical application MiB/s per client**, averaged over the three selected trial means. These include compute, output and normal pass transitions.','','| Configuration | No-fault whole job | Fault whole job |','|---|---:|---:|']
  for r in rows:lines.append(f"| {r['profile']} | {r['whole_job_no_fault_logical_mib_s_per_client']:.1f} | {r['whole_job_fault_logical_mib_s_per_client']:.1f} |")
  lines+=['','The following rates are **aggregate RBD read MiB/s across both clients**, measured/estimated at each profile\'s worst valid 30-second **percentage-decrease** window. Each row is one window from the indicated trial, not an average of the three maxima. Reference throughput is the progress-conditioned no-fault estimate.','','| Configuration | Source trial | Reference aggregate RBD | Fault aggregate RBD | Absolute decrease | Percentage decrease |','|---|---:|---:|---:|---:|---:|']
  for r in rows:lines.append(f"| {r['profile']} | {r['worst_30s_source_trial']:02d} | {r['matched_reference_aggregate_rbd_mib_s']:.1f} | {r['fault_aggregate_rbd_mib_s']:.1f} | {r['decrease_aggregate_rbd_mib_s']:.1f} | {r['decrease_pct']:.1f}% |")
  lines+=['','These two tables use different measurement scopes and client aggregation; do not compare their rates directly or divide aggregate RBD rates by two to claim measured per-client job throughput. The maximum absolute decrease can occur in a different window; it remains separately recorded in trial-maxima.csv.','','See throughput-context.csv for exact UTC windows and phases, and worst-window-throughput-by-trial.csv for all 15 trial-level maxima.','','![Whole-job and worst-window absolute throughput](throughput-context.png)','',END]
+ lines=lines[:-1]+['### Each client at the same worst aggregate window','','All rates below are **per-client RBD read MiB/s**, using the exact same 30-second window for node12 and node13 within each profile. They are not each client’s independently selected maximum.','','| Configuration | Client | Reference RBD | Fault RBD | Client decrease |','|---|---|---:|---:|---:|']
+ for r in client_rows:
+  if r['profile_worst_aggregate_window']:lines.append(f"| {r['profile']} | {r['client']} | {r['reference_client_rbd_mib_s']:.1f} | {r['fault_client_rbd_mib_s']:.1f} | {r['decrease_client_pct']:.1f}% |")
+ lines+=['','Per-client rates and absolute decreases sum to the aggregate rates/decrease; the client percentages do not add. The aggregate percentage is reference-rate-weighted. The clients are dependent observations, not two experimental repetitions. Full per-client values at all 15 trial aggregate maxima are in worst-aggregate-window-by-client.csv.','','![Per-client rates at the same worst aggregate windows](worst-window-per-client.png)','',END]
  report=out/'README.md';text=report.read_text()
  if START in text:
   a=text.index(START);b=text.index(END,a)+len(END);text=text[:a]+'\n'.join(lines)+text[b:]

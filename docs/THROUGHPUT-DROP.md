@@ -40,3 +40,7 @@ These are decreases relative to an estimated no-fault reference, not a causal es
 ## Absolute throughput presentation
 
 `python3 analysis/throughput_context.py` regenerates a combined context CSV, all-trial worst-window rate CSV, two clearly separated tables, and a two-panel figure. Whole-job logical throughput is per client and averaged over three trial means; worst-window RBD throughput is aggregate across both clients at one selected window. Select the same maximum-percentage window for reference, fault rate, absolute decrease and percentage decrease. Do not substitute the separate maximum-absolute-decrease window. Full analysis also regenerates this context automatically.
+
+## Per-client decomposition
+
+`analysis/throughput_context.py` also regenerates `worst-aggregate-window-by-client.csv` and `worst-window-per-client.png`/`.svg`. Both clients are evaluated at each trial’s selected aggregate peak; per-profile report rows select the worst of those aggregate peaks. Per-client references are the mean of the same three trial medians used by the aggregate reference. Rates sum exactly; percentages are reference-rate-weighted, not additive. These values do not identify independent per-client maximum windows. Standalone regeneration: `python3 analysis/client_window_breakdown.py`.

@@ -1,0 +1,7 @@
+{
+  "selection": "Each trial uses its already selected maximum-percentage aggregate 30-second window; profile_worst_aggregate_window selects the largest of the three aggregate peaks per profile.",
+  "reference": "Per-client mean across 3 reference-trial local medians; identical progress matching and eligibility to aggregate analysis.",
+  "important": "Client decreases here are evaluated at the aggregate peak, not independent per-client maxima. Client percentages do not add; the aggregate percentage is reference-rate-weighted. The two clients are dependent observations in one trial.",
+  "script_sha256": "0a840c83ef170061289ebca50f597c368d180939ee3acda7f0985438440fc780",
+  "trial_maxima_sha256": "6d6c4448c998fb8889c0b1b41803b50f4ad94928547150a797f74c088eca8640"
+}

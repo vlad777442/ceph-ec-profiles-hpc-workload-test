@@ -8,6 +8,7 @@ def ts(s):return datetime.fromisoformat(s.replace('Z','+00:00')).timestamp()
 def close(a,b):assert math.isclose(float(a),float(b),rel_tol=1e-7,abs_tol=1e-5),(a,b)
 with (OUT/'trial-maxima.csv').open() as f:rows=list(csv.DictReader(f))
 primary=[r for r in rows if float(r['window_s'])==30 and r['scope']=='down_to_repair'];assert len(primary)==30
+raw_client_rates={}
 for r in primary:
  a=float(r['start_epoch']);b=float(r['end_epoch']);close(b-a,30);rates=[]
  for host in ['node12','node13']:
@@ -22,6 +23,7 @@ for r in primary:
    assert y-x<=6 and current['io_read_mb']!='';rate=float(current['io_read_mb']);assert rate>=0
    total+=rate*overlap;covered+=overlap
   close(covered,30);rates.append(total/30)
+  raw_client_rates[(r['profile'],r['source_trial'],r['start_epoch'],host)]=total/30
  close(sum(rates),r['fault_aggregate_mib_s']);reference=float(r['reference_aggregate_mib_s']);assert reference>0
  close(100*(1-sum(rates)/reference),r['decrease_pct']);close(reference-sum(rates),r['decrease_mib_s'])
 # Check extrema against the complete accepted candidate series, not just the report.
@@ -36,3 +38,20 @@ for r in primary:
   close(winner[column],max(float(x[column]) for x in candidates))
  checked.add(key)
 print('PASS: all 30 primary peak records independently match raw interval integrals, pass guards, event bounds, arithmetic and full-window extrema.')
+
+with (OUT/'worst-aggregate-window-by-client.csv').open() as f:client_rows=list(csv.DictReader(f))
+assert len(client_rows)==30
+assert sum(r['profile_worst_aggregate_window']=='True' for r in client_rows)==10
+for peak in [r for r in primary if r['metric']=='maximum_percentage']:
+ pair=[r for r in client_rows if (r['profile'],r['source_trial'])==(peak['profile'],peak['source_trial'])]
+ assert len(pair)==2 and {r['client'] for r in pair}=={'node12','node13'}
+ for r in pair:
+  close(r['start_epoch'],peak['start_epoch']);close(r['end_epoch'],peak['end_epoch'])
+  close(r['fault_client_rbd_mib_s'],raw_client_rates[(r['profile'],r['source_trial'],peak['start_epoch'],r['client'])])
+  ref=float(r['reference_client_rbd_mib_s']);fault=float(r['fault_client_rbd_mib_s'])
+  close(ref-fault,r['decrease_client_rbd_mib_s']);close(100*(1-fault/ref),r['decrease_client_pct'])
+ for client_key,aggregate_key in [('reference_client_rbd_mib_s','reference_aggregate_mib_s'),('fault_client_rbd_mib_s','fault_aggregate_mib_s'),('decrease_client_rbd_mib_s','decrease_mib_s')]:
+  close(sum(float(r[client_key]) for r in pair),peak[aggregate_key])
+ weighted=sum(float(r['reference_client_rbd_mib_s'])*float(r['decrease_client_pct']) for r in pair)/float(peak['reference_aggregate_mib_s'])
+ close(weighted,peak['decrease_pct'])
+print('PASS: all 30 client records match raw integrals and aggregate windows, sums and weighted percentages.')
