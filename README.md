@@ -58,6 +58,7 @@ python3 analysis/summarize.py --plot
 python3 analysis/plot_io.py --all
 python3 analysis/throughput_drop.py
 python3 analysis/plot_drop_summary.py
+python3 analysis/throughput_context.py
 python3 analysis/validate_drop_outputs.py
 python3 tools/validate_bundle.py
 ```

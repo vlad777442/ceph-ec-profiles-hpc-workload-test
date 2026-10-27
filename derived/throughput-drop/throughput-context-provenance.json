@@ -1,0 +1,9 @@
+{
+  "operation": "Presentation update using existing calculations; sustained-drop numeric windows not recomputed",
+  "source_git_commit": "e61ac358f9444a9d87fafa0aca86df6bab785616",
+  "input_sha256": {
+    "summaries/profile-comparison.csv": "528b40832c203f47170bef4e6ca6f39049f726889cb8fd59563c3fe21db6b954",
+    "derived/throughput-drop/trial-maxima.csv": "6d6c4448c998fb8889c0b1b41803b50f4ad94928547150a797f74c088eca8640",
+    "analysis/throughput_context.py": "980756feb88fe11bd75de30ac975f115f1d11559cecf9e7d3721acb229649bcd"
+  }
+}

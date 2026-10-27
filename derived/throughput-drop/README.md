@@ -10,6 +10,37 @@ Primary metric: maximum **30-second** time-weighted aggregate RBD read-throughpu
 | clay | 34.0% ± 6.8 pp | 41.6% | 1,2,3 |
 | optlrc | 30.2% ± 0.8 pp | 31.1% | 1,3,4 |
 
+<!-- absolute-throughput-context:start -->
+## Absolute throughput context
+
+Whole-job rates below are **logical application MiB/s per client**, averaged over the three selected trial means. These include compute, output and normal pass transitions.
+
+| Configuration | No-fault whole job | Fault whole job |
+|---|---:|---:|
+| reed-solomon | 329.3 | 301.5 |
+| replicated-3 | 202.6 | 199.7 |
+| lrc | 311.5 | 289.3 |
+| clay | 301.4 | 270.0 |
+| optlrc | 314.4 | 294.2 |
+
+The following rates are **aggregate RBD read MiB/s across both clients**, measured/estimated at each profile's worst valid 30-second **percentage-decrease** window. Each row is one window from the indicated trial, not an average of the three maxima. Reference throughput is the progress-conditioned no-fault estimate.
+
+| Configuration | Source trial | Reference aggregate RBD | Fault aggregate RBD | Absolute decrease | Percentage decrease |
+|---|---:|---:|---:|---:|---:|
+| reed-solomon | 02 | 665.4 | 488.8 | 176.6 | 26.5% |
+| replicated-3 | 03 | 418.3 | 323.5 | 94.9 | 22.7% |
+| lrc | 03 | 614.1 | 438.1 | 176.0 | 28.7% |
+| clay | 03 | 603.7 | 352.8 | 251.0 | 41.6% |
+| optlrc | 01 | 627.9 | 432.6 | 195.4 | 31.1% |
+
+These two tables use different measurement scopes and client aggregation; do not compare their rates directly or divide aggregate RBD rates by two to claim measured per-client job throughput. The maximum absolute decrease can occur in a different window; it remains separately recorded in trial-maxima.csv.
+
+See throughput-context.csv for exact UTC windows and phases, and worst-window-throughput-by-trial.csv for all 15 trial-level maxima.
+
+![Whole-job and worst-window absolute throughput](throughput-context.png)
+
+<!-- absolute-throughput-context:end -->
+
 ## Rules fixed before calculating maxima
 
 - Only selected trials; replication is primary-only; OptLRC faults 01/03/04.
