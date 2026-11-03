@@ -1,0 +1,44 @@
+{
+  "samples": [
+    {
+      "utc": "2026-11-02T11:45:23.899355+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 831
+        },
+        {
+          "state_name": "active+clean+scrubbing",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-11-02T11:55:00.727919+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 831
+        },
+        {
+          "state_name": "active+clean+scrubbing",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-11-02T12:03:33.185649+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 831
+        },
+        {
+          "state_name": "active+clean+scrubbing",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "note": "Normal active/clean scrubbing is allowed and recorded; account for it in paper analysis."
+}

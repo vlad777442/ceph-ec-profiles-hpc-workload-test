@@ -1,0 +1,32 @@
+{
+  "epoch": 1793590603.9913316,
+  "free_bytes": 201734578176,
+  "hashes": {
+    "build-grayscott/adios2-pdf-calc": "fb8b5bab8124d2a6a2bf887fdb64d7943997695be5a7efac84319e6b515214f6",
+    "scripts/run_optlrc_storage.py": "03c8f2f3c35492f4e8fead380bdc61adecdf9fc7c649cd20182282a791748870",
+    "adios2.xml": "bd70c00b2546a3530231e43d693699b3389826b22082f8fd769b02b25563e422"
+  },
+  "vm_min_free_kbytes": "524288",
+  "buddyinfo": "Node 0, zone      DMA      0      0      0      0      0      0      0      0      1      1      2 \nNode 0, zone    DMA32    721    677   2067   1013    457    111     62     20     17      9      0 \nNode 0, zone   Normal   4751   2760   5231   2419   1006    463    265    134     39     25     17 \nNode 1, zone   Normal   3417   3806   5425   3235   1537    488    171     23      2      0      0 \n",
+  "mount": {
+    "filesystems": [
+      {
+        "target": "/mnt/grayscott-optlrc",
+        "source": "/dev/rbd3",
+        "fstype": "ext4",
+        "options": "rw,relatime,stripe=16"
+      }
+    ]
+  },
+  "mappings": [
+    {
+      "id": "3",
+      "pool": "grayscott-optlrc-meta",
+      "namespace": "",
+      "name": "dataset-900g",
+      "snap": "-",
+      "device": "/dev/rbd3"
+    }
+  ],
+  "mpi": "mpirun (Open MPI) 4.1.2\n\nReport bugs to http://www.open-mpi.org/community/help/\n"
+}

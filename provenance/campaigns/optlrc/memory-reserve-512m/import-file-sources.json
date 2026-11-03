@@ -1,0 +1,1192 @@
+[
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-05/node12/results.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-05/node12/results.json",
+    "source_sha256": "5ca956e4259700055f712b8d1523b48374ba6f311ff0c0f766ead0cb705a68f3",
+    "packaged_sha256": "0a12329722e1a19b8d492472b365d40ef3f10da6679b671c2412789cb23d15b4",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-05/node12/performance.csv.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-05/node12/perf.csv",
+    "source_sha256": "00307ad9fd87b024e79c47431568052198a9df0de1b541981b2f5e5f69bea70d",
+    "packaged_sha256": "153ba2eeca080df7c0c20bb0400e3bde303b87ba0fc676eac244fbf8b2a787f2",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-05/node12/plot.png",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-05/node12/nofault_io.png",
+    "source_sha256": "f8e9184f666bc05547ac6852cd32e3f57358f6d6b89b6e73ec28b028f793ca77",
+    "packaged_sha256": "f8e9184f666bc05547ac6852cd32e3f57358f6d6b89b6e73ec28b028f793ca77",
+    "transform": "byte-preserving copy"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-05/node12/pass-01-throughput.csv.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-05/node12/pass-001-throughput.csv",
+    "source_sha256": "169385a021d51da63b1dda8d5821a2bf9a61acc633a3b1d5939f7512330efddf",
+    "packaged_sha256": "6b72e6549fe053a7aaa16de423e16b343ec9c353aa72e933292de560d0e5e8e5",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-05/node12/pass-01.log.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-05/node12/pass-001.log",
+    "source_sha256": "3a901d3d467d0fe3044a503598baa2c56732f2bb866476bfc0a7f49a58dde6be",
+    "packaged_sha256": "4c92bec5b8545009cab3ff8ecdb66d9c7205a7466ed6b681adfd637cd9a60456",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-05/node12/pass-02-throughput.csv.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-05/node12/pass-002-throughput.csv",
+    "source_sha256": "f0728464418155c400651ce27ccf90d632fc80efd3b99626153b6875e5855922",
+    "packaged_sha256": "175a10f072ff2f0e7deb332226ac813fff7a1f23c3452cb37fcbe0b1b34004ac",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-05/node12/pass-02.log.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-05/node12/pass-002.log",
+    "source_sha256": "90edc7e684a99fa9bd83e3bcd1918f462bd01dfe686fd8160f386f3c064f3c93",
+    "packaged_sha256": "f10386ee0cbf5b5d45bcf852cc13a80880647d712bbf41c8a0202d3e51d01c0c",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-05/node12/pass-03-throughput.csv.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-05/node12/pass-003-throughput.csv",
+    "source_sha256": "0dc4f356791ecef0395d4180b3ea8cd18da5530c792a0ccaa0614be629951442",
+    "packaged_sha256": "8b0cde29fedce19a20c43c4b577467c799258edf28eb33a65679fc03d645955a",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-05/node12/pass-03.log.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-05/node12/pass-003.log",
+    "source_sha256": "15cd71a61b19bcd450a11fd2bc0473dfd10ebf56e97d0e3433c99559f174d693",
+    "packaged_sha256": "39b32ab29751ad54dac44426c56d86f5c416eb69452299bccfc9738c078a07e7",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-05/node13/results.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-05/node13/results.json",
+    "source_sha256": "12beb819bf1e67ce7798dc49d7d7476c35d9070e0e532857bdb2546517e6730c",
+    "packaged_sha256": "2eb7f4d037ee208fa8d6e6b4821fe5f0a4123f6e04d34280243c4f34886d8278",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-05/node13/performance.csv.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-05/node13/perf.csv",
+    "source_sha256": "1b9aec42cbddf3cc7a2837ecb0e33edea1444388c594f3efcd8f3d2e2db2f3cb",
+    "packaged_sha256": "b4c74dd6e0e2f1e5b2b10a1adbb5a9768de2838f69051f67e77ab2356c074850",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-05/node13/plot.png",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-05/node13/nofault_io.png",
+    "source_sha256": "aafa107ca175f1fca4d71fc9b4a961a74ae40f241ab65dcebfa39a1302aea50b",
+    "packaged_sha256": "aafa107ca175f1fca4d71fc9b4a961a74ae40f241ab65dcebfa39a1302aea50b",
+    "transform": "byte-preserving copy"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-05/node13/pass-01-throughput.csv.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-05/node13/pass-001-throughput.csv",
+    "source_sha256": "e6c200fe4c4ed4984b9fbf867bfb5c25a8236954475cb828b3942e9b9a7ed047",
+    "packaged_sha256": "8bb966c8351007a9213e712c0a64f6de70f2f86271d3ac54c993b2afc3515a20",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-05/node13/pass-01.log.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-05/node13/pass-001.log",
+    "source_sha256": "c09d3847390566d13bdeb43cefd3356fde8140ae0423a4b3b9c1348c9589e9d3",
+    "packaged_sha256": "d9bb20cf07abd19405aa86750a3b84f08a456cb391dc42f0c169733f118945ac",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-05/node13/pass-02-throughput.csv.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-05/node13/pass-002-throughput.csv",
+    "source_sha256": "5934aa64e766754e1ecd9701938c582451322dfa33ff366521fc4afd84d5cfb9",
+    "packaged_sha256": "463f5db835f27a1f3121e80f2cb4cb383d4977d683fd29ade56e6b43afa6bd75",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-05/node13/pass-02.log.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-05/node13/pass-002.log",
+    "source_sha256": "b4e739a18d4edb80fe9b0fb6aa1f4abdb6649ee973c301b24cb5b52443fa291a",
+    "packaged_sha256": "e804b91d332d72c1059ae7e973a2fcb696d6a5d63695e0a387082b6bf7c843ae",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-05/node13/pass-03-throughput.csv.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-05/node13/pass-003-throughput.csv",
+    "source_sha256": "8aadc4c0fd32933cf3a4bd41849a012e68ecae2dc0ef826961b9eca789d9d846",
+    "packaged_sha256": "a1e918bfcf619da88337c80f6685c154994493bba4b012a913ba3663b77ed83f",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-05/node13/pass-03.log.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-05/node13/pass-003.log",
+    "source_sha256": "aa4f815a51bd6cf55b8d1e14211e84ec9beec2cc3e3f1aa2e78d36d5e9d4f0de",
+    "packaged_sha256": "3997eaedf91895f37d8237b6fa4c472822e6f2b77b47e9b46ac1c22ee0f529a1",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-05/cluster/scrubbing-observations.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-05/scrubbing-observations.json",
+    "source_sha256": "fffdb5402d043a2e1098aa079accebc36ae1c08c1fe998c0dad6995acb167849",
+    "packaged_sha256": "0f97949f7583aa9f9461911235990570bb475eb014a163138b14a111ddcac950",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-05/cluster/final-ceph.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-05/final-ceph.json",
+    "source_sha256": "869273be270de00a9ecbb452243a500b3ed01fe8a09f1615f303605c31d9c3c9",
+    "packaged_sha256": "a74e6331d61cf92822b121ea84826f856577d6a1f2ac1dfee6fd7ac4ba483a00",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-05/cluster/baseline-ceph.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-05/baseline-ceph.json",
+    "source_sha256": "d6648f7f35ccd5fe5fdfa503542bdc8d87a3f02e1d03051ff4de71506cd784df",
+    "packaged_sha256": "3295d069b357f858efc8faedd5d17d4a8af7f07d909d1bdc26168e10eb89291e",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-05/cluster/cluster-state.jsonl.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-05/cluster-state.jsonl",
+    "source_sha256": "67ba8ac7a7b2490ee4189257c248b8762c2829bb51c3e766314dbe98318f941d",
+    "packaged_sha256": "bc36013f3b92895030e1ab3a16c8d2f9ca545ae7d2e49afc802cf59656c2a23b",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-05/cluster/osd-perf.jsonl.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-05/osd-perf.jsonl",
+    "source_sha256": "89d711ca4b7a2fa430042ea76e463c9e3063822cd4acb7aab4b839259e9893ad",
+    "packaged_sha256": "7d8c0cbac5d129e8838b8fe551ae59dc6c4ba3c16c28ef8e9584c400e07168ff",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-05/cluster/summary.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-05/summary.json",
+    "source_sha256": "f880d19b110d8fbad56a38b6f64d7d8a444788f58687892aae5c8bce3c06ac5a",
+    "packaged_sha256": "b6f3269bcd66a1e6015b43d0651b914ec724ff08d8b42415847d59f34cae590d",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-05/cluster/osd-df-before.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-05/osd-df-before.json",
+    "source_sha256": "de518b9cf1897860107857be1ff1182e771ae59a36efef2092dd5e474b76ebb2",
+    "packaged_sha256": "95c4f294fe3378806b547c2e467cb7af4d34040ba4ca9ce20c8683efa5052b00",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-06/node12/results.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-06/node12/results.json",
+    "source_sha256": "9733a2b406895b6600b815d2077de210cc046aafd70ec437af121e1f64b33b35",
+    "packaged_sha256": "4f2ae80c72bca6db9958eb7138ff94fb396a742de631923782d3c803a63eb2c9",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-06/node12/performance.csv.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-06/node12/perf.csv",
+    "source_sha256": "cd366d3f163ff9221b824795d849ceb7cdc27e24f3204b7a5986cc13ff427e49",
+    "packaged_sha256": "e4d82f43aa4baf758ad0b64a467f28b8d0d63053c9411980f3372dfc42acba7e",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-06/node12/plot.png",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-06/node12/nofault_io.png",
+    "source_sha256": "63b3a83b011bf4bff3ea7841117652f11c27fde417094af359aff861ed3c7937",
+    "packaged_sha256": "63b3a83b011bf4bff3ea7841117652f11c27fde417094af359aff861ed3c7937",
+    "transform": "byte-preserving copy"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-06/node12/pass-01-throughput.csv.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-06/node12/pass-001-throughput.csv",
+    "source_sha256": "ce72c0a89bf518dfad2415f0837d3f4abdcea7ed51b8200a313a4f78cdd63aa9",
+    "packaged_sha256": "bb5bb4dc93f28a7ca43b320b7f38919d2efb3b847bb25822be5f824fd71f0caf",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-06/node12/pass-01.log.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-06/node12/pass-001.log",
+    "source_sha256": "5dcd1c079189b26eca4e088586f3bc3208447974a4ce35f4b4eca6e4f40b7842",
+    "packaged_sha256": "aaf886bfb22a4b314937233d9c5080b39072aa568cd5e2b470de16f982d3e743",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-06/node12/pass-02-throughput.csv.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-06/node12/pass-002-throughput.csv",
+    "source_sha256": "73111c31b83fb200792dde460ee367d64ebaa7ae65d73932c84d546bb27401b9",
+    "packaged_sha256": "72ad2401c1ca33a7aaedf95468c3d78622101d80a72039517b236b29db2fc4bf",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-06/node12/pass-02.log.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-06/node12/pass-002.log",
+    "source_sha256": "d1395585e7f5aeade1605ab98538f272ee4308f92b5e4c86a4427cf53adf50df",
+    "packaged_sha256": "d5b84cc7bb9df96c59ff9c9f163878d8a44c3b3ee49d374b8febce4dccb8a0a4",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-06/node12/pass-03-throughput.csv.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-06/node12/pass-003-throughput.csv",
+    "source_sha256": "683daafc6a3f01641320da0db03bd833163a91199a7dcda26a8c777a8e410ee9",
+    "packaged_sha256": "4de5c59a38a375040428b22667bbf51930ebb682d9d8254a6771d7b7f5886eb8",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-06/node12/pass-03.log.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-06/node12/pass-003.log",
+    "source_sha256": "e8517fd8571d8f11ec02774d38f71117abc1217778342c8550c637aba7d80eec",
+    "packaged_sha256": "11c6f532a520458f94ae91b1f52fa8611a0cf45bb5d99f57393a95f3c3b88f7f",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-06/node13/results.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-06/node13/results.json",
+    "source_sha256": "cc56adc4e962e34c13ae71a9f327eff0cc1d6e211f6a268a662b8bea89d80a30",
+    "packaged_sha256": "e1ef3c57681fb8547947737e73d4f6d53c7b41274436fd4e5a2c4f54cb6584f6",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-06/node13/performance.csv.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-06/node13/perf.csv",
+    "source_sha256": "472d05ec4caa50c85efe9b1ae3e1e2a6ad059944901f8ed25a109d288c078d48",
+    "packaged_sha256": "c78ae34b40f47d2c438d199389c9256cbe2dddc980b24a641937d35f651a7d01",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-06/node13/plot.png",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-06/node13/nofault_io.png",
+    "source_sha256": "529336f400a96082eec6b0b8310b7616376a43c0a5b6a17c8e4a2fdb95f3dbbf",
+    "packaged_sha256": "529336f400a96082eec6b0b8310b7616376a43c0a5b6a17c8e4a2fdb95f3dbbf",
+    "transform": "byte-preserving copy"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-06/node13/pass-01-throughput.csv.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-06/node13/pass-001-throughput.csv",
+    "source_sha256": "a5c4f7f7233cb630709e7011e33c820133a7f9a9c2ee9f85885d23db17a9a72b",
+    "packaged_sha256": "0d526b166a8a9799b25b1805e9ace74a44f09acbeedc135c4618a73c259b83a4",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-06/node13/pass-01.log.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-06/node13/pass-001.log",
+    "source_sha256": "117033284e11e0a6401b664b648fd6cd284cb12253ca3b97679d2b5d6a555775",
+    "packaged_sha256": "fe286013bbf401dc71d6063948e3f3b3cba0d7e749dad3230e9d4c0b9cc3f9a1",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-06/node13/pass-02-throughput.csv.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-06/node13/pass-002-throughput.csv",
+    "source_sha256": "9caee0baff2339aa22bc70ce410dcf4e6eb86f83f4058042739437088ceaca71",
+    "packaged_sha256": "800135d949c93bc13541e4fd72da80e29c1b39da1e09a4c6891e8f634978f677",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-06/node13/pass-02.log.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-06/node13/pass-002.log",
+    "source_sha256": "e4228a9b505aa22ba7e73dae419c8ffb6ce3dd160ddade3580d16d3afbda05db",
+    "packaged_sha256": "ebbe8645b8e8fdf57cefc9b6d247413112defc178df22a27565c584f27ce8de3",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-06/node13/pass-03-throughput.csv.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-06/node13/pass-003-throughput.csv",
+    "source_sha256": "bdc4f31956d69f474c00c3c6f3d4c46873530aa5b311a1cf7065097a0893f726",
+    "packaged_sha256": "3720291e89db2436f7dedf643ac6b5786916eead66fa59226731d6c509e410be",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-06/node13/pass-03.log.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-06/node13/pass-003.log",
+    "source_sha256": "edc066acd330805bcfff0afd5a2a70e7a528ba501f9ebdcb2b201ac839792c83",
+    "packaged_sha256": "a4322eec60f037d170b3d830632066a5de0309e5014e12111b0a02bdcba12829",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-06/cluster/scrubbing-observations.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-06/scrubbing-observations.json",
+    "source_sha256": "d01a41151126176b152e85fb9a8cb78addad75c18af30d51c673064c4cb96528",
+    "packaged_sha256": "af7d47cfd7895f53bae8de8abeaa25ddfc94bcd493df22160f5c60eeec3b989b",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-06/cluster/final-ceph.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-06/final-ceph.json",
+    "source_sha256": "db3c041fe16930279923d9f8fc846eff35fd5120cf130d5fb144fc011bec55e6",
+    "packaged_sha256": "740ed91cedba75be2c6b036ccbd7dbc27b44e72752240f8bfb349ce9d6891b21",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-06/cluster/baseline-ceph.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-06/baseline-ceph.json",
+    "source_sha256": "7a9002649faa40845629d4ff71c348dde05be3da3996f87ae4114d2d1ac9d970",
+    "packaged_sha256": "798a7c23b0a0fa0d3276f03fc7e05a667dbdfd879dba65dd88bad6cf9254975a",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-06/cluster/cluster-state.jsonl.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-06/cluster-state.jsonl",
+    "source_sha256": "8cf5d512f16e58fcbe12ac96d442e0d5d46047d646d57ff33379c1ec3b1b4fed",
+    "packaged_sha256": "4889f5e1bc6dcee11088c184a70b6f37faebc833effe0b605360fea50604c1ab",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-06/cluster/osd-perf.jsonl.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-06/osd-perf.jsonl",
+    "source_sha256": "8c160b4ea24d272d0bfdea1acdf0351c8378de923c62c03af9a931ed51fa785e",
+    "packaged_sha256": "5eb399cea1fd5ab76e0cd8181f27cee5f5ea146b0e616f88f1a760eaa7988df8",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-06/cluster/summary.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-06/summary.json",
+    "source_sha256": "255ac902ea5df0e98be18c4c2dbe5e1153fd9e736083c03ea52e616ccc554fe0",
+    "packaged_sha256": "e4732ffd243eabf6c26acb82c4b62f2b214ffb80d48e4f51b7d806f8baed7d18",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-06/cluster/osd-df-before.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-06/osd-df-before.json",
+    "source_sha256": "b414be00efa5717d12edf42d599dcc9e6d8df680cf82b9bcd33f4477b1bcd011",
+    "packaged_sha256": "9af03058592914623726d236434c9f51a5a10aa6ec11be1c242debd0301d098e",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-05/node12/results.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-05/node12/results.json",
+    "source_sha256": "ca4c6a837d438bd0f5c6050d1c8f72eee7e0fbfcf362fc983e8a66255166cbf2",
+    "packaged_sha256": "71b6cb065668658e653075f8571a109ded35a2fe472edf11ac50f27178a2deaa",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-05/node12/performance.csv.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-05/node12/perf.csv",
+    "source_sha256": "199fad8fbe71180367819a7374f9a4d0dee6d1894cc74a3ac50471fcaf976618",
+    "packaged_sha256": "b4d9d11f0736864e3d003efa82d50bf94f9b8d543b47be8d5dfd4f5776c8d72e",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-05/node12/plot.png",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-05/node12/fault_io.png",
+    "source_sha256": "7eb447bc0a78bad262fbbc4f0396d4a23aa01a42eefa47b0ce4038de6eaa767a",
+    "packaged_sha256": "7eb447bc0a78bad262fbbc4f0396d4a23aa01a42eefa47b0ce4038de6eaa767a",
+    "transform": "byte-preserving copy"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-05/node12/pass-01-throughput.csv.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-05/node12/pass-001-throughput.csv",
+    "source_sha256": "16923f03d89a603152d5fb2299b9841b6d1d60ff72389e7522db044e223777e3",
+    "packaged_sha256": "2a33e0e3a62ef079887422dd79c709d2e2fdb6acca30c83b0594302237d06b44",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-05/node12/pass-01.log.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-05/node12/pass-001.log",
+    "source_sha256": "d14a956302a098a9f9d60b5019d1317e9b6f73926c91e20730ab9053243cd626",
+    "packaged_sha256": "d131600759e2df814e5c89c7e98540f06f05756992b05bd29f584795c5864334",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-05/node12/pass-02-throughput.csv.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-05/node12/pass-002-throughput.csv",
+    "source_sha256": "eb24da4f80341c3338e55ee8b401db170603955aba4beec61c91a6b3882543a2",
+    "packaged_sha256": "52c8cbd9bedc7a5c390ffd7aacfb14a755c852e1045e56d54911dfb7c923b830",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-05/node12/pass-02.log.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-05/node12/pass-002.log",
+    "source_sha256": "9f569f5abba5ba2439c7c7bcab979b618613c00c5fc1cd748ed187187b67952b",
+    "packaged_sha256": "a45b0d88f687bb40d53112c4aa82e697192c4b1946b9464671a70a3c81693f62",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-05/node12/pass-03-throughput.csv.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-05/node12/pass-003-throughput.csv",
+    "source_sha256": "70c24a1d3c09481600422c06b2a48ecc943e8d7171f9bf7c412bc1383b977e93",
+    "packaged_sha256": "6bc732f505013743ad843a2469c620975ba16ad3b14c8e3094d203a8fefb91de",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-05/node12/pass-03.log.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-05/node12/pass-003.log",
+    "source_sha256": "5c63331bbd1305534b9692df3a12cc6d46822422c4cdd90ca98c91ef6e1cd604",
+    "packaged_sha256": "2b0f93d3edcff9f56028dad4e9984db00088dab8562d90d7cab1ca5ad862b3b1",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-05/node13/results.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-05/node13/results.json",
+    "source_sha256": "0a929d8eb788669cd7a43049594b3f664494e2a330e8c70351640b86dbb16253",
+    "packaged_sha256": "fee0a3faeb5de42de764effbabee3128299f03a858ab193afc7f07aa0b9c737d",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-05/node13/performance.csv.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-05/node13/perf.csv",
+    "source_sha256": "3840e3bf24d50ca51de1ce72985d92864c2733002105f03b3ff547a83b580332",
+    "packaged_sha256": "09e182e5e01a24acab4955c7c63557df94a49e4f5a3d17f4c55100a6bf7adc19",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-05/node13/plot.png",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-05/node13/fault_io.png",
+    "source_sha256": "964a71e95fc9cb5abbe78703411beec3d32c1f50fb766b8ff1a96b5ec3059c61",
+    "packaged_sha256": "964a71e95fc9cb5abbe78703411beec3d32c1f50fb766b8ff1a96b5ec3059c61",
+    "transform": "byte-preserving copy"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-05/node13/pass-01-throughput.csv.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-05/node13/pass-001-throughput.csv",
+    "source_sha256": "c58f01c5933278f30754f56d0717795d0ca567ee5273fa5741f3fe9fca66f454",
+    "packaged_sha256": "6a64cdd8040cf726cd58152fc17b10b67d0cf3f75fca4542131de18416e1fb77",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-05/node13/pass-01.log.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-05/node13/pass-001.log",
+    "source_sha256": "b58416f4a138e19d3eb9d860fe86db8b4c9346c0655a26114c7ef9ad486b9cb0",
+    "packaged_sha256": "9fa4062ed87b992f510a447adafbd8380b84c215688daf223c20202181fb9de2",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-05/node13/pass-02-throughput.csv.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-05/node13/pass-002-throughput.csv",
+    "source_sha256": "b5ae9bd707441cf94374772ddeb20360fadc142fd24d358065d8bddf7e53af11",
+    "packaged_sha256": "d93589f33668a4adc37736ae14091d76b193d0b720a1ea19254358a311f0b66c",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-05/node13/pass-02.log.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-05/node13/pass-002.log",
+    "source_sha256": "efed05c0404defb5d03a1a4740df8043cc178b2e23b696037079d3cf4e3e175b",
+    "packaged_sha256": "ad91e6f48ec543af5f98a9dcb85f65a88fddc4866ac949568c58b8d32c1b3626",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-05/node13/pass-03-throughput.csv.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-05/node13/pass-003-throughput.csv",
+    "source_sha256": "86974ec13e4967b91a1385eb8f91c2abe96121376aaae7172bc4bf2e4ccc3a66",
+    "packaged_sha256": "1b9e3a606cf828cdb7d944456442465f594871c33442c5403f5bd4b3f1a9c644",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-05/node13/pass-03.log.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-05/node13/pass-003.log",
+    "source_sha256": "0c9698a1382a3e71575d08e8b68af4294d6890c5747f3742c8ec9da4609c9f8e",
+    "packaged_sha256": "7e1faf45053bac76ac8eaab82c8d454c23723e43549c097d9bae4214ea4a1eda",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-05/cluster/restoration-events.jsonl.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-05/restoration-events.jsonl",
+    "source_sha256": "94ebda829e15ab754455861ea87a10b8640c603c4aa4a3304f49f5a34e64dc4b",
+    "packaged_sha256": "f495f4d4395911e52da18c049bc8cf33af68cabafc3b2f3cd27653d888cb8c22",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-05/cluster/recovery-events.jsonl.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-05/recovery-events.jsonl",
+    "source_sha256": "e9b280880ba93ea48dd643a1556162ccd3fb0a101caf8cfaaf84e6dfcfa28fb2",
+    "packaged_sha256": "6a18ab7be4612264e32a9d90b42aa1c927430da07f3f4da67be18f1cb0c33ce7",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-05/cluster/state.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-05/state.json",
+    "source_sha256": "f4b7d9d7c8cfbbf549de193c4d039f7923f1366ebad7eacfa6eb3164c830782b",
+    "packaged_sha256": "b8d5fb99a7af0e34630018f5a32cfab99ceeafb03b187cf0eb12508bdf1a545c",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-05/cluster/recovery.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-05/recovery.json",
+    "source_sha256": "22b4e5264f07bbf0d5a905a690f327b415ec8fbd4432af4a0e22aa49893ab17c",
+    "packaged_sha256": "28e17260ead25855a7f3c171b049bd04fdcc85963f6a620e1a90998ab813f00d",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-05/cluster/final-ceph.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-05/final-ceph.json",
+    "source_sha256": "9cbb6219d46c4eed02d12046d2c38b7a95b6a230d0239bdd12cb8056d1b024f0",
+    "packaged_sha256": "001a5aa96245d1e450f42ef4e1ad780d22350b20c902d60819923e52218c9e14",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-05/cluster/verified-control.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-05/verified-control.json",
+    "source_sha256": "89d27d9425aff50afc21d0a7bc0dc03f7434baa339f3b487e541a8558dcc285c",
+    "packaged_sha256": "eda10427cb8b032bb72dd1e0c268cc96390210b90666d62021751782a3ba3e40",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-05/cluster/baseline-ceph.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-05/baseline-ceph.json",
+    "source_sha256": "6e120dfde3d69a91ce688ab60adaaa885a3dcef139170063effc522c05dd3c5f",
+    "packaged_sha256": "04196442ca65820bdd12eee200ba9fe0b7770a17bdef09fb9b6fa6995c82e10e",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-05/cluster/osd-perf.jsonl.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-05/osd-perf.jsonl",
+    "source_sha256": "1e5adef4edf246872091a0c8672ae1f812a172f6231c10b8b858455da856b6c4",
+    "packaged_sha256": "844897467cf1d914403442ee78286f5912dc067c657af40efd7e8309df0713f9",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-05/cluster/restoration.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-05/restoration.json",
+    "source_sha256": "357bd944955a6cf7ea9386e0062677a05246db3e81ba631645155c471db67c31",
+    "packaged_sha256": "0937c7d789394d841f5326b2ae0af58985dc17f7337e59b97db77eb3849b1c22",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-05/cluster/summary.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-05/summary.json",
+    "source_sha256": "28224944d355e2b227f055bd1c8a802950698ae51124a68cbd88eafde6b5cc12",
+    "packaged_sha256": "0c833e9c17e8b4c1106ff1b07c204af25acc31184890062d15e4879b62844ccb",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-05/cluster/osd-df-before.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-05/osd-df-before.json",
+    "source_sha256": "4f19c318e9dd26d1e13581d217c8e866bb70534d9880db62e43485e470b86906",
+    "packaged_sha256": "bf833b7e6799f12e3b336b13ecc6fa6389cb696899ef196a47639f9d8e33c479",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-06/node12/results.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-06/node12/results.json",
+    "source_sha256": "7a14be090f56bb90ca77076c4a4f6a9ef4fe3ddf80b921e012c9a48681b4f53c",
+    "packaged_sha256": "fc5c0ce891bfbed3d89a8a6d2519d74b8422f03620aea3aee0fb655645bd8b7e",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-06/node12/performance.csv.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-06/node12/perf.csv",
+    "source_sha256": "e819774b6c62612ca8ad06c846c483ccc5f3a35b2f07065713c9a1e16ae0f475",
+    "packaged_sha256": "1a9e5c1eb74be3d041834a1176f0dfa83896238a0359719650337fefc4b9ef67",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-06/node12/plot.png",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-06/node12/fault_io.png",
+    "source_sha256": "0b65829112222db20ad2d21b9396a870c4759a49c6c83212a7868539cb2994e3",
+    "packaged_sha256": "0b65829112222db20ad2d21b9396a870c4759a49c6c83212a7868539cb2994e3",
+    "transform": "byte-preserving copy"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-06/node12/pass-01-throughput.csv.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-06/node12/pass-001-throughput.csv",
+    "source_sha256": "dbea6c05fc1e2eab1a9b21b6ad0a040629987e5ac1e1e8af32d6369456bd6008",
+    "packaged_sha256": "7b0ed2fdc0e51af3b1fdfcf05854258239962a546bdc7e47cc88305bceb859e0",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-06/node12/pass-01.log.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-06/node12/pass-001.log",
+    "source_sha256": "b285f5141683fba7ff0a07a443ef013f93c8153f65a144ed2a7e31bb0a12e6e8",
+    "packaged_sha256": "88ffad184bfb3cdac4be75b701387ae704f74fc1d68d1cd200396453e5c962bd",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-06/node12/pass-02-throughput.csv.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-06/node12/pass-002-throughput.csv",
+    "source_sha256": "8932a3f45389e8b0e88e41ee45e3b432518ff1a572551df522a5013d52eca8f4",
+    "packaged_sha256": "afd511de424f568f5f2c072ee4f06bd95ad6501c1c0d2dd5e01d6e2200df5501",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-06/node12/pass-02.log.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-06/node12/pass-002.log",
+    "source_sha256": "87c47b11c6314615dff467a83a78152cfa5054baf0ca25c0d8ed8abf93db4f48",
+    "packaged_sha256": "5406f50d9bed00fb65e3e36f1a97ba26d977d6c0cb67972998da998b698f61dc",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-06/node12/pass-03-throughput.csv.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-06/node12/pass-003-throughput.csv",
+    "source_sha256": "1785c01460ff80f17af0dd3bdd437f23a355672191006f462fee659a879d28b0",
+    "packaged_sha256": "39db274dd42ab851ed05655897a51946e9db6ee74b5bdf20d4177e905108cd69",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-06/node12/pass-03.log.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-06/node12/pass-003.log",
+    "source_sha256": "8dde5406e24df7fff4ba032864c86c2bd039dac95ff7357aa2f7b2b38be38ab5",
+    "packaged_sha256": "b643da584dcf69cd861a4753b611183b65773e06da914fa56a50949d7ddba000",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-06/node13/results.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-06/node13/results.json",
+    "source_sha256": "52e0a353fa1dd4f81d4c69479869e2147d323f642af6cfdd3cdf616b2b4ddcf2",
+    "packaged_sha256": "ebbe4ad5f7d3a6c1f4fbfee42cfd721a8b13b738467c447be13326a978f7c4cb",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-06/node13/performance.csv.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-06/node13/perf.csv",
+    "source_sha256": "fea9b5558292a6d50199a537e368b6959692f9f1332b8e3c935c6437fa3561cd",
+    "packaged_sha256": "06a1aaa3b20aa90453f307f67642aa94b67eabbf16ff4774291a65d6960da9b5",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-06/node13/plot.png",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-06/node13/fault_io.png",
+    "source_sha256": "1b039dde0c3241440dc01c2699d4b123b5c8325b473687e349ad9a6cacf93c39",
+    "packaged_sha256": "1b039dde0c3241440dc01c2699d4b123b5c8325b473687e349ad9a6cacf93c39",
+    "transform": "byte-preserving copy"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-06/node13/pass-01-throughput.csv.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-06/node13/pass-001-throughput.csv",
+    "source_sha256": "859499f9e855b0011adffda3d96f7d6928d4fd72f8a2ebd8fe321d8eb4ec180a",
+    "packaged_sha256": "8b7a8414b9e6b9dacd8dec37f1e1fd5a83781cbbf2cac23e8fc93b6c442abf28",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-06/node13/pass-01.log.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-06/node13/pass-001.log",
+    "source_sha256": "0e2e75441e77c76ecf0b14fa264284d8e4af5bb888840a980301009d1de09e26",
+    "packaged_sha256": "5b95ed1ff4064b8c0f4bbf33760f2b28e17fe393b32b6b9a89e5f58e17ef7bdd",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-06/node13/pass-02-throughput.csv.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-06/node13/pass-002-throughput.csv",
+    "source_sha256": "f10da25b0a93e59c44447782880bd76e4c7a79b9006ae167de03231b8262c4ee",
+    "packaged_sha256": "49c9992c8aee3ed29392d508cc04e54617b1beb18fc44cc3c1093257c887b078",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-06/node13/pass-02.log.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-06/node13/pass-002.log",
+    "source_sha256": "8fb74fbad6b197dee3114ff8271828cf17404d88505dca996c17d344798d37f6",
+    "packaged_sha256": "74b1235f9513ba78d0ddc82d4f79a10009a8b41aaf35922cf45c5a958fab8f36",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-06/node13/pass-03-throughput.csv.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-06/node13/pass-003-throughput.csv",
+    "source_sha256": "200fb0f0df63dbcc35dd49b6d386589e5fe51e212c3841e676d4a91a477ce20e",
+    "packaged_sha256": "69395a003fda40d0aede0df1d6677154f605acc667f30ad17a378b770002ed3e",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-06/node13/pass-03.log.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-06/node13/pass-003.log",
+    "source_sha256": "1bcd9e86dbae4e512579c4b3467453164540ff57d406b7da3acbf391e3021a7c",
+    "packaged_sha256": "a0e8631c6e71acb3fe70a3088f24ac3ba046545d112b13810090ce2e2c4d82ef",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-06/cluster/restoration-events.jsonl.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-06/restoration-events.jsonl",
+    "source_sha256": "f99a4f781f9ee14b6c96307abbdc48ac3fda2980a7d2a39b5450b7e4003bd830",
+    "packaged_sha256": "a7b4c9cd52affbe3cdf6c9fb132691f7f5bcbd2e7611b806b394f4060f88eeab",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-06/cluster/recovery-events.jsonl.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-06/recovery-events.jsonl",
+    "source_sha256": "de7d4dbb0ba97b70fa52422ee9d28534f84aef5c38745614211f8605bd59e804",
+    "packaged_sha256": "d417c290374fd5a533aa386233363eb8ada55bb1f1ce65f7ed9793517bba7770",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-06/cluster/state.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-06/state.json",
+    "source_sha256": "069ccf9fde59c1136d9fae31c4d4be1e91d8a66e6557439f76827acfe17789a9",
+    "packaged_sha256": "00633d86320cf50b7ee668aab7641f45352e353d1feae50abb1068a5795486a1",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-06/cluster/recovery.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-06/recovery.json",
+    "source_sha256": "ee40e6ebce5c4e4d7f8c60d8c4ab0cadf6fbad3f349414183ea4d124fbb14113",
+    "packaged_sha256": "d8bd9fbcc09832da8987e3639514acd61c95e5fa69e1a47a6d489c10f51b44a5",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-06/cluster/final-ceph.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-06/final-ceph.json",
+    "source_sha256": "99442a7cb5fcf410a773ca2b9ce6e297a83d895c311671572cddf129ccaf1c48",
+    "packaged_sha256": "42e76e6bd5ee8f1823b09fc28862972f12a12bc08196ebd38bc9a0a9a651f270",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-06/cluster/verified-control.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-06/verified-control.json",
+    "source_sha256": "89d27d9425aff50afc21d0a7bc0dc03f7434baa339f3b487e541a8558dcc285c",
+    "packaged_sha256": "eda10427cb8b032bb72dd1e0c268cc96390210b90666d62021751782a3ba3e40",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-06/cluster/baseline-ceph.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-06/baseline-ceph.json",
+    "source_sha256": "b31844f00158eaa8b09b2450fe43cd2ef71123c01f47c422c2e99997d95a85ad",
+    "packaged_sha256": "261c753d1ca4091adf15d4fbb713faa6600d1ca7393ea1f42330ac03be6d5662",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-06/cluster/osd-perf.jsonl.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-06/osd-perf.jsonl",
+    "source_sha256": "2e3aed02beb3aa59cd0baa823e558ccbe0f0273cefa9bc892fbb3d1e364138c2",
+    "packaged_sha256": "ef7fc6881d8fa9265e476c739ebfa534388b944f2157b72981df9446770296dc",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-06/cluster/restoration.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-06/restoration.json",
+    "source_sha256": "0a39ce932351a9b2d69ac187060bcff4775ee7a3f9ec574facfe4b72f6c0a957",
+    "packaged_sha256": "4f273d8d5e869e0e5f666cca5c7a71142aaabe88b6ebc009ba02e95710268fa7",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-06/cluster/summary.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-06/summary.json",
+    "source_sha256": "20b608c4388110e7327586d81df1ed3dd2932ce24e1854fdfb94d41f8c69e0e1",
+    "packaged_sha256": "58271976c0ca09e745748e8c60bf4ffd1bf47bc15b5ffbcfffbf9eddc885ecb4",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-06/cluster/osd-df-before.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-06/osd-df-before.json",
+    "source_sha256": "29152ee24565f2363313cf8f4f32a854f3620bc866fbe05a4a7879b7512b8971",
+    "packaged_sha256": "db412dfbfe83c83141a2b8d120c263658b8aafc973943aad413977366d7e69b4",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/node13-before-input-manifest.jsonl.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/node13-before-input-manifest.jsonl",
+    "source_sha256": "0772dca996854345e3c9696870a96c3207f15b9d6ccefa9e7f4aca3648569523",
+    "packaged_sha256": "fdd7dec347a14141b9a88185a216ad69f1a0fedff9ebc9900b499b3c5dbaf4fc",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/node12-image.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/node12-image.json",
+    "source_sha256": "663665bcd44b1ee74aaecf7e3247bb7aa9aa244040ea05b3de5d41ce994624c1",
+    "packaged_sha256": "663665bcd44b1ee74aaecf7e3247bb7aa9aa244040ea05b3de5d41ce994624c1",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/ceph-before.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/ceph-before.json",
+    "source_sha256": "8fa0fafb159cd722d153137975e5f268219dccbf0a8dcf961658fe4d89527d69",
+    "packaged_sha256": "8fa0fafb159cd722d153137975e5f268219dccbf0a8dcf961658fe4d89527d69",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/pool-before.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/pool-before.json",
+    "source_sha256": "6705c7204c4e7eb0c1469619cd6f78612d8d047b2ffec8e9f20e9b1b4bac83b2",
+    "packaged_sha256": "6705c7204c4e7eb0c1469619cd6f78612d8d047b2ffec8e9f20e9b1b4bac83b2",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/kernel_guard.py",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/kernel_guard.py",
+    "source_sha256": "d51336a61efe5cdd1d25cd8c5e97139431122bac625bfe795a81f2f91638a4bb",
+    "packaged_sha256": "d51336a61efe5cdd1d25cd8c5e97139431122bac625bfe795a81f2f91638a4bb",
+    "transform": "byte-preserving copy"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/config-dump-before.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/config-dump-before.json",
+    "source_sha256": "06042ddd6626e1c035fa07a1765f33ef5001535e08c8799fd4acdc81abe8408c",
+    "packaged_sha256": "06042ddd6626e1c035fa07a1765f33ef5001535e08c8799fd4acdc81abe8408c",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/no-fault-06-controller.log.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault-06-controller.log",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "packaged_sha256": "9ceffb7310338057cfe71a4ae1e2c98d2c485d81cdef906532a801f457a38d64",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/state.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/state.json",
+    "source_sha256": "f3a149ef63f5e089eae75fde0e07faa3c775205edbc9f376a22a664c8dbf3e2f",
+    "packaged_sha256": "f3a149ef63f5e089eae75fde0e07faa3c775205edbc9f376a22a664c8dbf3e2f",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/node13-kernel-live.log.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/node13-kernel-live.log",
+    "source_sha256": "b5dd0a673afb33e97e64bb6cae4cc112ac4d3b3df96e3acc33b389fb53e74698",
+    "packaged_sha256": "2d5b69eb593b7117fa86dc1a7936873bca3a2d9f7d22ee74e71845df571cf32c",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/preflight-passed.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/preflight-passed.json",
+    "source_sha256": "47b7e3f848b670df04d2eab22d77d9343e13a3aab8542c40b27cbf48bcddb2dc",
+    "packaged_sha256": "47b7e3f848b670df04d2eab22d77d9343e13a3aab8542c40b27cbf48bcddb2dc",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/node12-after-input-manifest.jsonl.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/node12-after-input-manifest.jsonl",
+    "source_sha256": "0772dca996854345e3c9696870a96c3207f15b9d6ccefa9e7f4aca3648569523",
+    "packaged_sha256": "fdd7dec347a14141b9a88185a216ad69f1a0fedff9ebc9900b499b3c5dbaf4fc",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/completed-trials.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/completed-trials.json",
+    "source_sha256": "4c586afdbee3e12866db10dc3a23957a763ec57968ed6274dd350b7689581016",
+    "packaged_sha256": "4c586afdbee3e12866db10dc3a23957a763ec57968ed6274dd350b7689581016",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/crush-rule.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/crush-rule.json",
+    "source_sha256": "bc1d9276fa5e9bf9dc0a2621e018e51c10d18da6eb30caa3748d75af7689d7bb",
+    "packaged_sha256": "bc1d9276fa5e9bf9dc0a2621e018e51c10d18da6eb30caa3748d75af7689d7bb",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/node12-kernel-live.log.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/node12-kernel-live.log",
+    "source_sha256": "1e4b6baf3873d00442798d9d67f6237d7fedd7861595dbdc55ee21fcd9fe4b62",
+    "packaged_sha256": "dcc13872b3b817c959694193fce7ef8970a7aa9ed7aa4f67aba8e5f12aee67dd",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/fault-osd3-05-controller.log.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3-05-controller.log",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "packaged_sha256": "9ceffb7310338057cfe71a4ae1e2c98d2c485d81cdef906532a801f457a38d64",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/controller-source-hashes.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/controller-source-hashes.json",
+    "source_sha256": "0b6f49fe9b837fc081e72bc5e9e39f7b4ef7b70aa4b2cae146e6377ab7b8a973",
+    "packaged_sha256": "0b6f49fe9b837fc081e72bc5e9e39f7b4ef7b70aa4b2cae146e6377ab7b8a973",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/node12-before-input-manifest.jsonl.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/node12-before-input-manifest.jsonl",
+    "source_sha256": "0772dca996854345e3c9696870a96c3207f15b9d6ccefa9e7f4aca3648569523",
+    "packaged_sha256": "fdd7dec347a14141b9a88185a216ad69f1a0fedff9ebc9900b499b3c5dbaf4fc",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/README.md",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/README.md",
+    "source_sha256": "f8b3d73aedb7ff69c15412a764f466fd38fc6017e33b981836ef929a65fbfc5d",
+    "packaged_sha256": "f8b3d73aedb7ff69c15412a764f466fd38fc6017e33b981836ef929a65fbfc5d",
+    "transform": "byte-preserving copy"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/node13-audit.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/node13-audit.json",
+    "source_sha256": "2ff11214095441d5a54778c051cef8e5688508b79ac0e2631076aac977883a11",
+    "packaged_sha256": "2ff11214095441d5a54778c051cef8e5688508b79ac0e2631076aac977883a11",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/no-fault-05-controller.log.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault-05-controller.log",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "packaged_sha256": "9ceffb7310338057cfe71a4ae1e2c98d2c485d81cdef906532a801f457a38d64",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/run_campaign.py",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/run_campaign.py",
+    "source_sha256": "fdb09ce4c954e7f224405efcaa733032ca5421afbae6b8ec03a9724c38c3bc98",
+    "packaged_sha256": "fdb09ce4c954e7f224405efcaa733032ca5421afbae6b8ec03a9724c38c3bc98",
+    "transform": "byte-preserving copy"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/fault-osd3-06-controller.log.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3-06-controller.log",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "packaged_sha256": "9ceffb7310338057cfe71a4ae1e2c98d2c485d81cdef906532a801f457a38d64",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/node12-audit.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/node12-audit.json",
+    "source_sha256": "afd93b7fc4deaf8018b27039acf1864e53e71290eca5db052fda6c3e7698593b",
+    "packaged_sha256": "afd93b7fc4deaf8018b27039acf1864e53e71290eca5db052fda6c3e7698593b",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/plugin-hashes.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/plugin-hashes.json",
+    "source_sha256": "707fc78ef980db1ccc102e1d092958db9f8e9ffea7ec4e3c8b2d0d4660b0f9a6",
+    "packaged_sha256": "707fc78ef980db1ccc102e1d092958db9f8e9ffea7ec4e3c8b2d0d4660b0f9a6",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/test_kernel_guard.py",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/test_kernel_guard.py",
+    "source_sha256": "c2d8f67755dfe5a397d1b60bcf8b0b3756cc25ccf1018a451f9c699201d7f5b7",
+    "packaged_sha256": "c2d8f67755dfe5a397d1b60bcf8b0b3756cc25ccf1018a451f9c699201d7f5b7",
+    "transform": "byte-preserving copy"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/PLAN.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/PLAN.json",
+    "source_sha256": "f717c224cc1e6e1f0e1f401820a8bb11af8dadec84f3d4cddc55b69ecb6a4eea",
+    "packaged_sha256": "f717c224cc1e6e1f0e1f401820a8bb11af8dadec84f3d4cddc55b69ecb6a4eea",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/node13-image.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/node13-image.json",
+    "source_sha256": "cff0895f8f3d10d0ab51e556998e17987e3d930f4099dbf9bda9207bdabfe11f",
+    "packaged_sha256": "cff0895f8f3d10d0ab51e556998e17987e3d930f4099dbf9bda9207bdabfe11f",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/campaign.log.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/campaign.log",
+    "source_sha256": "c31a0c92335abeed40a440c7b463a40a3b123f2484cee92494f9697cb6184dd1",
+    "packaged_sha256": "71ec1ffcbe740b75878cc0234b31a9142d7abcc84d5e4570ba078bdd154b2f66",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/ec-profile.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/ec-profile.json",
+    "source_sha256": "39d60e3246060121a7ccefdb1d077807872fb1f532e7acf6155b626f840aec4f",
+    "packaged_sha256": "39d60e3246060121a7ccefdb1d077807872fb1f532e7acf6155b626f840aec4f",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/node13-after-input-manifest.jsonl.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/node13-after-input-manifest.jsonl",
+    "source_sha256": "0772dca996854345e3c9696870a96c3207f15b9d6ccefa9e7f4aca3648569523",
+    "packaged_sha256": "fdd7dec347a14141b9a88185a216ad69f1a0fedff9ebc9900b499b3c5dbaf4fc",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/osd-df-before.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/osd-df-before.json",
+    "source_sha256": "9239f8ca6f51ae84cecbcab08e0a79182d48149b0226f0e6311daa0812f2c62d",
+    "packaged_sha256": "9239f8ca6f51ae84cecbcab08e0a79182d48149b0226f0e6311daa0812f2c62d",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/controllers/no-fault/controller.py",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/controller.py",
+    "source_sha256": "8b1470db933094c054c11781a5489a49dfa6742f96c0d948f7da7e0e5aaa7538",
+    "packaged_sha256": "8b1470db933094c054c11781a5489a49dfa6742f96c0d948f7da7e0e5aaa7538",
+    "transform": "byte-preserving copy"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/controllers/no-fault/plot_io.py",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/plot_io.py",
+    "source_sha256": "2dca1fa1fe77c3b46e40799efc9bb1dee99a39507132edda288b37e9e9863f3a",
+    "packaged_sha256": "ca5672f9b8bc7513e604b01d0c0e2454c71e16014bf4f27662b8860d22c7f138",
+    "transform": "Python source trailing-whitespace normalization"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/controllers/fault-osd3/trial-05/controller.py",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-05/controller.py",
+    "source_sha256": "7655e68b5312a0c2d1c4634ab91620137779d7e5fedfaa21d9dcc5104f43bc0c",
+    "packaged_sha256": "7655e68b5312a0c2d1c4634ab91620137779d7e5fedfaa21d9dcc5104f43bc0c",
+    "transform": "byte-preserving copy"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/controllers/fault-osd3/trial-06/controller.py",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-06/controller.py",
+    "source_sha256": "7655e68b5312a0c2d1c4634ab91620137779d7e5fedfaa21d9dcc5104f43bc0c",
+    "packaged_sha256": "7655e68b5312a0c2d1c4634ab91620137779d7e5fedfaa21d9dcc5104f43bc0c",
+    "transform": "byte-preserving copy"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/diagnostics/run_write_pilot.py",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-extension-20261101/diagnostics/run_write_pilot.py",
+    "source_sha256": "6d2a66222e607c53389bb4e3472d19d31f19c9d916ab10d2b67e5ac9d0e53869",
+    "packaged_sha256": "6d2a66222e607c53389bb4e3472d19d31f19c9d916ab10d2b67e5ac9d0e53869",
+    "transform": "byte-preserving copy"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/diagnostics/node12-memory-adjustment.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-extension-20261101/diagnostics/node12-memory-adjustment.json",
+    "source_sha256": "630afe5be28bad41b89801c48ef2ebd399b14af898ebf01ee66a8b443c02f0d0",
+    "packaged_sha256": "630afe5be28bad41b89801c48ef2ebd399b14af898ebf01ee66a8b443c02f0d0",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/diagnostics/node13-memory-adjustment.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-extension-20261101/diagnostics/node13-memory-adjustment.json",
+    "source_sha256": "71547963db1d4a4dac6f970731fbb173b2113f16e612ed965b3ed6d97cf063ad",
+    "packaged_sha256": "71547963db1d4a4dac6f970731fbb173b2113f16e612ed965b3ed6d97cf063ad",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/diagnostics/node12-write-pilot-verified.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-extension-20261101/diagnostics/node12-write-pilot-verified.json",
+    "source_sha256": "31c358dcf949e15925a9cd2d0bbdb037b2cdad8b28c207e8d09ca312bf50143c",
+    "packaged_sha256": "31c358dcf949e15925a9cd2d0bbdb037b2cdad8b28c207e8d09ca312bf50143c",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/diagnostics/node13-dmesg.txt.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-extension-20261101/diagnostics/node13-dmesg.txt",
+    "source_sha256": "cd889e1e3251e9b3dc14a1dd5a0b7e0f0c8dd59ea4720849b2de02968c352194",
+    "packaged_sha256": "bde35df8865c3eb02ed5fe0a96c7cc536f33b439b855c1dc76358d028444f0b7",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/diagnostics/node13-bp5-pilot.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-extension-20261101/diagnostics/node13-bp5-pilot.json",
+    "source_sha256": "0c56ae2189af81ad9c130fcfaea5d4d22d88cb7b151b9ac4d7876b0b79db7917",
+    "packaged_sha256": "0c56ae2189af81ad9c130fcfaea5d4d22d88cb7b151b9ac4d7876b0b79db7917",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/diagnostics/node12-bp5-pilot.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-extension-20261101/diagnostics/node12-bp5-pilot.json",
+    "source_sha256": "c7b4fe9bd37632d3a005fc47a058485bf3d22936db0dbc821be4cb856284a2f5",
+    "packaged_sha256": "c7b4fe9bd37632d3a005fc47a058485bf3d22936db0dbc821be4cb856284a2f5",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/diagnostics/run_bp5_pilot.py",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-extension-20261101/diagnostics/run_bp5_pilot.py",
+    "source_sha256": "b366efc7d4a662b484dc0b8467caef8faf4e0898565465bc6ae36313314765ac",
+    "packaged_sha256": "b366efc7d4a662b484dc0b8467caef8faf4e0898565465bc6ae36313314765ac",
+    "transform": "byte-preserving copy"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/diagnostics/prepare_client_memory.py",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-extension-20261101/diagnostics/prepare_client_memory.py",
+    "source_sha256": "1b24626d7ce65640b805c12ccf2f7fa148933654c3cd0b68ca676931c50b1dae",
+    "packaged_sha256": "1b24626d7ce65640b805c12ccf2f7fa148933654c3cd0b68ca676931c50b1dae",
+    "transform": "byte-preserving copy"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/diagnostics/verify_write_pilot.py",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-extension-20261101/diagnostics/verify_write_pilot.py",
+    "source_sha256": "2359c5b7273a328132711dc865d9253d9c6f2005067606440db5ac03c07275ca",
+    "packaged_sha256": "2359c5b7273a328132711dc865d9253d9c6f2005067606440db5ac03c07275ca",
+    "transform": "byte-preserving copy"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/diagnostics/node12-dmesg.txt.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-extension-20261101/diagnostics/node12-dmesg.txt",
+    "source_sha256": "d21b3e2a3637484a23f43193032ebd25b269b6b7746db74e4db9724ea2aad98b",
+    "packaged_sha256": "ff0d1c27345956ba45dbd1ede43391010fe426b5a357fb5bfb3e3bf14238d181",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/diagnostics/node13-write-pilot-verified.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-extension-20261101/diagnostics/node13-write-pilot-verified.json",
+    "source_sha256": "bc8dc8edb1091eaaf207c1ef067382cb72a271f458fc1874604cf86915faa672",
+    "packaged_sha256": "bc8dc8edb1091eaaf207c1ef067382cb72a271f458fc1874604cf86915faa672",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/diagnostics/DIAGNOSIS.md",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-extension-20261101/diagnostics/DIAGNOSIS.md",
+    "source_sha256": "aefc7402eac77ce93c36afd9d4a32831f8f30991b75cff9b044f6968f6ac85f4",
+    "packaged_sha256": "aefc7402eac77ce93c36afd9d4a32831f8f30991b75cff9b044f6968f6ac85f4",
+    "transform": "byte-preserving copy"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/diagnostics/bp5_write_pilot.cpp",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-extension-20261101/diagnostics/bp5_write_pilot.cpp",
+    "source_sha256": "0f0178178cb322f95035966f2610b226c036e18a3a99c8be05cf16b14757f649",
+    "packaged_sha256": "0f0178178cb322f95035966f2610b226c036e18a3a99c8be05cf16b14757f649",
+    "transform": "byte-preserving copy"
+  },
+  {
+    "repository_file": "provenance/campaigns/optlrc/memory-reserve-512m/excluded-attempts.json",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-extension-20261101/trial-selection.json",
+    "source_sha256": "f0f60a7125613906f4f641fb92f8814207efcdac7c2bc2a1e204dd4fc2802106",
+    "packaged_sha256": "f0f60a7125613906f4f641fb92f8814207efcdac7c2bc2a1e204dd4fc2802106",
+    "transform": "JSON serialization and credential-field redaction"
+  },
+  {
+    "repository_file": "telemetry/optlrc/memory-reserve-512m/node10.jsonl.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/osd-host-telemetry/node10.jsonl",
+    "source_sha256": "9c06a01ee255dabc7a14883565ece34071e55b417d84f95177b0f0c89868140f",
+    "packaged_sha256": "bb8496505878f39116ff6f8519ad22da77669867266b5a92abb157e07efaa9d5",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "telemetry/optlrc/memory-reserve-512m/node0.jsonl.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/osd-host-telemetry/node0.jsonl",
+    "source_sha256": "b3c4516f3cc5209f24fb746ccbd77366a69bb1a3b82b4c9fafb5bd952fdf9d00",
+    "packaged_sha256": "54dbe9967efc0bb28d55bee7393adf5e976f1af751f33e70edec1033836ec971",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "telemetry/optlrc/memory-reserve-512m/node2.jsonl.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/osd-host-telemetry/node2.jsonl",
+    "source_sha256": "33998381a58b8555250dd90e5e73c4613f3b92a8e2f4af5c0526177dae86dbdf",
+    "packaged_sha256": "e6abf728ff18dac2ddeef81b285b38a335d5a3bff5d829bd9c0da4fa2b94914e",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "telemetry/optlrc/memory-reserve-512m/node5.jsonl.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/osd-host-telemetry/node5.jsonl",
+    "source_sha256": "d204b38602116b1a7b76aa8b501aa8de25201c11ca83ee0c61c3bd7b19457963",
+    "packaged_sha256": "fbeb0b55043394ae7bcf479e5ab8009c4817d28073cc31d1637363808afe70ca",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "telemetry/optlrc/memory-reserve-512m/node8.jsonl.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/osd-host-telemetry/node8.jsonl",
+    "source_sha256": "7f8000c681f9d48cae81e313a01ace2f0dfc13fbf610a113effbef07f0e16285",
+    "packaged_sha256": "a5c00e7248a18305ef2b29d0cc877dfdccbe05275006b5ed5aa0e29a136b6fd2",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "telemetry/optlrc/memory-reserve-512m/node1.jsonl.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/osd-host-telemetry/node1.jsonl",
+    "source_sha256": "6b9b17e202657db7b203b60916d7ea4810934cd21dcf6195076272181b0c6d9f",
+    "packaged_sha256": "9f4afdae4521a6958e7fbb193d4ac8ead8be8018f12b31f3afffd37c634a7b6a",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "telemetry/optlrc/memory-reserve-512m/node6.jsonl.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/osd-host-telemetry/node6.jsonl",
+    "source_sha256": "214315570b378072dd1a1e5fb97bc28d755a792d5299329ee682e99c8f9ba307",
+    "packaged_sha256": "61dc12f5f4477cea8b2d315eb2daf04180a9bed82b6f80a21c0f9f6c1f2b5c20",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "telemetry/optlrc/memory-reserve-512m/node9.jsonl.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/osd-host-telemetry/node9.jsonl",
+    "source_sha256": "9255f93aaba4e2eeed973513707af74a2de01c8e180fe725d157383113e68f96",
+    "packaged_sha256": "81044e9358a21816727d1af34d2666a1251442b786bf7efb8277a887a09230e1",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "telemetry/optlrc/memory-reserve-512m/node11.jsonl.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/osd-host-telemetry/node11.jsonl",
+    "source_sha256": "222e1516a2dab9260f0f030d4719068dca5647ee050f09f9bf2217b2921d88dd",
+    "packaged_sha256": "9f613569e117d6bf5861b0dd51f63a0d0aac87fa3cbbc112e198e94bb002b28a",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "telemetry/optlrc/memory-reserve-512m/node7.jsonl.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/osd-host-telemetry/node7.jsonl",
+    "source_sha256": "c5519627a6035c8a4b5f6656f8c09010f43aef068d43bfd6bf10a2380baebb82",
+    "packaged_sha256": "ed89357dc8f252f311460f20d46ba4a31f3693b676da7af432cec54af7f6e54f",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "telemetry/optlrc/memory-reserve-512m/node4.jsonl.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/osd-host-telemetry/node4.jsonl",
+    "source_sha256": "2b48ecfb70a5383d9edf3138a8cd92219d70d8a70f0383666115e14194c74afe",
+    "packaged_sha256": "e5ebe27a1b8cb5230c6418b99903f3366c6abb21e3341121ab8cf59519866f05",
+    "transform": "deterministic lossless gzip"
+  },
+  {
+    "repository_file": "telemetry/optlrc/memory-reserve-512m/node3.jsonl.gz",
+    "source_file": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/osd-host-telemetry/node3.jsonl",
+    "source_sha256": "62de9bf57b701d6a453c1bdc8c9acbaddc4688824496d9e660e93ea7d0091394",
+    "packaged_sha256": "e7079de88ca4ee09bd314a60a84e915a7f4a4117b2f309e6cdaef1e92de60e44",
+    "transform": "deterministic lossless gzip"
+  }
+]

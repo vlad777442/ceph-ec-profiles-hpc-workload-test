@@ -1,0 +1,5 @@
+profile,condition,source_trial,included,exclusion_reason,cohort,include_in_original_comparison,clients,passes_per_client,mean_client_mib_s,aggregate_mib_s,mean_client_duration_min,repair_min,down_to_clean_min,folder,min_free_kbytes,input_hashes_before_and_after_match
+optlrc,no-fault,5,True,,memory-reserve-512m,False,2,3,316.0164852704057,632.0317311351108,145.8151778399013,,,results/optlrc/cohort-memory-reserve-512m/no-fault/trial-05,524288,True
+optlrc,no-fault,6,True,,memory-reserve-512m,False,2,3,317.7655623212053,635.5252802538267,145.0125673261083,,,results/optlrc/cohort-memory-reserve-512m/no-fault/trial-06,524288,True
+optlrc,fault-osd3,5,True,,memory-reserve-512m,False,2,3,296.8226110447408,593.6352586072688,155.24423778500642,47.49216046333313,57.65144884983699,results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-05,524288,True
+optlrc,fault-osd3,6,True,,memory-reserve-512m,False,2,3,296.1907475179014,592.3807106638752,155.57542018503105,44.8171460668246,54.96825353304545,results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-06,524288,True

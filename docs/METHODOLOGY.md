@@ -39,3 +39,9 @@ Some historical LRC fault display labels incorrectly said replicated; the record
 Broken local symlinks for LRC fault trial 01 were repaired from the retained client result directories during collection. The upload bundle contains regular files, not environment-dependent symlinks.
 
 Older May–September runs are retained in the original research workspace and omitted from this focused upload bundle: their CSV byte counts are per rank, dataset size is approximately 275 GiB, and hardware/profile provenance is incomplete. Some have invalid recovery chronology, unconfirmed fault state, or missing throughput CSVs. They are excluded from the current five-configuration summaries.
+
+## Additional memory-reserve cohort
+
+Four validated OptLRC trials (no-fault05/06, fault05/06) were collected with vm.min_free_kbytes=524288 on both clients, compared with 90112 previously; one-time idle compaction preceded the diagnostic pilots. The change mitigates kernel RBD clone copy-up allocation failures. Failed no-fault04 is excluded and preserved in the source workspace, with failure metadata/diagnosis in campaign provenance. All new selected trials completed three full passes on both clients, repair finished within fault workloads, and complete input hashes matched before and after the campaign. Current total PG topology was 832.
+
+The extension is stored in `results/optlrc/cohort-memory-reserve-512m/`, with a separate summary. Existing original-cohort analyses intentionally do not discover these deeper folders. Five valid trials per condition are available across cohorts, but they are not five identical-condition repetitions. Report the policy change and perform cohort sensitivity analysis before pooling.

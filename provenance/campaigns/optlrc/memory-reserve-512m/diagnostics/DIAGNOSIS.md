@@ -1,0 +1,13 @@
+# Failed OptLRC extension: diagnosis and mitigation
+
+Node13 third-pass analysis exited zero, but bpls rejected its BP5 metadata. Full kernel logs show order-5 GFP_NOIO page allocation failures in rbd_obj_copyup_read_parent followed by copyup failed -12, failed RBD WRITE requests and ext4 buffered-write errors during the workload. The existing cloned RBD image uses 32-MiB objects; the kernel requested an order-5 (128-KiB on 4-KiB-page x86) allocation in copy-up. This is direct evidence of a client-side allocation/write failure. It does not establish an OptLRC decoder failure. Node12 has no matching allocation/copy-up messages.
+
+The paired no-fault attempt is excluded and all output/telemetry is retained. No original result records were changed. Historical node13 kernel warnings exist before this campaign as well; they are preserved in the full log and should be correlated with trial timestamps before interpreting earlier campaigns.
+
+Applied temporary vm.min_free_kbytes=524288 on both clients (old value 90112), plus one-time memory compaction while idle. Other VM settings, workload executable, XML, MPI and pool geometry remain unchanged. No RBD flattening, device formatting, disk wiping, dataset deletion, kernel upgrade or cache dropping. Settings and before/after buddyinfo are saved. The reserve can be reverted to 90112 when experiments stop; this mitigation is recorded as a changed campaign condition, not silently pooled with the old cohort.
+
+Validation: eight-rank BP5 writer emits 3600 steps with U/pdf and V/pdf shape256x100, fsyncs output and validates metadata plus known final-step values. Eight-GiB direct-write/direct-read repeated-random-block pilot checks write/read hashes; its first invocation completed the data check then failed on unsupported dmesg --time-format raw in the diagnostic harness. A separate direct-read verification validates every block again and checks kernel logs since the memory adjustment. Diagnostic command-format and timestamp-parser issues were corrected; they did not change workload or stored data. All test output files are retained.
+
+A live client kernel watcher is added to the repaired controller. New page-allocation, copy-up, RBD write and ext4 I/O errors abort the trial, with fault-controller restoration preserved. Original ADIOS2 validation remains strict. Short pilots establish basic functionality, not proof of permanent resolution; the full-duration workload repeats and complete input hashes remain required.
+
+Kernel VM semantics: https://docs.kernel.org/admin-guide/sysctl/vm.html#min-free-kbytes and https://docs.kernel.org/admin-guide/sysctl/vm.html#compact-memory

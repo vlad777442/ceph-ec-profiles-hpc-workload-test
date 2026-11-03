@@ -1,0 +1,282 @@
+[
+  {
+    "folder": "results/clay/fault-osd3/trial-01",
+    "profile": "clay",
+    "condition": "fault-osd3",
+    "source_trial": 1,
+    "included": true,
+    "cohort": "original"
+  },
+  {
+    "folder": "results/clay/fault-osd3/trial-02",
+    "profile": "clay",
+    "condition": "fault-osd3",
+    "source_trial": 2,
+    "included": true,
+    "cohort": "original"
+  },
+  {
+    "folder": "results/clay/fault-osd3/trial-03",
+    "profile": "clay",
+    "condition": "fault-osd3",
+    "source_trial": 3,
+    "included": true,
+    "cohort": "original"
+  },
+  {
+    "folder": "results/clay/no-fault/trial-01",
+    "profile": "clay",
+    "condition": "no-fault",
+    "source_trial": 1,
+    "included": true,
+    "cohort": "original"
+  },
+  {
+    "folder": "results/clay/no-fault/trial-02",
+    "profile": "clay",
+    "condition": "no-fault",
+    "source_trial": 2,
+    "included": true,
+    "cohort": "original"
+  },
+  {
+    "folder": "results/clay/no-fault/trial-03",
+    "profile": "clay",
+    "condition": "no-fault",
+    "source_trial": 3,
+    "included": true,
+    "cohort": "original"
+  },
+  {
+    "folder": "results/lrc/fault-osd3/trial-01",
+    "profile": "lrc",
+    "condition": "fault-osd3",
+    "source_trial": 1,
+    "included": true,
+    "cohort": "original"
+  },
+  {
+    "folder": "results/lrc/fault-osd3/trial-02",
+    "profile": "lrc",
+    "condition": "fault-osd3",
+    "source_trial": 2,
+    "included": true,
+    "cohort": "original"
+  },
+  {
+    "folder": "results/lrc/fault-osd3/trial-03",
+    "profile": "lrc",
+    "condition": "fault-osd3",
+    "source_trial": 3,
+    "included": true,
+    "cohort": "original"
+  },
+  {
+    "folder": "results/lrc/no-fault/trial-01",
+    "profile": "lrc",
+    "condition": "no-fault",
+    "source_trial": 1,
+    "included": true,
+    "cohort": "original"
+  },
+  {
+    "folder": "results/lrc/no-fault/trial-02",
+    "profile": "lrc",
+    "condition": "no-fault",
+    "source_trial": 2,
+    "included": true,
+    "cohort": "original"
+  },
+  {
+    "folder": "results/lrc/no-fault/trial-03",
+    "profile": "lrc",
+    "condition": "no-fault",
+    "source_trial": 3,
+    "included": true,
+    "cohort": "original"
+  },
+  {
+    "folder": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-05",
+    "profile": "optlrc",
+    "condition": "fault-osd3",
+    "source_trial": 5,
+    "included": true,
+    "cohort": "memory-reserve-512m"
+  },
+  {
+    "folder": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-06",
+    "profile": "optlrc",
+    "condition": "fault-osd3",
+    "source_trial": 6,
+    "included": true,
+    "cohort": "memory-reserve-512m"
+  },
+  {
+    "folder": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-05",
+    "profile": "optlrc",
+    "condition": "no-fault",
+    "source_trial": 5,
+    "included": true,
+    "cohort": "memory-reserve-512m"
+  },
+  {
+    "folder": "results/optlrc/cohort-memory-reserve-512m/no-fault/trial-06",
+    "profile": "optlrc",
+    "condition": "no-fault",
+    "source_trial": 6,
+    "included": true,
+    "cohort": "memory-reserve-512m"
+  },
+  {
+    "folder": "results/optlrc/fault-osd3/trial-01",
+    "profile": "optlrc",
+    "condition": "fault-osd3",
+    "source_trial": 1,
+    "included": true,
+    "cohort": "original"
+  },
+  {
+    "folder": "results/optlrc/fault-osd3/trial-02",
+    "profile": "optlrc",
+    "condition": "fault-osd3",
+    "source_trial": 2,
+    "included": false,
+    "cohort": "original"
+  },
+  {
+    "folder": "results/optlrc/fault-osd3/trial-03",
+    "profile": "optlrc",
+    "condition": "fault-osd3",
+    "source_trial": 3,
+    "included": true,
+    "cohort": "original"
+  },
+  {
+    "folder": "results/optlrc/fault-osd3/trial-04",
+    "profile": "optlrc",
+    "condition": "fault-osd3",
+    "source_trial": 4,
+    "included": true,
+    "cohort": "original"
+  },
+  {
+    "folder": "results/optlrc/no-fault/trial-01",
+    "profile": "optlrc",
+    "condition": "no-fault",
+    "source_trial": 1,
+    "included": true,
+    "cohort": "original"
+  },
+  {
+    "folder": "results/optlrc/no-fault/trial-02",
+    "profile": "optlrc",
+    "condition": "no-fault",
+    "source_trial": 2,
+    "included": true,
+    "cohort": "original"
+  },
+  {
+    "folder": "results/optlrc/no-fault/trial-03",
+    "profile": "optlrc",
+    "condition": "no-fault",
+    "source_trial": 3,
+    "included": true,
+    "cohort": "original"
+  },
+  {
+    "folder": "results/reed-solomon/fault-osd3/trial-01",
+    "profile": "reed-solomon",
+    "condition": "fault-osd3",
+    "source_trial": 1,
+    "included": true,
+    "cohort": "original"
+  },
+  {
+    "folder": "results/reed-solomon/fault-osd3/trial-02",
+    "profile": "reed-solomon",
+    "condition": "fault-osd3",
+    "source_trial": 2,
+    "included": true,
+    "cohort": "original"
+  },
+  {
+    "folder": "results/reed-solomon/fault-osd3/trial-03",
+    "profile": "reed-solomon",
+    "condition": "fault-osd3",
+    "source_trial": 3,
+    "included": true,
+    "cohort": "original"
+  },
+  {
+    "folder": "results/reed-solomon/no-fault/trial-01",
+    "profile": "reed-solomon",
+    "condition": "no-fault",
+    "source_trial": 1,
+    "included": true,
+    "cohort": "original"
+  },
+  {
+    "folder": "results/reed-solomon/no-fault/trial-02",
+    "profile": "reed-solomon",
+    "condition": "no-fault",
+    "source_trial": 2,
+    "included": true,
+    "cohort": "original"
+  },
+  {
+    "folder": "results/reed-solomon/no-fault/trial-03",
+    "profile": "reed-solomon",
+    "condition": "no-fault",
+    "source_trial": 3,
+    "included": true,
+    "cohort": "original"
+  },
+  {
+    "folder": "results/replicated-3/fault-osd3/trial-01",
+    "profile": "replicated-3",
+    "condition": "fault-osd3",
+    "source_trial": 1,
+    "included": true,
+    "cohort": "original"
+  },
+  {
+    "folder": "results/replicated-3/fault-osd3/trial-02",
+    "profile": "replicated-3",
+    "condition": "fault-osd3",
+    "source_trial": 2,
+    "included": true,
+    "cohort": "original"
+  },
+  {
+    "folder": "results/replicated-3/fault-osd3/trial-03",
+    "profile": "replicated-3",
+    "condition": "fault-osd3",
+    "source_trial": 3,
+    "included": true,
+    "cohort": "original"
+  },
+  {
+    "folder": "results/replicated-3/no-fault/trial-01",
+    "profile": "replicated-3",
+    "condition": "no-fault",
+    "source_trial": 1,
+    "included": true,
+    "cohort": "original"
+  },
+  {
+    "folder": "results/replicated-3/no-fault/trial-02",
+    "profile": "replicated-3",
+    "condition": "no-fault",
+    "source_trial": 2,
+    "included": true,
+    "cohort": "original"
+  },
+  {
+    "folder": "results/replicated-3/no-fault/trial-03",
+    "profile": "replicated-3",
+    "condition": "no-fault",
+    "source_trial": 3,
+    "included": true,
+    "cohort": "original"
+  }
+]

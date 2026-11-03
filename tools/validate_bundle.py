@@ -15,9 +15,9 @@ for p in ROOT.rglob('*'):
   text=p.read_text()
   assert not re.search(r'-----BEGIN (?:OPENSSH |RSA |EC )?PRIVATE KEY-----',text),p
   assert not re.search(r'(?m)^\s*key\s*=\s*AQ[A-Za-z0-9+/=]{30,}',text),p
-for p in sorted((ROOT/'results').glob('*/*/trial-*/trial.json')):
+for p in sorted((ROOT/'results').rglob('trial.json')):
  t=json.loads(p.read_text());count+=1
- if t['included']:selected[(t['profile'],t['condition'])]=selected.get((t['profile'],t['condition']),0)+1
+ if t['included']:selected[(t['profile'],t['condition'],t.get('cohort','original'))]=selected.get((t['profile'],t['condition'],t.get('cohort','original')),0)+1
  values=[]
  for host in ['node12','node13']:
   d=p.parent/host;r=json.loads((d/'results.json').read_text());assert r['trial_status']=='complete' and len(r['passes'])==3 and r['mpi_procs']==8
@@ -32,9 +32,21 @@ for p in sorted((ROOT/'results').glob('*/*/trial-*/trial.json')):
    assert len(a)==3600 and sum(int(x['global_data_read_bytes']) for x in a)==900*1024**3
    with gzip.open(d/f'pass-{n:02d}.log.gz','rb') as f:assert f.read()
  assert math.isclose(sum(values)/2,t['mean_client_mib_s'],rel_tol=1e-9)
-assert count==31 and len(selected)==10 and all(n==3 for n in selected.values()),(count,selected)
+inventory=json.loads((ROOT/'provenance/trial-inventory.json').read_text())
+actual={str(p.parent.relative_to(ROOT)) for p in (ROOT/'results').rglob('trial.json')}
+assert actual=={r['folder'] for r in inventory},'Trial inventory mismatch'
+expected={}
+for t in inventory:
+ if t['included']:
+  k=(t['profile'],t['condition'],t['cohort']);expected[k]=expected.get(k,0)+1
+assert count==len(inventory) and selected==expected,(count,selected)
+for p in (ROOT/'results').rglob('trial.json'):
+ t=json.loads(p.read_text())
+ if t.get('cohort')=='memory-reserve-512m':
+  assert t['min_free_kbytes']==524288 and not t['include_in_original_comparison'] and t['input_hashes_before_and_after_match']
+
 for p in ROOT.rglob('*.gz'):
  if '.git' not in p.parts:
   with gzip.open(p,'rb') as f:
    while f.read(1024**2):pass
-print('PASS: 31 main trials retained; 30 selected; 62 client records and 186 full-pass CSVs validated. No symlinks, forbidden artifacts, oversized files or detected private keys.')
+print(f'PASS: {count} retained trials; {sum(selected.values())} selected across explicitly separated cohorts; {count*2} client records and {count*6} full-pass CSVs validated. No symlinks, forbidden artifacts, oversized files or detected private keys.')

@@ -1,0 +1,19 @@
+{
+  "profile": "optlrc",
+  "condition": "fault-osd3",
+  "source_trial": 6,
+  "included": true,
+  "exclusion_reason": "",
+  "cohort": "memory-reserve-512m",
+  "include_in_original_comparison": false,
+  "clients": 2,
+  "passes_per_client": 3,
+  "mean_client_mib_s": 296.1907475179014,
+  "aggregate_mib_s": 592.3807106638752,
+  "mean_client_duration_min": 155.57542018503105,
+  "repair_min": 44.8171460668246,
+  "down_to_clean_min": 54.96825353304545,
+  "folder": "results/optlrc/cohort-memory-reserve-512m/fault-osd3/trial-06",
+  "min_free_kbytes": 524288,
+  "input_hashes_before_and_after_match": true
+}

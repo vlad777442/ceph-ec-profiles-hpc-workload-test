@@ -1,0 +1,3 @@
+# OptLRC no-fault source trial 05
+
+Validated additional trial, cohort `memory-reserve-512m`. Two clients, eight MPI ranks/client, three full passes, 100 bins. Full input hashes matched before and after the four-trial extension. Both clients used temporary vm.min_free_kbytes=524288 (original90112), with one-time compaction before pilots and no cache dropping. This trial is valid within the additional cohort but excluded from the original three-trial comparison/normalized figures/drop references. Keep cohort labels when comparing or pooling. Configuration/mitigation evidence: ../../../../../provenance/campaigns/optlrc/memory-reserve-512m/. Failed no-fault04 is retained outside the main results and documented in campaign provenance.

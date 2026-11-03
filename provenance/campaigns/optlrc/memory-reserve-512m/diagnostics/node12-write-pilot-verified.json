@@ -1,0 +1,12 @@
+{
+  "host": "node12",
+  "path": "/mnt/grayscott-optlrc/analysis/memory-repair-pilot-20261102-node12.bin",
+  "bytes": 8589934592,
+  "sha256": "e4d680d631729212c65ff512c5ab3f3c1d190f83b2df6d40fc3070fc931537e2",
+  "direct_readback": true,
+  "repeated_block_pattern_verified": true,
+  "duration_seconds": 106.00711312098429,
+  "kernel_errors": [],
+  "pass": true,
+  "note": "Original write/direct-read hash equality passed before a diagnostic dmesg-format error; this independently verifies every block again. Kernel check covers all events since the memory adjustment."
+}

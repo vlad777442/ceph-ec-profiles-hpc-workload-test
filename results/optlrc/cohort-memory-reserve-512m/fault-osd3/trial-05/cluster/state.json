@@ -1,0 +1,37 @@
+{
+  "phase": "complete",
+  "trial_id": "optlrc-five-trial-repair-20261102-fault-osd3-trial-05",
+  "osd_id": 3,
+  "clients": [
+    "node12",
+    "node13"
+  ],
+  "updated_utc": "2026-11-02T08:58:54.662530+00:00",
+  "start_at_epoch": 1793606184.559568,
+  "t_fault_requested": "2026-11-02T08:01:07.900035+00:00",
+  "fault_workload_status": {
+    "node12": {
+      "runner_pid": 1705649,
+      "trial_id": "optlrc-five-trial-repair-20261102-fault-osd3-trial-05",
+      "phase": "analysis",
+      "completed_passes": 0,
+      "pass_pid": 1705795,
+      "workload_start_utc": "2026-11-02T07:56:24.658110+00:00",
+      "pass_index": 1,
+      "pass_start_utc": "2026-11-02T07:56:24.660857+00:00"
+    },
+    "node13": {
+      "runner_pid": 1622035,
+      "trial_id": "optlrc-five-trial-repair-20261102-fault-osd3-trial-05",
+      "phase": "analysis",
+      "completed_passes": 0,
+      "pass_pid": 1622203,
+      "workload_start_utc": "2026-11-02T07:56:24.631889+00:00",
+      "pass_index": 1,
+      "pass_start_utc": "2026-11-02T07:56:24.634530+00:00"
+    }
+  },
+  "t_fault_injected": "2026-11-02T08:01:09.629763+00:00",
+  "repair_completed_utc": "2026-11-02T08:58:50.187960+00:00",
+  "completed_utc": "2026-11-02T10:38:06.075554+00:00"
+}

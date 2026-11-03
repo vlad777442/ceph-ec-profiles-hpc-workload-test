@@ -1,0 +1,4 @@
+{
+  "host": "node4",
+  "unit": "ceph-osd@3.service"
+}

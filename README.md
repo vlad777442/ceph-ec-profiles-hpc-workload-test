@@ -6,6 +6,12 @@ Measurements, configurations, analysis scripts, and provenance for CloudLab expe
 
 ![Selected whole-workload throughput](summaries/throughput-comparison.png)
 
+[Throughput normalized to replication-3: separate no-fault and fault figures](derived/normalized-throughput/README.md).
+
+## Additional validated trials
+
+[Four additional OptLRC trials](summaries/EXTENSION-memory-reserve-512m.md) are stored separately under `results/optlrc/cohort-memory-reserve-512m/`. The client memory policy changed after a failed RBD copy-up allocation, so original three-trial summaries, normalized figures, and throughput-drop references remain unchanged. New cohort provenance and compressed telemetry are included; incomplete RS runs are not imported.
+
 ## Experiment
 
 - 14 CloudLab d430 hosts: node0–node11 provide 24 BlueStore OSDs, two per host; node12–node13 are dedicated clients.

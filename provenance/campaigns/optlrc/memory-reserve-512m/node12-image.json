@@ -1,0 +1,22 @@
+{
+  "name": "dataset-900g",
+  "id": "cf63ce986dd43",
+  "size": 1234803097600,
+  "objects": 36800,
+  "order": 25,
+  "object_size": 33554432,
+  "snapshot_count": 1,
+  "data_pool": "grayscott-optlrc-data",
+  "block_name_prefix": "rbd_data.13.cf63ce986dd43",
+  "format": 2,
+  "features": [
+    "layering",
+    "exclusive-lock",
+    "data-pool"
+  ],
+  "op_features": [],
+  "flags": [],
+  "create_timestamp": "Wed Oct 21 17:54:05 2026",
+  "access_timestamp": "Wed Oct 21 17:54:05 2026",
+  "modify_timestamp": "Wed Oct 21 20:03:12 2026"
+}

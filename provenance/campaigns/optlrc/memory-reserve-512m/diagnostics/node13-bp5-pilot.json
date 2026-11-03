@@ -1,0 +1,11 @@
+{
+  "host": "node13",
+  "output": "/mnt/grayscott-optlrc/analysis/bp5-memory-repair-pilot-20261102-node13.bp",
+  "steps": 3600,
+  "ranks": 8,
+  "duration_seconds": 137.34768168115988,
+  "listing": "  double   U/pdf  3600*{256, 100}\n  double   V/pdf  3600*{256, 100}\n",
+  "final_readback": "  double   U/pdf  3600*{256, 100}\n    slice (3599:3599, 0:0, 0:0)\n    (3599,0,0)    3599 \n\n  double   V/pdf  3600*{256, 100}\n    slice (3599:3599, 0:0, 0:0)\n    (3599,0,0)    -3599 \n\n",
+  "kernel_errors": [],
+  "pass": true
+}

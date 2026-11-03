@@ -1,0 +1,22 @@
+[
+  {
+    "condition": "no-fault",
+    "trial": 5,
+    "folder": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-05"
+  },
+  {
+    "condition": "fault-osd3",
+    "trial": 5,
+    "folder": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-05"
+  },
+  {
+    "condition": "no-fault",
+    "trial": 6,
+    "folder": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-06"
+  },
+  {
+    "condition": "fault-osd3",
+    "trial": 6,
+    "folder": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-06"
+  }
+]

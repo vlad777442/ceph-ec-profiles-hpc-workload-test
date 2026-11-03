@@ -1,0 +1,13 @@
+{
+  "additional_valid_trials": [],
+  "excluded_attempts": [
+    {
+      "condition": "no-fault",
+      "trial": 4,
+      "reason": "node13 kernel RBD clone copy-up ENOMEM caused write failures and invalid third-pass BP5 metadata; node12 completed but paired trial is invalid",
+      "preserved": true
+    }
+  ],
+  "continuation": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102",
+  "original_selected_campaign_unchanged": true
+}

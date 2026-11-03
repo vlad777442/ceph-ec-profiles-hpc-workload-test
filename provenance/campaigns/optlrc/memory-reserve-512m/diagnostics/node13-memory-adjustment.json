@@ -1,0 +1,17 @@
+{
+  "epoch": 1793590186.0549078,
+  "before": {
+    "min_free_kbytes": "90112",
+    "watermark_scale_factor": "10",
+    "compaction_proactiveness": "20"
+  },
+  "after": {
+    "min_free_kbytes": "524288",
+    "watermark_scale_factor": "10",
+    "compaction_proactiveness": "20"
+  },
+  "buddyinfo_before": "Node 0, zone      DMA      0      0      0      0      0      0      0      0      1      1      2 \nNode 0, zone    DMA32    660    665   2633   2262     58      0      0      0      0      0      0 \nNode 0, zone   Normal   4909   3437  17570    459    136     61     24     16     14     25     33 \nNode 1, zone   Normal   3224   5344   2594   1209    391    148     93     64     34     15      2 \n",
+  "buddyinfo_after": "Node 0, zone      DMA      0      0      0      0      0      0      0      0      1      1      2 \nNode 0, zone    DMA32    596    614    600    293    101     67     39     31     19     11      4 \nNode 0, zone   Normal   4909   3406  16504    451    136     61     24     16     14     25     33 \nNode 1, zone   Normal   3270   5308   2547   1209    391    148     93     64     34     15      2 \n",
+  "persistent": false,
+  "purpose": "Mitigate order-5 GFP_NOIO allocation failures in kernel RBD clone copy-up; 512MiB free reserve, one-time compaction; no cache dropping"
+}

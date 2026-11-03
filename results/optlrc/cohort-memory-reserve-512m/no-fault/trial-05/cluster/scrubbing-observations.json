@@ -1,0 +1,369 @@
+{
+  "samples": [
+    {
+      "utc": "2026-11-02T05:31:43.880158+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 831
+        },
+        {
+          "state_name": "active+clean+scrubbing",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-11-02T06:29:35.033902+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 831
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-11-02T06:32:51.806165+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 831
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-11-02T06:32:58.376186+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 831
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-11-02T06:33:04.792555+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 831
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-11-02T06:33:11.522986+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 831
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-11-02T06:33:18.475518+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 831
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-11-02T06:33:24.988820+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 831
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-11-02T06:33:31.480824+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 831
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-11-02T06:33:37.932466+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 831
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-11-02T06:33:44.392633+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 831
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-11-02T06:33:50.803203+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 831
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-11-02T06:33:57.262084+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 831
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-11-02T06:34:04.043158+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 831
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-11-02T06:34:10.934542+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 831
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-11-02T06:34:17.408854+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 831
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-11-02T06:34:23.822801+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 831
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-11-02T06:34:30.237606+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 831
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-11-02T06:34:36.773137+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 831
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-11-02T06:34:43.386403+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 831
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-11-02T06:34:49.836252+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 831
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-11-02T06:34:56.314808+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 831
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-11-02T06:35:02.783682+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 831
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-11-02T06:35:09.318404+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 831
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-11-02T06:35:15.732804+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 831
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-11-02T06:35:22.228667+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 831
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-11-02T06:35:28.775119+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 831
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "utc": "2026-11-02T06:35:35.230883+00:00",
+      "pgs_by_state": [
+        {
+          "state_name": "active+clean",
+          "count": 831
+        },
+        {
+          "state_name": "active+clean+scrubbing+deep",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "note": "Normal active/clean scrubbing is allowed and recorded; account for it in paper analysis."
+}

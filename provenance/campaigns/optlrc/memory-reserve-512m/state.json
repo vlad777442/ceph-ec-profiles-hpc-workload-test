@@ -1,0 +1,30 @@
+{
+  "phase": "complete",
+  "updated_utc": "2026-11-02T17:35:53.588002+00:00",
+  "pid": 609663,
+  "completed_stages": [
+    {
+      "condition": "no-fault",
+      "trial": 5,
+      "folder": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-05"
+    },
+    {
+      "condition": "fault-osd3",
+      "trial": 5,
+      "folder": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-05"
+    },
+    {
+      "condition": "no-fault",
+      "trial": 6,
+      "folder": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/no-fault/trial-06"
+    },
+    {
+      "condition": "fault-osd3",
+      "trial": 6,
+      "folder": "/users/vlad777/research/erasure-coding/optlrc/five-trial-repair-20261102/fault-osd3/trial-06"
+    }
+  ],
+  "new_trials_completed": 4,
+  "total_selected_trials_per_condition": 5,
+  "input_integrity_passed_both_clients": true
+}

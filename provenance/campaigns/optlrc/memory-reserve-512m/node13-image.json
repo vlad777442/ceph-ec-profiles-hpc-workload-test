@@ -1,0 +1,31 @@
+{
+  "name": "dataset-900g-node13",
+  "id": "cf66c73f2bd45",
+  "size": 1234803097600,
+  "objects": 36800,
+  "order": 25,
+  "object_size": 33554432,
+  "snapshot_count": 0,
+  "data_pool": "grayscott-optlrc-data",
+  "block_name_prefix": "rbd_data.13.cf66c73f2bd45",
+  "format": 2,
+  "features": [
+    "layering",
+    "exclusive-lock",
+    "data-pool"
+  ],
+  "op_features": [],
+  "flags": [],
+  "create_timestamp": "Wed Oct 21 22:46:42 2026",
+  "access_timestamp": "Wed Oct 21 22:46:42 2026",
+  "modify_timestamp": "Wed Oct 21 22:46:42 2026",
+  "parent": {
+    "pool": "grayscott-optlrc-meta",
+    "pool_namespace": "",
+    "image": "dataset-900g",
+    "id": "cf63ce986dd43",
+    "snapshot": "analysis-input",
+    "trash": false,
+    "overlap": 1234803097600
+  }
+}
